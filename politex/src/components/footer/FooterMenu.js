@@ -5,7 +5,7 @@ import Logouz from "@/assets/images/header/logouz.svg";
 import Logoen from "@/assets/images/header/logoen.png";
 import TEL from "@/assets/images/footer/tel.svg";
 import INS from "@/assets/images/footer/ins.svg";
-import TW from "@/assets/images/footer/tw.svg";
+import YT from "@/assets/images/footer/youtube.png";
 import FB from "@/assets/images/footer/fb.svg";
 import WK from "@/assets/images/footer/wk.svg";
 import { Link } from "react-router-dom";
@@ -46,7 +46,7 @@ const FooterMenu = () => {
                   <img src={INS} alt="" />
                 </a>
                 <a href={data?.data?.data[0].twitter}>
-                  <img src={TW} alt="" />
+                  <img src={YT} alt="" />
                 </a>
                 <a href={data?.data?.data[0].facebook}>
                   <img src={FB} alt="" />

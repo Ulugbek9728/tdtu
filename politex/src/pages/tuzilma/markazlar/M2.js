@@ -170,7 +170,7 @@ const M2 = () => {
           <div className="container">
             <div className="card-news">
               {data1.map((v, i) => (
-                  <div key={v.id} className="box-hodimlar" onClick={() => newPage()}>
+                  <div key={v.id} className="box-hodimlar">
                     <img
                         src={( v.img)}
                         alt=""
