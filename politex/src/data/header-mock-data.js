@@ -8,7 +8,7 @@ export const headerCenterNav = [
     id: 1,
   },
   {
-    path: "https://t.me/tdtu_arm",
+    path: "https://t.me/TDTU_ELEKTRON_KUTUBXONA",
     id: 2,
   },
   {
