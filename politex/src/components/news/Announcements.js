@@ -8,7 +8,6 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 const Announcements = () => {
-  // const { data } = useQuery("muhim-elon", getMuhimElon);
   const { data } = useQuery("home-facts", getSearch);
   let datas = data?.data?.data;
   const { t } = useTranslation();

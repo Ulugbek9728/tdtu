@@ -328,6 +328,11 @@ export const NewsAnnouncementsWrapper = styled.div`
 `;
 
 export const NewsIdWrapper = styled.div`
+img{
+ width: 100%;
+ height: 600px;
+ object-fit: cover;
+}
   p {
     font-family: "Montserrat";
     font-weight: 400;
@@ -366,6 +371,9 @@ export const NewsIdWrapper = styled.div`
     }
   }
   @media only screen and (max-width: 834px) {
+  img{
+ height: 400px;
+}
     p {
       margin-top: 30px;
       font-size: 16px;
@@ -379,6 +387,9 @@ export const NewsIdWrapper = styled.div`
     }
   }
   @media only screen and (max-width: 580px) {
+   img{
+ height: 300px;
+}
     p {
       font-size: 12px;
       line-height: 17px;

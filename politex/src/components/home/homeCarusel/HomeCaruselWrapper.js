@@ -28,7 +28,7 @@ export const HomeCaruselWrapper = styled.div`
           .text-one {
             font-family: "Montserrat";
             font-weight: 900;
-            font-size: 40px;
+            font-size: 30px;
             line-height: 50px;
             color: #333333;
           }

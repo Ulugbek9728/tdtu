@@ -10,8 +10,10 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import PageTopStyle from "@/assets/styles/components/PageTopStyle";
 import { useQuery } from "react-query";
 import { getHomeContact } from "@/api/general";
+import {useTranslation} from "react-i18next";
 
 const PageTop = () => {
+  const { t } = useTranslation();
   const { data } = useQuery("contact", getHomeContact);
   return (
     <PageTopStyle>
@@ -30,13 +32,14 @@ const PageTop = () => {
           </div>
           <ul className={"header__top__list"}>
             <li className={"header__top__list__item"}>
-              <a href={`tel:${data?.data?.data[0].email}`}>
-                <BsTelephone />
+              <a href={`tel:${data?.data?.data[0].phone}`}>
+                <p>{t("footer.Contact")}</p>
+
                 <span>{data?.data?.data[0].phone}</span>
               </a>
             </li>
             <li className={"header__top__list__item"}>
-              <a href={`tel:${data?.data?.data[0].phone}`}>
+              <a href={`mailto:${data?.data?.data[0].email}`}>
                 <AiOutlineMail />
                 <span>{data?.data?.data[0].email}</span>
               </a>

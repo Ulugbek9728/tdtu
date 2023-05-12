@@ -40,8 +40,8 @@ const HomeCarusel = () => {
                   <div className="text">
                     <p className="text-one">{v.title}</p>
                     <p className="text-two">
-                      {v.text.slice(0, 180)}
-                      {v.text?.length > 181 ? "..." : ""}
+                      {v.text.slice(0, 75)}
+                      {v.text?.length > 76 ? "..." : ""}
                     </p>
                     <div className="button-rigth">
                       <Link

@@ -33,12 +33,6 @@ const FooterLink = () => {
             <p className="text-bottom">
               <a
                 className="text-link"
-                href={`tel:${data?.data?.data[0].email}`}
-              >
-                {data?.data?.data[0].email}
-              </a>
-              <a
-                className="text-link"
                 href={`tel:${data?.data?.data[0].phone}`}
               >
                 {data?.data?.data[0].phone}
