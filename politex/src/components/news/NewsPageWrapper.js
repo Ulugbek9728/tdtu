@@ -330,7 +330,7 @@ export const NewsAnnouncementsWrapper = styled.div`
 export const NewsIdWrapper = styled.div`
 img{
  width: 100%;
- height: 600px;
+ height: 900px;
  object-fit: cover;
 }
   p {

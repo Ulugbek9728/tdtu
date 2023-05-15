@@ -99,6 +99,8 @@ import Search from "./pages/Search";
 import Preparation from "./pages/Preparation";
 import Qabul from "./pages/Qabul";
 import Erasmus from "./pages/faoliyat/xalqaro_aloqalar/erasmus/erasmus";
+import B16 from "@/pages/tuzilma/bolimlar/B16";
+import B15 from "@/pages/tuzilma/bolimlar/B15";
 
 const Home = lazy(() => import("@/pages/Home"));
 
@@ -164,6 +166,8 @@ function App() {
         <Route path={"/structure/sections/12"} element={<B12 />} />
         <Route path={"/structure/sections/13"} element={<B13 />} />
         <Route path={"/structure/sections/14"} element={<B14 />} />
+        <Route path={"/structure/sections/15"} element={<B15 />} />
+        <Route path={"/structure/sections/16"} element={<B16 />} />
 
         {/* Bo’limlar */}
         {/* filiallar */}

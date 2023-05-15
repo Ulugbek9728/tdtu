@@ -80,6 +80,7 @@ export const RektorCardWrapper = styled.div`
       font-size: 26px;
       line-height: 130%;
       color: #37363c;
+      width: 80%;
       &:not(:first-child) {
         margin-top: 18px;
       }
