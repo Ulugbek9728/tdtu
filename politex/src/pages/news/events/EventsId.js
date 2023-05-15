@@ -31,7 +31,7 @@ const EventsId = () => {
       <CustomTitle name={data?.data?.data?.title} my={true} />
       <NewsIdWrapper>
         <div className="container">
-          <img
+          <img className="fotoGlavni"
             src={imgUrl + data?.data?.data?.img}
             alt="img"
             width={"100%"}

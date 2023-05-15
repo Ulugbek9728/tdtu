@@ -32,7 +32,7 @@ const AnnouncementsPageId = () => {
       <CustomTitle name={data?.data?.data?.title} my={true} />
       <NewsIdWrapper>
         <div className="container">
-          <img
+          <img className="fotoGlavni"
             src={imgUrl + data?.data?.data?.img}
             alt="img" loading={"lazy"}/>
           <p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text }} />
