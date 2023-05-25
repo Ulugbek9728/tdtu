@@ -56,7 +56,7 @@ import Kafedralar from "./pages/tuzilma/kafedralar/Kafedralar";
 import KafedralarId from "./pages/tuzilma/kafedralar/KafedralarId";
 import { routes } from "./constants/page-routes";
 import { QueryClient, QueryClientProvider } from "react-query";
-// ilmiy-faoliyat
+// ilmiy-faoliyat, markazlar, bo'limlar
 import Texnika from "@/pages/ilmiy_faoliyat/texnika";
 import MahoratDarslar from "@/pages/ilmiy_faoliyat/mahorat-darslar";
 import GumanitarFanlar from "@/pages/ilmiy_faoliyat/fanlar";
@@ -81,6 +81,9 @@ import B11 from "./pages/tuzilma/bolimlar/B11";
 import B12 from "./pages/tuzilma/bolimlar/B12";
 import B13 from "./pages/tuzilma/bolimlar/B13";
 import B14 from "./pages/tuzilma/bolimlar/B14";
+import B15 from "@/pages/tuzilma/bolimlar/B15";
+import B16 from "@/pages/tuzilma/bolimlar/B16";
+import B17 from "@/pages/tuzilma/bolimlar/B17";
 
 import F1 from "./pages/tuzilma/filiallar/F1";
 import F2 from "./pages/tuzilma/filiallar/F2";
@@ -99,8 +102,7 @@ import Search from "./pages/Search";
 import Preparation from "./pages/Preparation";
 import Qabul from "./pages/Qabul";
 import Erasmus from "./pages/faoliyat/xalqaro_aloqalar/erasmus/erasmus";
-import B16 from "@/pages/tuzilma/bolimlar/B16";
-import B15 from "@/pages/tuzilma/bolimlar/B15";
+
 
 const Home = lazy(() => import("@/pages/Home"));
 
@@ -168,6 +170,7 @@ function App() {
         <Route path={"/structure/sections/14"} element={<B14 />} />
         <Route path={"/structure/sections/15"} element={<B15 />} />
         <Route path={"/structure/sections/16"} element={<B16 />} />
+        <Route path={"/structure/sections/17"} element={<B17 />} />
 
         {/* Bo’limlar */}
         {/* filiallar */}
