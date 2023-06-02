@@ -9,7 +9,7 @@
         "item-0": "Moliyaviy Faoliyat",
         "item-1": "Ilmiy Faoliyat",
         "item-2": "Elektron Kutubxona",
-        "item-3": "Tayyorlov kursi"
+        "item-3": "Online translyatsiya"
 
       }
     },
@@ -18,7 +18,6 @@
       "item-2": "Tuzilma",
       "item-3": "Faoliyat",
       "item-4": "Talabalar",
-
       "item-6": "Abituriyent",
       "item-7": "Korrupsiyasiz soha",
       "item-8": "Yangiliklar"
@@ -192,7 +191,6 @@
   "shiori":"Universitet shiori",
   "Boglanish":"Bog’lanish",
   "Grand":"Grand loyihalar",
-  "Tayyorlov":"Tayyorlov kursi",
   "Hodimlar":"Hodimlar",
   "KafedraHaqida": "Kafedra haqida",
   "FakultetHaqida": "Fakultet haqida"

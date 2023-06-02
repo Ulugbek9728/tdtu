@@ -15,11 +15,14 @@ const Preparation = () => {
   return (
     <Layout>
       <MoliyaviyFaoliatWrapper>
-        <CustomTitle name={t("Tayyorlov")} />
-        <div
+        <CustomTitle name={t("header.center.header-center-nav.item-3")} />
+        <div style={{height:"90vh"}}
           className="container"
           dangerouslySetInnerHTML={{ __html: data?.data?.data?.[0].text }}
+          onClick={console.log({ __html: data?.data?.data?.[0].text })}
         />
+
+
       </MoliyaviyFaoliatWrapper>
     </Layout>
   );

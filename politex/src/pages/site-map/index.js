@@ -69,20 +69,12 @@ const SiteMap = () => {
               <li>
                 <a href={"https://t.me/tdtu_arm"}>{t("Onlayn")}</a>
               </li>
-              {/* <li>
-                <Link to={"/"}>Moliyaviy Faoliyat</Link>
-              </li> */}
               <li>
                 <Link to={"/"}>{t("Grand")}</Link>
               </li>
               <li>
-                <Link to={"/preparation"}>{t("Tayyorlov")}</Link>
+                <Link to={"/preparation"}>{t("header.center.header-center-nav.item-3")}</Link>
               </li>
-              {/*<li>*/}
-              {/*  <a href={"https://student.tdtu.uz/dashboard/login"}>*/}
-              {/*    {t(`header.center.header-center-nav.item-4`)}*/}
-              {/*  </a>*/}
-              {/*</li>*/}
               <li>
                 <LanguageSwitcher />
               </li>
@@ -116,9 +108,8 @@ const SiteMap = () => {
                   <a href={"https://t.me/tdtu_arm"}>{t("Onlayn")}</a>
                 </div>
                 <div className="site__map__center__details__grid__items">
-                  <Link to={"/"}>{t("Tayyorlov")}</Link>
+                  <Link to={"/preparation"}>{t("header.center.header-center-nav.item-3")}</Link>
                 </div>
-
               </div>
             </div>
           </div>

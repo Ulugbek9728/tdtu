@@ -9,7 +9,7 @@
         "item-0": "Financial Activity",
         "item-1": "Scientific Activity",
         "item-2": "Electronic Library",
-        "item-3": "Preparatory course"
+        "item-3": "Live stream"
 
       }
     },
@@ -192,7 +192,6 @@
   "shiori":"Motto of the university",
   "Boglanish":"Connection",
   "Grand":"Grand projects",
-  "Tayyorlov":"Preparatory course",
   "Hodimlar":"Employees",
   "KafedraHaqida": "About the department",
   "FakultetHaqida": "About the faculty"
