@@ -7,6 +7,7 @@ import Fakultet from "@/components/home/fakultetlar/Fakultet";
 import OurAlumni from "@/components/home/ourAlumni/OurAlumni";
 import NumberInst from "@/components/home/numberInst/NumberInst";
 import InteractiveServices from "@/components/home/interactiveServices/InteractiveServices";
+import bgColl from "../CALL CENER.jpg"
 
 const Home = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const Home = () => {
   }, []);
   return (
     <Layout>
+        <img src={bgColl} style={{width: '100%', height:"auto", padding:'2%'}} alt=""/>
       <HomeCarusel />
       <News />
       <VideoHome />
