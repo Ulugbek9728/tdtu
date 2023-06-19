@@ -2,7 +2,6 @@ import axios from "axios";
 
 const axiosDefaults = () => {
   axios.defaults.baseURL = "https://test.tdtu.uz/api/";
-  // axios.defaults.baseURL = "https://homeworking.uz/api";
 };
 
 const getInstance = () => {

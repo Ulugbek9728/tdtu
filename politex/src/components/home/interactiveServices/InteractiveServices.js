@@ -19,7 +19,7 @@ const InteractiveServices = () => {
       </div>
       <div className="container">
         <div className="card-servise">
-          <a href="http://mail.tdtu.uz" target='_blank' className="card-box">
+          <a href="http://Webmail.tdtu.uz" target='_blank' className="card-box">
             <img src={SMS} alt="" className="icon" />
             <div className="content">
               <p className="text-1">{t("pochta")}</p>

@@ -38,7 +38,7 @@ const NewsId = () => {
             width={"100%"}
             loading={"lazy"}
           />
-          <p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text }} />
+          {/*<p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text }} />*/}
           <p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text1 }} />
         </div>
         <CustomTitle name={t("lavhalar")} my={true} />

@@ -39,9 +39,8 @@ const HomeCarusel = () => {
                 <div className="content">
                   <div className="text">
                     <p className="text-one">{v.title}</p>
-                    <p className="text-two">
-                      {v.text.slice(0, 75)}
-                      {v.text?.length > 76 ? "..." : ""}
+                    <p className="text-two"
+                       dangerouslySetInnerHTML={{ __html:v.text1?.slice(0, 170)+'...' }}>
                     </p>
                     <div className="button-rigth">
                       <Link

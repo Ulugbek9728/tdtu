@@ -51,7 +51,7 @@ const NewsPage = () => {
                   title={v.title}
                   link={"/new/news/" + v.id}
                   img={v.img}
-                  text={v.text}
+                  text={v.text1}
                   time={v.created_at}
                 />
               ))}

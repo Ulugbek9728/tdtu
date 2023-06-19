@@ -10,6 +10,7 @@ import { NewsWrapper } from "./NewsWrapper";
 const News = () => {
   const { data } = useQuery("news-home", getHomeNews);
   const { t } = useTranslation();
+  console.log(data)
   return (
     <>
       <NewsWrapper>
@@ -27,7 +28,7 @@ const News = () => {
               <NewsCard
                 key={v.id}
                 title={v.title}
-                text={v.text}
+                text1={v.text1}
                 link={"/new/news/" + v.id}
                 img={v.img}
                 time={v.created_at}
