@@ -19,12 +19,9 @@ function AbituriyentCard({ data }) {
                 <p>{v?.subtext}</p>
               </div>
               <div className={"bottom-item"}>
-                <p>21.06.2020</p>
-                {/* {size > 464 && ( */}
                 <Link to={`${v.id}`}>
                   <ButtonHeigthWrapper>{t("batafsil")}</ButtonHeigthWrapper>
                 </Link>
-                {/* )} */}
               </div>
             </div>
             <div className={"right-item"}>

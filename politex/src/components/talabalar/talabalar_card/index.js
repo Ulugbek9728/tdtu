@@ -33,7 +33,7 @@ function TalabalarCard({ data = [] }) {
                 {size > 892 ? (
                   <ButtonHeigthWrapper>Batafsil</ButtonHeigthWrapper>
                 ) : (
-                  <p>03.10.2020</p>
+                ''
                 )}
               </div>
             </div>
