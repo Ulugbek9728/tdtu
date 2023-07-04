@@ -5,8 +5,8 @@ import PageTop from "@/components/header/PageTop";
 // import Footer from "@/layout/Footer";
 
 // const PageTop = lazy(() => import("@/components/header/PageTop"));
-const Header = lazy(() => import("@/layout/Header"));
-const Footer = lazy(() => import("@/layout/Footer"));
+const Header = lazy(() => import("@/locales/en/layout/Header"));
+const Footer = lazy(() => import("@/locales/en/layout/Footer"));
 
 const LayoutStyle = styled.div`
   .layout__content {

@@ -1,7 +1,7 @@
 import React from "react";
 import UZBBAYROG from "@/assets/images/home/flagUZB.jpg";
 import styled from "styled-components";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import {useTranslation} from "react-i18next";
 import CustomTitle from "@/components/custom_title";
 

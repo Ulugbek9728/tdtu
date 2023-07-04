@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import CustomTitle from "@/components/custom_title";
 import PdfDownload from "@/components/abituriyent/pdf_download";
 import AbituriyentId from "@/components/abituriyent/abituriyent_id";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { getBachelorsbyidId, imgUrl } from "@/api/general";

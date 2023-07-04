@@ -2,7 +2,7 @@ import {getCenterId, imgUrl} from "@/api/general";
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
 import CustomTitle from "@/components/custom_title";
 import RektorCard from "@/components/tuzilma/RektorCard";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import React, {useEffect, useState} from "react";
 import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";

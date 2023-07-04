@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import CustomTitle from "@/components/custom_title";
 import { useTranslation } from "react-i18next";
 import RectorVirtualReceptionStyle from "@/pages/univercity/styles/RectorVirtualReceptionStyle";

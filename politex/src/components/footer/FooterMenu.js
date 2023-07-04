@@ -116,7 +116,8 @@ const FooterMenu = () => {
             <p>TDTU</p>
             <img height="31" width="88" border="0"
                  src="https://cnt0.www.uz/counter/collect?id=30458&pg=http%3A
-                 //uzinfocom.uz&&col=0063AF&amp;t=ffffff&amp;p=DD7900"  alt="Топ рейтинг www.uz"/>
+                 //uzinfocom.uz&&col=0063AF&amp;t=ffffff&amp;p=DD7900"
+                 alt="Топ рейтинг www.uz"/>
           </a>
 
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import CustomTitle from "@/components/custom_title";
 import AbituriyentCard from "@/components/abituriyent/abituriyent_card";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import { useQuery } from "react-query";
 import { getAbiturSirtqi } from "@/api/general";
 import { useTranslation } from "react-i18next";

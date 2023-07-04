@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import CustomTitle from "@/components/custom_title";
 import TalabalarId from "@/components/talabalar/talabalar_id";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import PdfDownload from "@/components/abituriyent/pdf_download";
 import { getStudentdId, imgUrl } from "@/api/general";
 import { useTranslation } from "react-i18next";

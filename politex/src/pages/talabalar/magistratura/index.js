@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import TalabalarCard from "@/components/talabalar/talabalar_card";
 import CustomTitle from "@/components/custom_title";
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import { useQuery } from "react-query";
 import { getTalabaMagistr } from "@/api/general";
 import { useTranslation } from "react-i18next";

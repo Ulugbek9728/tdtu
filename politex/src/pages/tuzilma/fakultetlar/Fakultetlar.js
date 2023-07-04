@@ -1,5 +1,5 @@
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import React, { useEffect } from "react";
 import Fakultet from "@/components/home/fakultetlar/Fakultet";
 import { useTranslation } from "react-i18next";

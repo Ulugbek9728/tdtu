@@ -1,6 +1,6 @@
 import { getPrepartion } from "@/api/general";
 import CustomTitle from "@/components/custom_title";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";

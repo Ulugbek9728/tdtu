@@ -2,7 +2,7 @@ import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
 import CustomTitle from "@/components/custom_title";
 import HodimlarCard from "@/components/tuzilma/HodimlarCard";
 import RektorCard from "@/components/tuzilma/RektorCard";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";

@@ -18,7 +18,6 @@
       "item-2": "Structure",
       "item-3": "Activity",
       "item-4": "Students",
-
       "item-6": "Applicant",
       "item-7": "Corruption free sector",
       "item-8": "News"
@@ -45,7 +44,7 @@
         "item-1": "Science and innovation",
         "item-2": "Financial activity",
         "item-3": "Working with young people",
-        "item-4": "Cultural-Educational",
+        "item-4": "Cultural-Educational works",
         "item-5": "International relations"
       },
       "menu-4": {
@@ -157,17 +156,17 @@
   "home": {
     "Kafedralar": "Departments",
     "Fakultetlar": "Faculties",
-    "Professor": "Professor Teachers",
+    "Professor": "Professor-teachers",
     "Doktarantlar": "Doctoral students",
     "Talabalar": "Students",
-    "Interaktiv": "Interactive Services"
+    "Interaktiv": "Interactive services"
   },
   "footer": {
-    "Havolalar": "Useful Links",
+    "Havolalar": "Useful inks",
     "Tashrif": "Order a visit",
     "Qabul": "Admission",
     "Contact": "Help line:",
-    "Ijtimoiy": "We in Social Networks"
+    "Ijtimoiy": "We in social networks"
   },
   "bayrog1": "State flag of the Republic of Uzbekistan",
   "bayrog": " The law about “The State Flag of the Republic of Uzbekistan” was adopted on November 18 in 1991 in the 8th session of the Supreme Council of Uzbekistan. <br /> <br /> The flag of our country is a symbol of the sovereignty of the Republic. The national flag of the Republic represents the country internationally when official delegations from Uzbekistan visit foreign countries, as well as at conferences, world exhibition, and sports competitions. <br /> <br /> The national flag of the Republic is a right-angled colored cloth of three horizontal stripes: blue, white and green. <br /> <br /> Blue is the symbol of the sky and water, which are the main source of life. Mainly, blue was the color of the state flag of Temur. <br /> <br /> White is the traditional symbol of peace and good luck, as Uzbek people say “Ok yul”. <br /> <br /> <b className='text-green-900'>Green</b> is the color of nature and new life and good harvest. <br /> <br /> Two thin <b className='text-red-900'>red</b> stripes symbolize the power of life. <br /> <br /> There is a new moon, which symbolizes the newly independent Republic. <br /> <br /> There are twelve stars, which stand for spiritual sign. The stars also signify the historical traditions of the Uzbek people, as well as ancient solar calendar. A particular attention to twelve stars in the flag is explained yet by another suggestion, that in the states previously existed in the territory of modern Uzbekistan the scientific thought as “Astrology” had seen its rise. The stars in the Uzbek flag also point to the ancient roots of local culture, the aspirations of Uzbek people towards perfection and loyalty.",
@@ -177,7 +176,7 @@
   "madhiya": " The law “On national anthem of the Republic of Uzbekistan” was adopted on the December 10, 1992 at the 11th session of the Supreme Council of Uzbekistan. <br /> <br /> Poem by A. Aripov <br /> Music by M. Burkhanov <br /> <br /> <div className='text-center'> My country, sunny and free, salvation to your people, <br /> You are a warmhearted companion to the friends <br /> Flourish eternally with knowledge and invention, <br /> May your fame shine as long as the world exists! <br /> <br /> These golden valleys-dear Uzbekistan, <br /> Manly spirit of ancestors is companion to you! <br /> When the great power of people became exuberant <br /> You are the country that amazes the world! <br /> <br /> Belief of generous Uzbek does not die out, <br /> Free, young children are a strong wing for you! <br /> The torch of independence, guardian of peace, <br /> Just motherland be eternally prosperous! <br /> <br /> These golden valleys-dear Uzbekistan, <br /> Manly spirit of ancestors is companion to you! <br /> When the great power of people became exuberant <br /> You are the country that amazes the world! <br />",
   "batafsil": "More",
   "barchasi": "See all",
-  "bitiruvchi": "Our Alumni",
+  "bitiruvchi": "Our alumni",
   "person":{
     "Lavozimi":"Position",
     "darajasi":"Academic degree",

@@ -1,6 +1,6 @@
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
 import { FakultetWrapper } from "@/components/home/fakultetlar/FakultetWrapper";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import CustomTitle from "@/components/custom_title";
 import { MadaniyWrapper } from "./style";
 import { useQuery } from "react-query";

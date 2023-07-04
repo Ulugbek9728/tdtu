@@ -28,13 +28,13 @@
         "item-2": "Rekvizitlar",
         "item-3": "Universitet nizomi",
         "item-4": "Rektor virtual qabulxonasi",
-        "item-5": "Me’yoriy xujjatlar",
+        "item-5": "Me’yoriy hujjatlar",
         "item-6": "Universitet tarixi"
       },
       "menu-2": {
         "item-1": "Rektorat",
         "item-2": "Markazlar",
-        "item-3": "Bo’limlar",
+        "item-3": "Bo‘limlar",
         "item-4": "Fakultetlar",
         "item-5": "Kafedralar",
         "item-6": "Filiallar",
@@ -44,7 +44,7 @@
         "item-1": "Fan va innovatsiya",
         "item-2": "Moliyaviy faoliyat",
         "item-3": "Yoshlar bilan ishlash",
-        "item-4": "Madaniy-Ma’rifiy",
+        "item-4": "Madaniy-ma’rifiy ishlar",
         "item-5": "Xalqaro aloqalar"
       },
       "menu-4": {
@@ -58,20 +58,20 @@
       "menu-6": {
         "item-1": "Bakalavriat",
         "item-2": "Magistratura",
-        "item-3": "Sirtqi va kechki ta’lim shakillari",
-        "item-4": "Qo’shma ta’lim dasturlari",
+        "item-3": "Sirtqi va kechki ta’lim shakllari",
+        "item-4": "Qo‘shma ta’lim dasturlari",
         "item-5": "Xorijiy Fuqarolar"
       },
       "menu-7": {
         "item-1": "TDTU davlat xaridlariga oid tuzilgan shartnomalar",
         "item-2": "Xodimlarning akademik profili",
         "item-3": "Ish haqini hisoblash va mukofotlarni taqsimlash qoidalari",
-        "item-4": "Ta'lim yo'nalishlari va mutaxassisliklarning malaka talablari",
+        "item-4": "Ta'lim yo‘nalishlari va mutaxassisliklarning malaka talablari",
         "item-5": "Muassasa byudjeti",
-        "item-6": "Professor-o'qituvchilarga qo'yilgan talablar",
+        "item-6": "Professor-o‘qituvchilarga qo‘yilgan talablar",
         "item-7": "Fan dasturlari",
-        "item-8": "Korrupsiyaga oid holatlar bo'yicha talablar va o'qituvchilarning to'g'ridan to'g'ri muassasai rahbariyatga anonim hamda jamoviy murojaat qilish imkoniyatini",
-        "item-9": "Namunaviy oraliq va yakuniy nazorat savollarini semestr boshlangandan so'ng bir oy ichida web-saytga joylashtirish"
+        "item-8": "Korrupsiyaga oid holatlar bo‘yicha talablar va o‘qituvchilarning to‘g‘ridan to‘g‘ri muassasai rahbariyatga anonim hamda jamoviy murojaat qilish imkoniyatini",
+        "item-9": "Namunaviy oraliq va yakuniy nazorat savollarini semestr boshlangandan so‘ng bir oy ichida web-saytga joylashtirish"
       },
       "menu-8": {
         "item-1": "Yangiliklar",
@@ -83,34 +83,34 @@
     "header__sub__menu": {
       "menu-1": {
         "item-1": "Axborot resurs markazi",
-        "item-2": "Raqamli ta’lim texnologiayalari markazi",
-        "item-3": "Kadrlar malakasini oshirish va qayta tayyorlash o’quv markazi",
-        "item-4": "O’zbek-Yapon yoshlar innovatsiya markazi",
-        "item-5": "Sanoat energiya auditi \namaliy-o’quv markazi"
+        "item-2": "Raqamli ta’lim texnologiyalari markazi",
+        "item-3": "Kadrlar malakasini oshirish va qayta tayyorlash o‘quv markazi",
+        "item-4": "O‘zbek-Yapon yoshlar innovatsiya markazi",
+        "item-5": "Sanoat energiya auditi \namaliy-o‘quv markazi"
       },
       "menu-2": {
         "item-1": "Magistratura tizimi",
-        "item-2": "Sirtqi bo’limi",
+        "item-2": "Sirtqi bo‘limi",
         "item-3": "Reja-moliya bo‘limi",
-        "item-4": "O’quv uslubiy boshqarma",
+        "item-4": "O‘quv uslubiy boshqarma",
         "item-5": "O‘qitishning texnik vositalar bo‘limi",
-        "item-6": "Ilmiy bo’limi",
+        "item-6": "Ilmiy bo‘limi",
         "item-7": "Yoshlar bilan ishlash, maʼnaviyat va maʼrifat boʻlimi",
         "item-8": "TAHRIRIYAT NASHRIYOT BO‘LIMI",
         "item-9": "TA’LIMNING KREDIT-MODUL TIZIMINI BOSHQARISH BO‘LIMI",
         "item-10": "Ta'lim sifatini nazorat qilish bo‘limi",
         "item-11": "Korrupsiyaga qarshi kurashish va “Komplayens nazorat”\ntizimini boshqarish bo‘limi",
         "item-12": "Kadrlar bo‘limi",
-        "item-13": "Marketing va talabalar amalyoti bo‘limi",
+        "item-13": "Marketing va talabalar amaliyoti bo‘limi",
         "item-14": "JISMONIY VA YURIDIK SHAXSLARNING MUROJAATLARI BILAN ISHLASH, NAZORAT VA MONITORING bo‘limi",
         "item-15": "Talabalarni turar joy bilan ta’minlash ishlarini muvofiqlashtiruvchi boʻlimi",
         "item-16": "Devonxona bo‘limi",
-        "item-17": "IQTIDORLI TALABALARNING ILMIY FAOLIYATINI TASHKIL ETISH BO`LIMI"
+        "item-17": "IQTIDORLI TALABALARNING ILMIY FAOLIYATINI TASHKIL ETISH BO‘LIMI"
 
       },
       "menu-3": {
         "item-1": "Islom Karimov nomidagi Toshkent davlat texnika universiteti Olmaliq filiali",
-        "item-2": "Islom Karimov nomidagi Toshkent davlat texnika universiteti qoqon filiali"
+        "item-2": "Islom Karimov nomidagi Toshkent davlat texnika universiteti Qo‘qon filiali"
       },
       "menu-4": {
         "item-1": "Fan",
@@ -118,7 +118,7 @@
         "item-3": "Doktorantura"
       },
       "menu-5": {
-        "item-1": "Xalqaro hamkorlik bo’limi",
+        "item-1": "Xalqaro hamkorlik bo‘limi",
         "item-2": "Creative spark",
         "item-3": "Erasmus",
         "item-4": "Mechauz",
@@ -156,27 +156,27 @@
   "home": {
     "Kafedralar": "Kafedralar",
     "Fakultetlar": "Fakultetlar",
-    "Professor": "Professor O’qituvchilar",
-    "Doktarantlar": "Doktarantlar",
+    "Professor": "Professor-o‘qituvchilar",
+    "Doktarantlar": "Doktorantlar",
     "Talabalar": "Talabalar",
-    "Interaktiv": "Interaktiv Xizmatlar"
+    "Interaktiv": "Interaktiv xizmatlar"
   },
   "footer": {
-    "Havolalar": "Foydali Havolalar",
+    "Havolalar": "Foydali havolalar",
     "Tashrif": "Tashrif buyurish",
     "Qabul": "Qabul",
     "Contact": "Ishonch tel:",
-    "Ijtimoiy": "Ijtimoiy Tarmoqlarda biz"
+    "Ijtimoiy": "Ijtimoiy tarmoqlarda biz"
   },
-  "bayrog1": "O’zbekistor Respublikasi davlat Bayrog’i",
-  "bayrog": " “O’zbekiston Respublikasi Davlat bayrog’i to’g’risida”gi qonun 1991-yil 18-noyabrda O’zbekiston Respublikasi Oliy Kengashining navbatdan tashqari o’tkazilgan VII sessiyasida qabul qilingan. <br /> <br /> Davlat bayrog’i va uning ramzi bugungi O’zbekiston sarhadida qadimda mavjud bo’lgan davlatlar bilan tarixan bog’liqligini anglatadi hamda respublikaning milliy-madaniy an’analarini o’zida mujassamlashtiradi. <br /> <br /> Bayroqdagi moviy rang tiriklik mazmuni aks etgan mangu osmon va obihayot ramzi. Timsollar tilida bu – yaxshilikni, donishmandlikni, halollikni, shon-shuhrat va sadoqatni bildiradi. Binobarin, Amir Temur davlati bayrog’ining rangi ham moviy rangda edi. <br /> <br /> Bayroqdagi oq rang – muqaddas tinchlik ramzi bo’lib, u kun charog’onligi va koinot yoritkichlari bilan uyg’unlashib ketadi. Oq rang – poklik, beg’uborlik, soflikni, orzu va hayollar tozaligi, ichki go’zallikka intilishning timsoli. <br /> <br /> <b className='text-green-900'>Yashil rang</b> – tabiatning yangilanish ramzi. U ko’pgina xalqlarda navqironlik, umid va shodumonlik timsoli hisoblanadi. <br /> <br /> <b className='text-red-900'>Qizil chiziqlar</b> – vujudimizda jo’shib oqayotgan hayotiy qudrat irmoqlarini anglatadi. <br /> <br /> Navqiron yarim oy tasviri bizning tarixiy an’analarimiz bilan bog’liq. Ayni paytda u qo’lga kiritilgan mustaqilligimiz ramzi ham. <br /> <br /> Yulduzlar barcha uchun ruhoniy, ilohiy timsol sanalgan. O’zbekiston Respublikasi Davlat bayrog’idagi 12 yulduz tasviri ham tarixiy an’analarimiz, qadimgi yilnomamizga bevosita aloqador. Bizning o’n ikki yulduzga bo’lgan e’tiborimiz O’zbekiston sarhadidagi qadimgi davlatlar ilmiy tafakkurida nujum ilmi taraqqiy etganligi bilan ham izohlanadi. <br /> <br /> Davlat bayrog’imizdagi 12 yulduz tasvirini o’zbek xalqi madaniyatining qadimiyligi, uning komillikka, o’z tuprog’ida saodatga intilishi ramzi sifatida tushunish lozim.",
-  "gerb1": "O’ZBEKISTON RESPUBLIKASINING DAVLAT GERBI",
-  "gerb": "“O’zbekiston Respublikasi Davlat gerbi to’g’risida”gi Qonun 1992-yil 2-iyulda O’zbekiston Respublikasi Oliy Kengashining X-sessiyasida qabul qilingan. <br /> <br /> O’zbekiston Respublikasining Davlat gerbi gullagan vodiy uzra charaqlab turgan quyosh tasviridan hamda so’l tomonida bug’doy boshoqlari, o’ng tomonida ochilgan paxta chanoqlari suvrati tushirilgan chambardan iborat. <br /> <br /> Gerbning yuqori qismida respublika jipsligining ramzi sifatida sakkiz qirrali yulduz tasvirlangan: sakkiz qirra ichida joylashgan yarim oy va yulduz musulmonlarning qutlug’ ramzidir. <br /> <br /> Gerbning markazida himmat, olijanoblik va fidoyilik timsoli bo’lgan afsonaviy Xumo qushi qanotlarini yozib turibdi. Ushbu ramz va timsollar xalqimizning tinchlik, yaxshilik, baxt-saodat, farovonlik yo’lidagi orzu-umidlarini ifodalaydi. <br /> <br /> Gerbning pastki qismida respublika Davlat bayrog’ini ifoda etuvchi chambar lentasining bandiga “O’zbekiston” deb yozib qo’yilgan.",
-  "madhiya1": "O’zbekistor Respublikasi davlat Madhiyasi",
-  "madhiya": " “O’zbekiston Respublikasining davlat madhiyasi to’g’risida”gi Qonun 1992-yil 10-dekabrda O’zbekiston Respublikasi Oliy Kengashining o’n birinchi sessiyasida qabul qilingan. <br /> <br /> Mutal Burhonov musiqasi <br /> Abdulla Oripov so’zi <br /> <br /> <div className='text-center'> Serquyosh hur o’lkam, elga baxt, najot, <br /> Sen o’zing do’stlarga yo’ldosh, mehribon! <br /> Yashnagay to abad ilmu fan, ijod, <br /> Shuhrating porlasin toki bor jahon! <br /> <br /> Oltin bu vodiylar – jon O’zbekiston, <br /> Ajdodlar mardona ruhi senga yor! <br /> Ulug’ xalq qudrati jo’sh urgan zamon, <br /> Olamni mahliyo aylagan diyor! <br /> <br /> Bag’ri keng o’zbekning o’chmas iymoni, <br /> Erkin, yosh avlodlar senga zo’r qanot! <br /> Istiqlol mash’ali tinchlik posboni, <br /> Xaqsevar, ona yurt, mangu bo’l obod! <br /> <br /> Oltin bu vodiylar – jon O’zbekiston, <br /> Ajdodlar mardona ruhi senga yor! <br /> Ulug’ xalq qudrati jo’sh urgan zamon, <br /> Olamni mahliyo aylagan diyor! <br />",
+  "bayrog1": "O‘zbekistor Respublikasi davlat bayrog‘i",
+  "bayrog": " “O‘zbekiston Respublikasi Davlat bayrog‘i to‘g‘risida”gi qonun 1991-yil 18-noyabrda O‘zbekiston Respublikasi Oliy Kengashining navbatdan tashqari o‘tkazilgan VII sessiyasida qabul qilingan. <br /> <br /> Davlat bayrog‘i va uning ramzi bugungi O‘zbekiston sarhadida qadimda mavjud bo‘lgan davlatlar bilan tarixan bog‘liqligini anglatadi hamda respublikaning milliy-madaniy an’analarini o‘zida mujassamlashtiradi. <br /> <br /> Bayroqdagi moviy rang tiriklik mazmuni aks etgan mangu osmon va obihayot ramzi. Timsollar tilida bu – yaxshilikni, donishmandlikni, halollikni, shon-shuhrat va sadoqatni bildiradi. Binobarin, Amir Temur davlati bayrog’ining rangi ham moviy rangda edi. <br /> <br /> Bayroqdagi oq rang – muqaddas tinchlik ramzi bo’lib, u kun charog’onligi va koinot yoritkichlari bilan uyg’unlashib ketadi. Oq rang – poklik, beg’uborlik, soflikni, orzu va hayollar tozaligi, ichki go’zallikka intilishning timsoli. <br /> <br /> <b className='text-green-900'>Yashil rang</b> – tabiatning yangilanish ramzi. U ko’pgina xalqlarda navqironlik, umid va shodumonlik timsoli hisoblanadi. <br /> <br /> <b className='text-red-900'>Qizil chiziqlar</b> – vujudimizda jo’shib oqayotgan hayotiy qudrat irmoqlarini anglatadi. <br /> <br /> Navqiron yarim oy tasviri bizning tarixiy an’analarimiz bilan bog’liq. Ayni paytda u qo’lga kiritilgan mustaqilligimiz ramzi ham. <br /> <br /> Yulduzlar barcha uchun ruhoniy, ilohiy timsol sanalgan. O’zbekiston Respublikasi Davlat bayrog’idagi 12 yulduz tasviri ham tarixiy an’analarimiz, qadimgi yilnomamizga bevosita aloqador. Bizning o’n ikki yulduzga bo’lgan e’tiborimiz O’zbekiston sarhadidagi qadimgi davlatlar ilmiy tafakkurida nujum ilmi taraqqiy etganligi bilan ham izohlanadi. <br /> <br /> Davlat bayrog’imizdagi 12 yulduz tasvirini o’zbek xalqi madaniyatining qadimiyligi, uning komillikka, o’z tuprog’ida saodatga intilishi ramzi sifatida tushunish lozim.",
+  "gerb1": "O‘ZBEKISTON RESPUBLIKASINING DAVLAT GERBI",
+  "gerb": "“O‘zbekiston Respublikasi Davlat gerbi to‘g‘risida”gi Qonun 1992-yil 2-iyulda O’zbekiston Respublikasi Oliy Kengashining X-sessiyasida qabul qilingan. <br /> <br /> O’zbekiston Respublikasining Davlat gerbi gullagan vodiy uzra charaqlab turgan quyosh tasviridan hamda so’l tomonida bug’doy boshoqlari, o’ng tomonida ochilgan paxta chanoqlari suvrati tushirilgan chambardan iborat. <br /> <br /> Gerbning yuqori qismida respublika jipsligining ramzi sifatida sakkiz qirrali yulduz tasvirlangan: sakkiz qirra ichida joylashgan yarim oy va yulduz musulmonlarning qutlug’ ramzidir. <br /> <br /> Gerbning markazida himmat, olijanoblik va fidoyilik timsoli bo’lgan afsonaviy Xumo qushi qanotlarini yozib turibdi. Ushbu ramz va timsollar xalqimizning tinchlik, yaxshilik, baxt-saodat, farovonlik yo’lidagi orzu-umidlarini ifodalaydi. <br /> <br /> Gerbning pastki qismida respublika Davlat bayrog’ini ifoda etuvchi chambar lentasining bandiga “O’zbekiston” deb yozib qo’yilgan.",
+  "madhiya1": "O‘zbekistor Respublikasi davlat madhiyasi",
+  "madhiya": " “O‘zbekiston Respublikasining davlat madhiyasi to‘g‘risida”gi Qonun 1992-yil 10-dekabrda O’zbekiston Respublikasi Oliy Kengashining o’n birinchi sessiyasida qabul qilingan. <br /> <br /> Mutal Burhonov musiqasi <br /> Abdulla Oripov so’zi <br /> <br /> <div className='text-center'> Serquyosh hur o’lkam, elga baxt, najot, <br /> Sen o’zing do’stlarga yo’ldosh, mehribon! <br /> Yashnagay to abad ilmu fan, ijod, <br /> Shuhrating porlasin toki bor jahon! <br /> <br /> Oltin bu vodiylar – jon O’zbekiston, <br /> Ajdodlar mardona ruhi senga yor! <br /> Ulug’ xalq qudrati jo’sh urgan zamon, <br /> Olamni mahliyo aylagan diyor! <br /> <br /> Bag’ri keng o’zbekning o’chmas iymoni, <br /> Erkin, yosh avlodlar senga zo’r qanot! <br /> Istiqlol mash’ali tinchlik posboni, <br /> Xaqsevar, ona yurt, mangu bo’l obod! <br /> <br /> Oltin bu vodiylar – jon O’zbekiston, <br /> Ajdodlar mardona ruhi senga yor! <br /> Ulug’ xalq qudrati jo’sh urgan zamon, <br /> Olamni mahliyo aylagan diyor! <br />",
   "batafsil": "Batafsil",
-  "barchasi": "Barchasini ko’rish",
-  "bitiruvchi": "Bizning Bitiruvchilar",
+  "barchasi": "Barchasini ko‘rish",
+  "bitiruvchi": "Bizning bitiruvchilar",
   "person":{
     "Lavozimi":"Lavozimi",
     "darajasi":"Ilmiy darajasi",
@@ -185,13 +185,13 @@
     "mail":"E-mail"
   },
   "lavhalar":"Foto lavhalar",
-  "faoliyat":"2+2 qo’shma dastur",
-  "pochta":"Korporativ Elektron Pochta",
-  "Onlayn":"Onlayn Kutubxona",
+  "faoliyat":"2+2 qo‘shma dastur",
+  "pochta":"Korporativ elektron pochta",
+  "Onlayn":"Onlayn kutubxona",
   "shiori":"Universitet shiori",
-  "Boglanish":"Bog’lanish",
+  "Boglanish":"Bog‘lanish",
   "Grand":"Grand loyihalar",
-  "Hodimlar":"Hodimlar",
+  "Hodimlar":"Xodimlar",
   "KafedraHaqida": "Kafedra haqida",
   "FakultetHaqida": "Fakultet haqida"
 }

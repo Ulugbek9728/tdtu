@@ -1,7 +1,7 @@
 import React from "react";
 import UZBGERB from "@/assets/images/home/gerbUZB.png";
 import {HaqidaWrapper} from "./UzBayrog";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import {useTranslation} from "react-i18next";
 import CustomTitle from "@/components/custom_title";
 

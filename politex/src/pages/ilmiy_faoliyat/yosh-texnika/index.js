@@ -3,7 +3,7 @@ import { IlmiyFaoliyatWrapper } from "@/pages/ilmiy_faoliyat/style";
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
 import CustomTitle from "@/components/custom_title";
 import PdfContent from "@/components/ilmiy_faoliyat/pdf_content";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import { useQuery } from "react-query";
 import { getTexnika, imgUrl } from "@/api/general";
 import { useTranslation } from "react-i18next";

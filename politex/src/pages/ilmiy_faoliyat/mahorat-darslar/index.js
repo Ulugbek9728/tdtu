@@ -2,7 +2,7 @@ import React from "react";
 import CustomTitle from "@/components/custom_title";
 import VideoCard from "@/components/ilmiy_faoliyat/video_card";
 import { IlmiyFaoliyatWrapper } from "@/pages/ilmiy_faoliyat/style";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
 import { useQuery } from "react-query";
 import { getMahoratDarslar } from "@/api/general";

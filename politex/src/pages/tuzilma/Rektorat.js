@@ -1,5 +1,5 @@
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import CustomTitle from "@/components/custom_title/index";
 import React, { useEffect } from "react";
 import RektorCard from "@/components/tuzilma/RektorCard";

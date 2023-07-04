@@ -8,7 +8,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import {Autoplay, FreeMode, Navigation, Pagination} from "swiper";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import { useQuery } from "react-query";
 import { getAnnouncementsId, imgUrl } from "@/api/general";
 import { useTranslation } from "react-i18next";

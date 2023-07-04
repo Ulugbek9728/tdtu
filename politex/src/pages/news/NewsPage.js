@@ -4,7 +4,7 @@ import NewsOne from "@/components/news/NewsOne";
 import Announcements from "@/components/news/Announcements";
 import NewsCard from "@/components/home/news/NewsCard";
 import Pagenation from "@/components/pagenation/Pagenation";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import CustomTitle from "@/components/custom_title";
 import { useQuery } from "react-query";
 import { getNews } from "@/api/general";

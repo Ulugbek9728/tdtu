@@ -2,7 +2,7 @@ import React from "react";
 import CustomTitle from "@/components/custom_title";
 import PdfContent from "@/components/ilmiy_faoliyat/pdf_content";
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import { IlmiyFaoliyatWrapper } from "@/pages/ilmiy_faoliyat/style";
 
 function Ilmiy_Faoliyat() {

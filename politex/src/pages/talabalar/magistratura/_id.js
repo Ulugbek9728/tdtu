@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import TalabalarId from "@/components/talabalar/talabalar_id";
 import CustomTitle from "@/components/custom_title";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { useQuery } from "react-query";

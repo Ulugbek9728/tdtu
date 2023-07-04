@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PdfContent from "@/components/ilmiy_faoliyat/pdf_content";
 import { IlmiyFaoliyatWrapper } from "@/pages/ilmiy_faoliyat/style";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
 import CustomTitle from "@/components/custom_title";
 import { useQuery } from "react-query";

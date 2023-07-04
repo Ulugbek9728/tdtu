@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // Style
-import HeaderStyle from "../assets/styles/layout/HeaderStyle";
+import HeaderStyle from "../../../assets/styles/layout/HeaderStyle";
 // Icons
 import { RiMenu4Fill } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";

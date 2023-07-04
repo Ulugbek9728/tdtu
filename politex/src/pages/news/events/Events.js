@@ -4,7 +4,7 @@ import Announcements from "@/components/news/Announcements";
 import NewsOne from "@/components/news/NewsOne";
 import { NewsPageWrapper } from "@/components/news/NewsPageWrapper";
 import Pagenation from "@/components/pagenation/Pagenation";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import CustomTitle from "@/components/custom_title";
 import { useQuery } from "react-query";
 import { getEvents } from "@/api/general";

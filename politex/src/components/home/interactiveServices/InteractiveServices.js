@@ -13,7 +13,7 @@ const InteractiveServices = () => {
     <InteractiveServicesWrapper>
       <div className="news-head">
         <div className="container">
-          <p>Interaktiv Xizmatlar</p>
+          <p>{t('home.Interaktiv')}</p>
           {/* <ButtonHeigthWrapper>{t("barchasi")}</ButtonHeigthWrapper> */}
         </div>
       </div>

@@ -2,7 +2,7 @@ import { getSearch } from "@/api/general";
 import CustomTitle from "@/components/custom_title";
 import NewsCard from "@/components/home/news/NewsCard";
 import { NewsPageWrapper } from "@/components/news/NewsPageWrapper";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";

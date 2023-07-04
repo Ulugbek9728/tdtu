@@ -2,7 +2,7 @@ import { getRectoratId } from "@/api/general";
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
 import CustomTitle from "@/components/custom_title";
 import RektorCard from "@/components/tuzilma/RektorCard";
-import Layout from "@/layout/Layout";
+import Layout from "@/locales/en/layout/Layout";
 import React, { useEffect } from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
