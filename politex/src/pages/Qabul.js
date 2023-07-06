@@ -25,7 +25,7 @@ const Qabul = () => {
       <QabulWrapper>
         <CustomTitle name={t("footer.Qabul")} my={true} />
         <div className="container">
-          {datas?.map((v) => (
+          {datas.reverse()?.map((v) => (
             <PdfContent data={v} />
           ))}
         </div>

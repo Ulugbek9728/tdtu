@@ -12,7 +12,7 @@ function AbituriyentCard({ data }) {
   return (
     <AbCardWrapper>
       <div className="container">
-        {data?.map((v) => (
+        {data.reverse()?.map((v) => (
           <div className={"card-item"}>
             <div className={"left-item"}>
               <div className={"top-item"}>
