@@ -50,7 +50,7 @@ const Events = () => {
                 title={v.title}
                 link={"/new/events/" + v.id}
                 img={v.img}
-                text={v.text}
+                // text={v.text}
                 time={v.created_at}
               />
             ))}

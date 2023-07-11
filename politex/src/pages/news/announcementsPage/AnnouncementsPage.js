@@ -50,7 +50,7 @@ const AnnouncementsPage = () => {
                 title={v.title}
                 link={"/new/announcements/" + v.id}
                 img={v.img}
-                text={v.text}
+                // text={v.text}
                 time={v.created_at}
               />
             ))}

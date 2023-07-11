@@ -13,7 +13,7 @@ const Qabul = () => {
   const { t } = useTranslation();
   const { data } = useQuery("rectoeat", getQabul);
   console.log(data?.data?.data);
-  let datas = data?.data?.data;
+  let datas = data?.data?.data.reverse();
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -25,7 +25,7 @@ const Qabul = () => {
       <QabulWrapper>
         <CustomTitle name={t("footer.Qabul")} my={true} />
         <div className="container">
-          {datas.reverse()?.map((v) => (
+          {datas?.map((v) => (
             <PdfContent data={v} />
           ))}
         </div>

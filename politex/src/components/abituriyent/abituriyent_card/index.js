@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { AbCardWrapper } from "./style";
 import { ButtonHeigthWrapper } from "@/assets/styles/constClass";
 import { useWindowSize } from "@/hooks/useWindowSize";
@@ -9,11 +9,13 @@ import { useTranslation } from "react-i18next";
 function AbituriyentCard({ data }) {
   const { t } = useTranslation();
   const [size] = useWindowSize();
+
+
   return (
     <AbCardWrapper>
       <div className="container">
-        {data.reverse()?.map((v) => (
-          <div className={"card-item"}>
+        {data?.map((v, i) => (
+          <div key={i} className={"card-item"}>
             <div className={"left-item"}>
               <div className={"top-item"}>
                 <p>{v?.subtext}</p>

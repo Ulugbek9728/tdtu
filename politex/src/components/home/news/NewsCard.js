@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { imgUrl } from "@/api/general";
 import Moment from "react-moment";
 
-const NewsCard = ({ title, link, img, text1, time }) => {
+const NewsCard = ({ title, link, img, time }) => {
   const { t } = useTranslation();
   return (
     <NewsCardWrapper>
@@ -22,8 +22,7 @@ const NewsCard = ({ title, link, img, text1, time }) => {
         <p>{t("header.center.titleB")}</p>
       </div>
       <p className="text-top">{title}</p>
-      <p className="text-midle"
-         dangerouslySetInnerHTML={{ __html:text1?.slice(0, 170)+'...' }}>
+      <p className="text-midle">
       </p>
       <div className="time-link">
         <p className="time">

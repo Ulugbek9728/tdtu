@@ -44,8 +44,8 @@ const NewsOne = ({ category }) => {
         <div className="content-one">
           <img src={imgUrl + onedata?.img} alt="news" />
           <div className="text-in padding">
-            {onedata?.text.slice(0, 200)}
-            {onedata?.text?.length > 201 ? "..." : ""}
+            {/*{onedata?.text}*/}
+            {/*{onedata?.text?.length > 201 ? "..." : ""}*/}
           </div>
           <div className="flex padding">
             <p>
