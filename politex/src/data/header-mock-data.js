@@ -208,10 +208,6 @@ export const headerBottomNavItemMenu = [
         ],
         subMenuId: 3,
       },
-      // {
-      //   path: "/",
-      //   id: 7,
-      // },
     ],
   },
   {
@@ -285,8 +281,23 @@ export const headerBottomNavItemMenu = [
     id: 4,
     data: [
       {
-        path: "/students/undergraduate",
-        id: 1,
+        path: "/",
+        id: 41,
+        children: [
+          {
+            path: "/students/undergraduate",
+            id: 1,
+          },
+          {
+            path: "/students/undergraduate2",
+            id: 2,
+          },
+          {
+            path: "/students/undergraduate3",
+            id: 3,
+          },
+        ],
+        subMenuId: 6,
       },
       {
         path: "/students/judiciary",
@@ -303,6 +314,48 @@ export const headerBottomNavItemMenu = [
       {
         path: "/students/graduates",
         id: 5,
+      },
+      {
+        path: "/",
+        id: 46,
+        children: [
+          {
+            path: "/students/exams",
+            id: 1,
+          },
+          {
+            path: "/students/exams1",
+            id: 2,
+          },
+          {
+            path: "/students/exams2",
+            id: 3,
+          },
+          {
+            path: "/students/exams3",
+            id: 4,
+          },
+        ],
+        subMenuId: 7,
+      },
+      {
+        path: "/",
+        id: 47,
+        children: [
+          {
+            path: "/students/surveys",
+            id: 1,
+          },
+          {
+            path: "/students/surveys1",
+            id: 2,
+          },
+          {
+            path: "/students/surveys2",
+            id: 3,
+          },
+        ],
+        subMenuId: 8,
       },
     ],
   },

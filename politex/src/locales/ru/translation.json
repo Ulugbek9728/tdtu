@@ -48,13 +48,14 @@
         "item-5": "Международные связи"
       },
       "menu-4": {
-        "item-1": "Бакалавриат",
+        "item-41": "Бакалавриат",
         "item-2": "Магистратура",
         "item-3": "Вечернее обучение",
         "item-4": "Заочное обучение",
-        "item-5": "Клуб выпускников"
+        "item-5": "Клуб выпускников",
+        "item-46": "Экзамены",
+        "item-47": "Oпросы"
       },
-
       "menu-6": {
         "item-1": "Бакалавриат",
         "item-2": "Магистратура",
@@ -124,6 +125,22 @@
         "item-4": "Mechauz",
         "item-5": "Space.com",
         "item-6": "Ka107"
+      },
+      "menu-6": {
+        "item-1": "Бакалавриат",
+        "item-2": "BA-60712100-Metallurgy",
+        "item-3": "BA 60710600 - Electrical Power Engineering (Power Supply)"
+      },
+      "menu-7": {
+        "item-1": "Intermediate Examination, Mid-term Examination, Final Examination",
+        "item-2": "Final state certification",
+        "item-3": "Graduation Project",
+        "item-4": "Master's Dissertation"
+      },
+      "menu-8": {
+        "item-1": "Surveys for students",
+        "item-2": "Surveys for professors or teachers",
+        "item-3": "Surveys for employers"
       }
     },
     "search": "Поиск"

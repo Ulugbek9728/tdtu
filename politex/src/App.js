@@ -2,6 +2,8 @@ import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 // talabalar
 import Bakalavriat from "@/pages/talabalar/bakalavriat";
+import Bakalavriat2 from "@/pages/talabalar/bakalavriat/bakalavr2";
+import Bakalavriat3 from "@/pages/talabalar/bakalavriat/bakalavr3";
 import BakalavriatId from "@/pages/talabalar/bakalavriat/_id";
 import Magistratura from "@/pages/talabalar/magistratura";
 import MagistraturaId from "@/pages/talabalar/magistratura/_id";
@@ -11,6 +13,14 @@ import Sirtqi from "@/pages/talabalar/sirtqi";
 import SirtqiId from "@/pages/talabalar/sirtqi/_id";
 import Bitiruvchilar from "@/pages/talabalar/bitiruvchilar";
 import BitiruvchilarId from "@/pages/talabalar/bitiruvchilar/_id";
+import Imtixonlar from "@/pages/talabalar/imtixonlar/imtixonlar";
+import Imtixonlar2 from "@/pages/talabalar/imtixonlar/imtixonlar2";
+import Imtixonlar3 from "@/pages/talabalar/imtixonlar/imtixonlar3";
+import Imtixonlar4 from "@/pages/talabalar/imtixonlar/imtixonlar4";
+import Sorovlar from "@/pages/talabalar/so\'rovlar/so\'rovlar";
+import Sorovlar1 from "@/pages/talabalar/so\'rovlar/sorovlar2";
+import Sorovlar2 from "@/pages/talabalar/so\'rovlar/sorovlar3";
+
 // abituriyentlar
 import XorijiyFuqarolar from "@/pages/abituriyent/xorijiy_fuqarolar";
 import XorijiyFuqarolarId from "@/pages/abituriyent/xorijiy_fuqarolar/_id";
@@ -192,6 +202,12 @@ function App() {
           <Route index element={<Bakalavriat />} />
           <Route path={":id"} element={<BakalavriatId />} />
         </Route>
+        <Route path={"students/undergraduate2"}>
+          <Route index element={<Bakalavriat2 />} />
+        </Route>
+        <Route path={"students/undergraduate3"}>
+          <Route index element={<Bakalavriat3 />} />
+        </Route>
         <Route path={"students/judiciary"}>
           <Route index element={<Magistratura />} />
           <Route path={":id"} element={<MagistraturaId />} />
@@ -207,6 +223,28 @@ function App() {
         <Route path={"students/graduates"}>
           <Route index element={<Bitiruvchilar />} />
           <Route path={":id"} element={<BitiruvchilarId />} />
+        </Route>
+        <Route path={"students/exams"}>
+          <Route index element={<Imtixonlar />} />
+        </Route>
+        <Route path={"students/exams1"}>
+          <Route index element={<Imtixonlar2 />} />
+        </Route>
+        <Route path={"students/exams2"}>
+          <Route index element={<Imtixonlar3 />} />
+        </Route>
+        <Route path={"students/exams3"}>
+          <Route index element={<Imtixonlar4 />} />
+        </Route>
+
+        <Route path={"students/surveys"}>
+          <Route index element={<Sorovlar />} />
+        </Route>
+        <Route path={"students/surveys1"}>
+          <Route index element={<Sorovlar1 />} />
+        </Route>
+        <Route path={"students/surveys2"}>
+          <Route index element={<Sorovlar2 />} />
         </Route>
         {/* Activity page */}
         <Route path={"activity/science"}>

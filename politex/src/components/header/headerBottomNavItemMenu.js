@@ -38,7 +38,7 @@ const HeaderBottomNavItemMenu = ({
           <div className={"title"}>
             {t(`header.header__bottom__nav.item-${menuId}`)}
           </div>
-          <div className={"text"}></div>
+          <div className={"text"}/>
         </div>
         <div className="item">
           <ul>
@@ -56,7 +56,8 @@ const HeaderBottomNavItemMenu = ({
                     <BiChevronRight className={"right__icon"} />{" "}
                   </span>
                 </li>
-              ) : (
+              ) :
+                  (
                 <li key={val.id} onMouseMove={() => selectNavItem(val)}>
                   <Link to={val.path} onClick={() => onClick(null)}>
                     {t(

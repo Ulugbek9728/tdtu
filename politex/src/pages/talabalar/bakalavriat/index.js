@@ -24,10 +24,10 @@ function Bakalavriat() {
     <Layout>
       <BigFotoBack
         img={bg}
-        text={t("header.header__bottom__nav__item__menu.menu-4.item-1")}
+        text={t("header.header__bottom__nav__item__menu.menu-4.item-41")}
       />
       <CustomTitle
-        name={t("header.header__bottom__nav__item__menu.menu-4.item-1")}
+        name={t("header.header__bottom__nav__item__menu.menu-4.item-41")}
       />
       <TalabalarCard data={data?.data?.data} />
     </Layout>

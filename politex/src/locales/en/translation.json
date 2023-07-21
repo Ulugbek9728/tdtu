@@ -48,13 +48,14 @@
         "item-5": "International relations"
       },
       "menu-4": {
-        "item-1": "Undergraduate",
+        "item-41": "Undergraduate",
         "item-2": "Master's",
         "item-3": "Evening education",
         "item-4": "External education",
-        "item-5": " Undergraduate Club"
+        "item-5": " Undergraduate Club",
+        "item-46": "Exams",
+        "item-47": "Surveys"
       },
-
       "menu-6": {
         "item-1": "Undergraduate",
         "item-2": "Master's",
@@ -124,6 +125,22 @@
         "item-4": "Mechauz",
         "item-5": "Space.com",
         "item-6": "Ka107"
+      },
+      "menu-6": {
+        "item-1": "Undergraduate",
+        "item-2": "BA-60712100-Metallurgy",
+        "item-3": "BA 60710600 - Electrical Power Engineering (Power Supply)"
+      },
+      "menu-7": {
+        "item-1": "Intermediate Examination, Mid-term Examination, Final Examination",
+        "item-2": "Final state certification",
+        "item-3": "Graduation Project",
+        "item-4": "Master's Dissertation"
+      },
+      "menu-8": {
+        "item-1": "Surveys for students",
+        "item-2": "Surveys for professors or teachers",
+        "item-3": "Surveys for employers"
       }
     },
     "search": "Search"
