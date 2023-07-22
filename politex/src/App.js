@@ -6,6 +6,8 @@ import Bakalavriat2 from "@/pages/talabalar/bakalavriat/bakalavr2";
 import Bakalavriat3 from "@/pages/talabalar/bakalavriat/bakalavr3";
 import BakalavriatId from "@/pages/talabalar/bakalavriat/_id";
 import Magistratura from "@/pages/talabalar/magistratura";
+import Magistratura2 from "@/pages/talabalar/magistratura/magistratura2";
+import Magistratura3 from "@/pages/talabalar/magistratura/magistratura3";
 import MagistraturaId from "@/pages/talabalar/magistratura/_id";
 import Kechki from "@/pages/talabalar/kechki";
 import KechkiId from "@/pages/talabalar/kechki/_id";
@@ -211,6 +213,12 @@ function App() {
         <Route path={"students/judiciary"}>
           <Route index element={<Magistratura />} />
           <Route path={":id"} element={<MagistraturaId />} />
+        </Route>
+        <Route path={"students/judiciary2"}>
+          <Route index element={<Magistratura2 />} />
+        </Route>
+        <Route path={"students/judiciary3"}>
+          <Route index element={<Magistratura3 />} />
         </Route>
         <Route path={"students/evening"}>
           <Route index element={<Kechki />} />
