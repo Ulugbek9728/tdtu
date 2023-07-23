@@ -1,8 +1,7 @@
 import React, {useEffect} from 'react';
 import Layout from "@/locales/en/layout/Layout";
 import {useTranslation} from "react-i18next";
-import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
-import bg from "@/assets/survey.jpg";
+
 import CustomTitle from "@/components/custom_title";
 
 
