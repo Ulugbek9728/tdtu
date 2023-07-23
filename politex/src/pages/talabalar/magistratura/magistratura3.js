@@ -387,7 +387,6 @@ function Magistratura3(props) {
                                     </li>
                                 </ul>
                             </strong>
-
                         </td>
                     </tr>
                     </tbody>
