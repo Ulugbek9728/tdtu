@@ -170,9 +170,10 @@ function Bakalavr2(props) {
                                 60712100 &ndash; Metallurgy</strong></p>
                         </td>
                         <td colSpan="2" width="1134">
-                            <a href="Curriculum for Bachelor’s EP">
+                            <a style={{color: "blue"}}
+                               href="https://test.tdtu.uz/storage/pages/July2023/1DM4YNyDPPFJIxAlsRwa.pdf">
                                 <p>
-                                    <strong>Curriculum for Bachelor’s EP</strong>
+                                    <strong>Curriculum for Bachelor’s EP BA 60712100-Metallurgy</strong>
                                 </p>
                             </a>
                         </td>
@@ -183,8 +184,10 @@ function Bakalavr2(props) {
                                 60712100 &ndash; Metallurgy</strong></p>
                         </td>
                         <td colSpan="2" width="1134">
-                            <p><strong>ИЛОВА Б</strong></p>
-                            <p><strong>ЖАДВАЛ КЎРИНИШИДА ТУШИШИ КЕРАК</strong></p>
+                            <a href="https://test.tdtu.uz/storage/pages/July2023/nipOaUqxIrEvNIw8UW9h.pdf"
+                               style={{color: "blue"}}>
+                                <p><strong>Learning Outcome Matrix –Modules to EP BA 60712100 – Metallurgy</strong></p>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -213,19 +216,314 @@ function Bakalavr2(props) {
                     </tr>
                     <tr>
                         <td width="536">
-                            <p><strong>1.01&nbsp; </strong><strong>ДАН 1.2</strong><strong>6</strong><strong> ГАЧА (Г
-                                ИЛОВА)</strong></p>
-                            <p><strong>&nbsp;</strong></p>
-                            <p><strong>&nbsp;</strong></p>
-                            <p><strong>БУ ЕРДА ФАНЛАР РЎЙХАТИ БЎЛИШИ КЕРАК. ФАНЛАР УСТИГА БОСГАНДА ФАН ДАСТУРИГА БОРИШИ
-                                КЕРАК</strong></p>
+                            <p><strong>Handbooks</strong></p>
+
+                            <strong>
+                                <ul style={{listStyle: "none"}}>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/tdyjsm141lhQHZa2ZlAP.pdf">
+                                            THE NEWEST HISTORY OF UZBEKISTAN
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/l1x7HvBkUnuoFORnKYer.pdf">
+                                            INFORMATION TECHNOLOGIES IN TECHNICAL SYSTEMS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/ZaOPS0ANslwlIt7eO5LX.pdf">
+                                            ENGINEERING AND COMPUTER GRAPHICS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/x6Q5c2lo7PRhRy0YB1aG.pdf">
+                                            Uzbek (Russian) language
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/uP9YWnAjpS4X9ppx0Y3O.pdf">
+                                            PHYSICS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/6jmn9eRXfgYNrWjEKcKE.pdf">
+                                            HIGHER MATHEMATICS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="http://test.tdtu.uz/storage/pages/July2023/mZenU8HG41nPKwrYMEiB.pdf">
+                                            PHYSICAL EDUCATION AND SPORTS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/chguxyvggQtvOpgNEdXH.pdf">
+                                            FUNDAMENTALS OF METALLURGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/XOYlQoaYhFaaFCA7GtOx.pdf">
+                                            GENERAL AND INORGANIC CHEMISTRY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/9Xx4f73rykzavE0nXTlJ.pdf">
+                                            FOREIGN LANGUAGE
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/qOxlZCWg3WK1ryb9VqVM.pdf">
+                                            METAL SCIENCE
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/mAQsYbRnJR87FxBEeXFK.pdf">
+                                            PREPARATION OF ORES FOR PROCESSING
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/fErgL23Dk4OcVJd29F9Z.pdf">
+                                            HEAT AND MASS TRANSFER IN METALLURGICAL
+                                            PROCESSES
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/aWoZ91MeUcY0EEKIc8Ih.pdf">
+                                            METROLOGY AND STANDARDIZATION
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/O5EywT7U7ZIqPZI3sfiQ.pdf">
+                                            ELECTRICAL ENGINEERING AND ELECTRONICS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/ebhWNaeDyp6bJUJw3fBX.pdf">
+                                            METALS RECYCLING
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/CXsXhwSchTW3UHIJAVmp.pdf">
+                                            PHILOSOPHY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/JK2icUMD9TiP4UE1WpUh.pdf">
+                                            ECOLOGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/u4WlgigJAU9pAwSZ8j2b.pdf">
+                                            INDUSTRY ECONOMY AND MANAGEMENT
+                                            MODULE HANDBOOK
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/jlVKfGtpoxWouIbdAO50.pdf">
+                                            THEORY OF PYROMETALLURGICAL PROCESSES
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/SyK88YRfvWlh7FuDKtxD.pdf">
+                                            THEORY OF HYDROMETALLURGICAL PROCESSES
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/3JaKCtDthnJ3SIaZhotq.pdf">
+                                            LIFE SAFETY
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/YSY8JariSV0YKDRhWOCS.pdf">
+                                            MECHANICAL EQUIPMENT OF METALLURGICAL
+                                            FACTORY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/KqPiEcFcaoC9lDQ9k8qF.pdf">
+                                            STEEL PRODUCTION TECHNOLOGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/s5LvdHRUAMMklulG79mb.pdf">
+                                            METALLURGY OF HEAVY NON-FERROUS
+                                            METALS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/RACbjH991yCLS6H3yMrc.pdf">
+                                            COMPLEX USE OF RAW MATERIALS IN METALLURGY
+                                        </a>
+                                    </li>
+                                </ul>
+                            </strong>
                         </td>
                         <td width="599">
-                            <p><strong>2.01 ДАН MA18</strong><strong>2</strong><strong>9(4) ГАЧА (Д ИЛОВА)</strong></p>
-                            <p><strong>&nbsp;</strong></p>
-                            <p><strong>&nbsp;</strong></p>
-                            <p><strong>БУ ЕРДА ФАНЛАР РЎЙХАТИ БЎЛИШИ КЕРАК. ФАНЛАР УСТИГА БОСГАНДА ФАН ДАСТУРИГА БОРИШИ
-                                КЕРАК</strong></p>
+                            <p><strong>Handbooks</strong></p>
+
+                            <strong>
+                                <ul style={{listStyle: "none"}}>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/C2OFHbx6pHVPU3KZzP2Z.pdf"
+                                        >
+                                            GENERAL METALLURGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/kX8ohQdb2PPfU2jK396n.pdf"
+                                        >
+                                            INTRODUCTION TO SPECIALTY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/BtAUOQQGK95oOvl1H3qE.pdf"
+                                        >
+                                            RESOURCE-SAVING TECHNOLOGIES IN METALLURGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/vdNLWOfBzcsxF14FCnj1.pdf"
+                                        >
+                                            PHYSICO-CHEMICAL METHODS OF ANALYSIS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/vD0CVpPHIxe9H7xfzyFj.pdf"
+                                        >
+                                            BIOTECHNOLOGICAL PROCESSES IN METALLURGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/QeCeTpAIYzPAY3yGPsyo.pdf"
+                                        >
+                                            DESIGN OF METALLURGICAL PLANTS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/NjKqrpaQyo2nsOLFbSgT.pdf"
+                                        >
+                                            ENGINEERING PSYCHOLOGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/QGJH8qscpdyBmJWAytYx.pdf"
+                                        >
+                                            GENERAL PEDAGOGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/qtMAse6Jmp56y9Wut9KP.pdf"
+                                        >
+                                            METALLURGY OF LIGHTWEIGHT METALS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/ZKKXu3Pl3V4NkGe7bjFu.pdf"
+                                        >
+                                            PRECIOUS METAL METALLURGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/he1Up7KYBFLt1VXOQCm0.pdf"
+                                        >
+                                            STEEL AND FERROALLOYS ELECTROMETALLURGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/wNvecutjZoFOm46WQ6Jb.pdf"
+                                        >
+                                            PROCESSING OF TECHNOGENIC RAW MATERIALS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/zxmxF0i7VgLhIjVuzOKD.pdf"
+                                        >
+                                            CIVIL DEFENCE
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/0MaJCYwKpT1NKdBf9GxN.pdf"
+                                        >BASICS OF MEDICAL KNOWLEDGE
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/o8nURpplYXv8YECfWMxJ.pdf"
+                                        >
+                                            DIRECT EXTRACTION OF IRON FROM ORE
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/y6w3BaXyc0FmOnzYNmGs.pdf"
+                                        >
+                                            METALLURGY OF RARE METALS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/rwM3ZvujuJQyAxkJ2N9e.pdf"
+                                        >
+                                            FINAL STATE CERTIFICATE
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/k6yxv7MAXHcnWuydIqGs.pdf"
+                                        >
+                                            QUALIFIED PRACTICE PROGRAM
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/July2023/1c4fq4bBRWktKZ1ivi1t.pdf"
+                                        >
+                                            QUALIFIED PRACTICE PROGRAM
+                                        </a>
+                                    </li>
+                                </ul>
+                            </strong>
                         </td>
                     </tr>
                     </tbody>
