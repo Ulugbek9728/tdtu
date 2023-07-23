@@ -24,10 +24,10 @@ function Magistratura() {
     <Layout>
       <BigFotoBack
         img={bg}
-        text={t("header.header__bottom__nav__item__menu.menu-4.item-2")}
+        text={t("header.header__bottom__nav__item__menu.menu-4.item-42")}
       />
       <CustomTitle
-        name={t("header.header__bottom__nav__item__menu.menu-4.item-2")}
+        name={t("header.header__bottom__nav__item__menu.menu-4.item-42")}
       />
       <TalabalarCard data={data?.data?.data} />
     </Layout>

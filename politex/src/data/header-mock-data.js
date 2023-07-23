@@ -300,8 +300,23 @@ export const headerBottomNavItemMenu = [
         subMenuId: 6,
       },
       {
-        path: "/students/judiciary",
-        id: 2,
+        path: "/",
+        id: 42,
+        children: [
+          {
+            path: "/students/judiciary",
+            id: 1,
+          },
+          {
+            path: "/students/judiciary2",
+            id: 2,
+          },
+          {
+            path: "/students/judiciary3",
+            id: 3,
+          },
+        ],
+        subMenuId: 9,
       },
       {
         path: "/students/evening",

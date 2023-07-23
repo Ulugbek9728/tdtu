@@ -49,7 +49,7 @@
       },
       "menu-4": {
         "item-41": "Бакалавриат",
-        "item-2": "Магистратура",
+        "item-42": "Магистратура",
         "item-3": "Вечернее обучение",
         "item-4": "Заочное обучение",
         "item-5": "Клуб выпускников",
@@ -139,6 +139,11 @@
       },
       "menu-8": {
         "item-1": "Surveys for students",
+        "item-2": "Surveys for professors or teachers",
+        "item-3": "Surveys for employers"
+      },
+      "menu-9": {
+        "item-1": "Магистратура",
         "item-2": "Surveys for professors or teachers",
         "item-3": "Surveys for employers"
       }
