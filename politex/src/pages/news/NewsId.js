@@ -35,8 +35,6 @@ const NewsId = () => {
           <img className="fotoGlavni"
             src={imgUrl + data?.data?.data?.img}
             alt="img"
-            width={"100%"}
-            loading={"lazy"}
           />
           {/*<p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text }} />*/}
           <p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text1 }} />

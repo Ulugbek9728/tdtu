@@ -39,7 +39,7 @@ const PageTop = () => {
               </a>
             </li>
             <li className={"header__top__list__item"}>
-              <a href={`mailto:${data?.data?.data[0].email}`}>
+              <a  target={"_blank"} href={`${data?.data?.data[0].email}`}>
                 <AiOutlineMail />
                 <span>{data?.data?.data[0].email}</span>
               </a>

@@ -330,8 +330,9 @@ export const NewsAnnouncementsWrapper = styled.div`
 export const NewsIdWrapper = styled.div`
 .fotoGlavni{
  width: 100%;
- height: 900px;
- object-fit: cover;
+  margin: 0 auto;
+ height: 700px;
+ //object-fit: cover;
 }
   p {
     font-family: "Montserrat";
