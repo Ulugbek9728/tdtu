@@ -372,6 +372,9 @@ export const NewsIdWrapper = styled.div`
     }
   }
   @media only screen and (max-width: 834px) {
+    .fotoGlavni{
+      height: 400px;
+    }
   img{
  height: 400px;
 }
@@ -388,6 +391,9 @@ export const NewsIdWrapper = styled.div`
     }
   }
   @media only screen and (max-width: 580px) {
+    .fotoGlavni{
+      height: auto;
+    }
    img{
  height: 300px;
 }
