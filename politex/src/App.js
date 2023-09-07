@@ -96,6 +96,7 @@ import B14 from "./pages/tuzilma/bolimlar/B14";
 import B15 from "@/pages/tuzilma/bolimlar/B15";
 import B16 from "@/pages/tuzilma/bolimlar/B16";
 import B17 from "@/pages/tuzilma/bolimlar/B17";
+import B18 from "@/pages/tuzilma/bolimlar/B18";
 
 import F1 from "./pages/tuzilma/filiallar/F1";
 import F2 from "./pages/tuzilma/filiallar/F2";
@@ -183,6 +184,7 @@ function App() {
         <Route path={"/structure/sections/15"} element={<B15 />} />
         <Route path={"/structure/sections/16"} element={<B16 />} />
         <Route path={"/structure/sections/17"} element={<B17 />} />
+        <Route path={"/structure/sections/18"} element={<B18 />} />
 
         {/* Bo’limlar */}
         {/* filiallar */}

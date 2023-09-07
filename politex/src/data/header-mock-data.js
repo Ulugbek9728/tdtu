@@ -180,6 +180,9 @@ export const headerBottomNavItemMenu = [
           {path: "/structure/sections/17",
             id: 17,
           },
+          {path: "/structure/sections/18",
+            id: 18,
+          },
 
         ],
         subMenuId: 2,
