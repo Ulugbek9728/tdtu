@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Layout from "@/locales/en/layout/Layout";
 import CustomTitle from "@/components/custom_title";
 import { XalqaroHamkorlikWrapper } from "./style";
@@ -15,6 +15,8 @@ function QoshmaDastur() {
   });
   const { t } = useTranslation();
   const datas = data?.data?.data?.[0];
+
+
   return (
     <Layout>
       <XalqaroHamkorlikWrapper>

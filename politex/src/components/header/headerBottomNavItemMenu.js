@@ -27,6 +27,7 @@ const HeaderBottomNavItemMenu = ({
     }
   };
   const { t } = useTranslation();
+
   return (
     <HeaderBottomNavItemMenuStyle
       onMouseLeave={onClick}

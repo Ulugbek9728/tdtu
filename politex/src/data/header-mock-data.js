@@ -248,35 +248,8 @@ export const headerBottomNavItemMenu = [
         id: 4,
       },
       {
-        path: "/",
+        path: "/activity/international-cooperation",
         id: 5,
-        children: [
-          {
-            path: "/activity/international-cooperation",
-            id: 1,
-          },
-          {
-            path: "/activity/creative-spark",
-            id: 2,
-          },
-          {
-            path: "/activity/erasmus/erasmus",
-            id: 3,
-          },
-          {
-            path: "/activity/erasmus/mecha-uz",
-            id: 4,
-          },
-          {
-            path: "/activity/space-com",
-            id: 5,
-          },
-          {
-            path: "/activity/erasmus/ka107",
-            id: 6,
-          },
-        ],
-        subMenuId: 5,
       },
     ],
   },
