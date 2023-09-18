@@ -42,7 +42,7 @@ const M2 = () => {
       name:"Miryoqubov Mirabbos Xusanovich",
       position:"Axborot xavfsizligini ta'minlash bo'limi boshlig'i",
       phone:'+99871 207 44 45',
-      email:'rttm@tdtu.uz',
+      email:'m.miryoqubov@tdtu.uz',
     },
     {
       id:'3',
