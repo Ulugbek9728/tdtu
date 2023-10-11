@@ -101,6 +101,10 @@ import B18 from "@/pages/tuzilma/bolimlar/B18";
 import F1 from "./pages/tuzilma/filiallar/F1";
 import F2 from "./pages/tuzilma/filiallar/F2";
 
+import U1 from "./pages/tuzilma/universitetlar/U1"
+import U2 from "./pages/tuzilma/universitetlar/U2"
+import U3 from "./pages/tuzilma/universitetlar/U3"
+
 // korrupsiyasiz soha
 import TdtuShartnomalar from "./pages/korrupsiyasiz_soha/tdtu_shartnomalar";
 import IshHaqiQoidalari from "./pages/korrupsiyasiz_soha/ish_haqi_qoidalari";
@@ -193,6 +197,11 @@ function App() {
         <Route path={"/structure/branches/1"} element={<F1 />} />
         <Route path={"/structure/branches/2"} element={<F2 />} />
         {/* filiallar */}
+        {/* universitetlar*/}
+        <Route path={"/u1"} element={<U1/>} />
+        <Route path={"/u2"} element={<U2/>} />
+        <Route path={"/u3"} element={<U3/>} />
+        {/* universitetlar*/}
         <Route path={"structure/faculties"}>
           <Route index element={<Fakultetlar />} />
           <Route path={":id"} element={<FakultetlarId />} />

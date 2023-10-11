@@ -38,7 +38,7 @@
         "item-4": "Fakultetlar",
         "item-5": "Kafedralar",
         "item-6": "Filiallar",
-        "item-7": "TDTU tuzilmasi"
+        "item-7": "Ilmiy tekshirish institutlar"
       },
       "menu-3": {
         "item-1": "Fan va innovatsiya",
@@ -119,6 +119,12 @@
         "item-1": "Fan",
         "item-2": "Innovatsiya",
         "item-3": "Doktorantura"
+      },
+      "menu-5": {
+        "item-1": "O`zRFA, \"FIZIKA-QUYOSH\" IIChB,\nFIZIKA-TEXNIKA INSTITUTI",
+        "item-2": "M.T.O'ROZBOEV NOMIDAGI\nMEHANIKA VA INSHOOTLAR\nSEYSMIK MUSTAHKAMLIGI INSTITUTI",
+        "item-3": "U.A. Arifov nomidagi ion-plazma va lazer texnologiyalari instituti",
+        "item-4": "\"Fan va taraqqiyot\" DUK"
       },
       "menu-6": {
         "item-1": "Bakalavriat",

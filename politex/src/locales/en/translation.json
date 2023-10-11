@@ -38,7 +38,7 @@
         "item-4": "Faculties",
         "item-5": "Departments",
         "item-6": "Branches",
-        "item-7": "TSTU structure"
+        "item-7": "Scientific research institutes"
       },
       "menu-3": {
         "item-1": "Science and innovation",
@@ -119,6 +119,12 @@
         "item-1": "Science",
         "item-2": "Innovation",
         "item-3": "Doctorate"
+      },
+      "menu-5": {
+        "item-1": "PHYSICAL-TECHNICAL INSTITUTE\nNGO \"PHYSICS-SUN\", ASUz",
+        "item-2": "INSTITUTE OF MECHANICS AND\nSEISMIC STABILITY OF STRUCTURES\nNAMED AFTER M.T.URAZBAEV",
+        "item-3": "\nARIFOV INSTITUTE OF ION-PLASMA AND LASER TECHNOLOGIES",
+        "item-4": "\nSUE \"FAN VA TARAKKIYOT\""
       },
       "menu-6": {
         "item-1": "Undergraduate",
