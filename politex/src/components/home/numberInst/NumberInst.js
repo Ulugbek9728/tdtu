@@ -45,7 +45,7 @@ const NumberInst = () => {
                     delay={0}
                     duration={4}>
                   {({countUpRef}) => (
-                      <p className="CountUp" ref={countUpRef}></p>
+                      <p className="CountUp m-0" ref={countUpRef}></p>
                   )}
                 </CountUp>
                 <p>{t("home.Kafedralar")}</p>
@@ -60,7 +60,7 @@ const NumberInst = () => {
                     delay={0}
                     duration={4}>
                   {({countUpRef}) => (
-                      <p className="CountUp" ref={countUpRef}></p>
+                      <p className="CountUp m-0" ref={countUpRef}></p>
                   )}
                 </CountUp>
                 <p>{t("home.Fakultetlar")}</p>
@@ -69,45 +69,57 @@ const NumberInst = () => {
                    data-aos="zoom-in"
                    data-aos-duration="800"
                    data-aos-easing="ease-in-sine">
-                <CountUp
-                    start={statistika ? 0 : null}
-                    end={data?.data?.data[0].professor}
-                    delay={0}
-                    duration={4}>
-                  {({countUpRef}) => (
-                      <p className="CountUp" ref={countUpRef}></p>
-                  )}
-                </CountUp>
+                <div className="d-flex align-items-center ">
+                  <CountUp
+                      start={statistika ? 0 : null}
+                      end={data?.data?.data[0].professor}
+                      delay={0}
+                      duration={4}>
+                    {({countUpRef}) => (
+                        <p className="CountUp m-0" ref={countUpRef}></p>
+                    )}
+                  </CountUp><p className="m-0">+</p>
+                </div>
+
                 <p>{t("home.Professor")}</p>
               </div>
               <div className="box box-4"
                    data-aos="zoom-in"
                    data-aos-duration="800"
                    data-aos-easing="ease-in-sine">
-                <CountUp
-                    start={statistika ? 0 : null}
-                    end={data?.data?.data[0].doctoral}
-                    delay={0}
-                    duration={4}>
-                  {({countUpRef}) => (
-                      <p className="CountUp" ref={countUpRef}></p>
-                  )}
-                </CountUp>
+                <div className="d-flex align-items-center">
+                  <CountUp
+                      start={statistika ? 0 : null}
+                      end={data?.data?.data[0].doctoral}
+                      delay={0}
+                      duration={4}>
+                    {({countUpRef}) => (
+                        <p className="CountUp m-0" ref={countUpRef}></p>
+                    )}
+                  </CountUp>
+                  <p className="m-0">+</p>
+                </div>
+
                 <p>{t("home.Doktarantlar")}</p>
               </div>
               <div className="box box-5"
                    data-aos="zoom-in"
                    data-aos-duration="800"
                    data-aos-easing="ease-in-sine">
-                <CountUp
-                    start={statistika ? 0 : null}
-                    end={data?.data?.data[0].students}
-                    delay={0}
-                    duration={4}>
-                  {({countUpRef}) => (
-                      <p className="CountUp" ref={countUpRef}></p>
-                  )}
-                </CountUp>
+                <div className="d-flex m-0">
+                  <CountUp
+                      start={statistika ? 0 : null}
+                      end={data?.data?.data[0].students}
+                      delay={0}
+                      duration={4}>
+                    {({countUpRef}) => (
+                        <p className="CountUp m-0" ref={countUpRef}></p>
+                    )}
+                  </CountUp>
+                  <p className="m-0">+</p>
+
+                </div>
+
                 <p>{t("home.Talabalar")}</p>
               </div>
             </div>
