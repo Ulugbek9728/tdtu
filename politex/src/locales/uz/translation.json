@@ -48,6 +48,7 @@
         "item-5": "Xalqaro aloqalar"
       },
       "menu-4": {
+        "item-40": "Dars jadval",
         "item-41": "Bakalavriat",
         "item-42": "Magistratura",
         "item-3": "Kechki ta’lim",
@@ -121,9 +122,9 @@
         "item-3": "Doktorantura"
       },
       "menu-5": {
-        "item-1": "O`zRFA, \"FIZIKA-QUYOSH\" IIChB,\nFIZIKA-TEXNIKA INSTITUTI",
-        "item-2": "M.T.O'ROZBOEV NOMIDAGI\nMEHANIKA VA INSHOOTLAR\nSEYSMIK MUSTAHKAMLIGI INSTITUTI",
-        "item-3": "U.A. Arifov nomidagi ion-plazma va lazer texnologiyalari instituti",
+        "item-1": "FIZIKA-TEXNIKA INSTITUTI",
+        "item-2": "M.T. OʼROZBOEV NOMIDAGI MEXANIKA VA INSHOOTLAR SEYSMIK MUSTAHKAMLIGI INSTITUTI",
+        "item-3": "U.A. ARIFOV NOMIDAGI ION-PLAZMA VA LAZER TEXNOLOGIYALARI INSTITUTI",
         "item-4": "\"Fan va taraqqiyot\" DUK"
       },
       "menu-6": {

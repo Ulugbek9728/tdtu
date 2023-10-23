@@ -48,6 +48,7 @@
         "item-5": "International relations"
       },
       "menu-4": {
+        "item-40": "Class schedule",
         "item-41": "Undergraduate",
         "item-42": "Master's",
         "item-3": "Evening education",
@@ -121,10 +122,10 @@
         "item-3": "Doctorate"
       },
       "menu-5": {
-        "item-1": "PHYSICAL-TECHNICAL INSTITUTE\nNGO \"PHYSICS-SUN\", ASUz",
-        "item-2": "INSTITUTE OF MECHANICS AND\nSEISMIC STABILITY OF STRUCTURES\nNAMED AFTER M.T.URAZBAEV",
-        "item-3": "\nARIFOV INSTITUTE OF ION-PLASMA AND LASER TECHNOLOGIES",
-        "item-4": "\nSUE \"FAN VA TARAKKIYOT\""
+        "item-1": "PHYSICAL-TECHNICAL INSTITUTE",
+        "item-2": "INSTITUTE OF MECHANICS AND SEISMIC STABILITY OF STRUCTURES NAMED AFTER M.T. URAZBAEV ",
+        "item-3": "ARIFOV INSTITUTE OF ION-PLASMA AND LASER TECHNOLOGIES",
+        "item-4": "\"FAN VA TARAKKIET\" SUE"
       },
       "menu-6": {
         "item-1": "Undergraduate",

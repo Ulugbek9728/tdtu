@@ -19,9 +19,9 @@ const Home = () => {
   }, []);
   return (
     <Layout>
-        <Link to='/qabul'>
-            <img src={bgColl} style={{width: '100%', height:"auto", padding:'2%'}} alt=""/>
-        </Link>
+        {/*<Link to='/qabul'>*/}
+        {/*    <img src={bgColl} style={{width: '100%', height:"auto", padding:'2%'}} alt=""/>*/}
+        {/*</Link>*/}
 
       <HomeCarusel />
       <News />

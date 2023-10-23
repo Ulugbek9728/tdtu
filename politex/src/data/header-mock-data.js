@@ -210,7 +210,6 @@ export const headerBottomNavItemMenu = [
             path: "/structure/branches/2",
             id: 2,
           },
-
         ],
         subMenuId: 3,
       },
@@ -282,6 +281,10 @@ export const headerBottomNavItemMenu = [
   {
     id: 4,
     data: [
+      {
+        path: "/students/schedule",
+        id: 40,
+      },
       {
         path: "/",
         id: 41,

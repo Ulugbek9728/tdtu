@@ -120,6 +120,7 @@ import Preparation from "./pages/Preparation";
 import Qabul from "./pages/Qabul";
 import Erasmus from "./pages/faoliyat/xalqaro_aloqalar/erasmus/erasmus";
 import B19 from "@/pages/tuzilma/bolimlar/B19";
+import Schedule from "@/pages/talabalar/schedule/schedule";
 
 
 const Home = lazy(() => import("@/pages/Home"));
@@ -213,6 +214,9 @@ function App() {
         {/* Students page */}
         <Route path={"/site-map"} element={<SiteMap />} />
         <Route path={"/preparation"} element={<Preparation />} />
+
+        <Route path={"/students/schedule"} element={<Schedule />} />
+
         <Route path={"students/undergraduate"}>
           <Route index element={<Bakalavriat />} />
           <Route path={":id"} element={<BakalavriatId />} />
