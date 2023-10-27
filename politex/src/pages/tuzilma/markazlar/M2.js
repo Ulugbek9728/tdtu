@@ -1,4 +1,4 @@
-import {getCenterId, imgUrl} from "@/api/general";
+import {getCenterId, } from "@/api/general";
 import BigFotoBack from "@/components/bigFotoBack/BigFotoBack";
 import CustomTitle from "@/components/custom_title";
 import RektorCard from "@/components/tuzilma/RektorCard";
@@ -7,14 +7,12 @@ import React, {useEffect, useState} from "react";
 import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";
 import bg from "../../../assets/markazlar/ATM.jpg"
-import {t} from "i18next";
 import {HodimlarWrapper} from "@/components/tuzilma/TuzilmaWrapper";
 import img1 from "../../../assets/bolimlar/aliyev.jpg"
 import img2 from "../../../assets/bolimlar/Abbos.jpg"
+import img3 from "../../../assets/bolimlar/Erkinov D.jpg"
 import img4 from "../../../assets/bolimlar/Dustali.jpg"
-import Logoru from "@/assets/images/header/logoru.svg";
-import Logouz from "@/assets/images/header/logouz.svg";
-import Logoen from "@/assets/images/header/logoen.png";
+
 
 const M2 = () => {
   const { data } = useQuery({
@@ -46,7 +44,7 @@ const M2 = () => {
     },
     {
       id:'3',
-      img:'',
+      img:img3,
       name:"Erkinov Dilmurod Doniyor o'g'li",
       position:"Tarmoqlarni boshqarish bo'limi boshlig'i",
       phone:"+99871 207 44 45",

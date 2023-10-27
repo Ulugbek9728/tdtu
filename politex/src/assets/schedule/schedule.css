@@ -1,5 +1,38 @@
 @import "rsuite/dist/rsuite.css";
 
+.ant-select-selector{
+    border-radius: 5px!important;
+}
+
 .rs-nav-item-active{
     color: #1B6B50!important;
+}
+.schedule {
+    margin-top: 90px;
+}
+.schedule .box {
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 100%;
+    height: 250px;
+    margin-top: 15px;
+}
+.schedule .box .active{
+    background-color: #1B6B50;
+    color: white!important;
+}
+
+.schedule .box .week{
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1b6b50;
+    color: #1B6B50;
+    height: 100%;
+    width: 50px;
+}
+.schedule .box .content{
+    height: 100%;
+    width: calc(100% - 50px);
 }
