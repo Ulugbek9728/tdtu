@@ -216,5 +216,21 @@
   "Grand":"Grand projects",
   "Hodimlar":"Employees",
   "KafedraHaqida": "About the department",
-  "FakultetHaqida": "About the faculty"
+  "FakultetHaqida": "About the faculty",
+  "WeekDate": {
+    "item1": "Monday",
+    "item2": "Tuesday",
+    "item3": "Wednesday",
+    "item4": "Thursday",
+    "item5": "Friday",
+    "item6": "Saturday"
+  },
+  "DarsJadval":{
+    "item1": "Enter",
+    "item2": "Exit",
+    "item3": "Subject Name",
+    "item4": "Room",
+    "item5": "Type of subject",
+    "item6": "Teacher"
+  }
 }

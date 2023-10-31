@@ -13,8 +13,7 @@
 .schedule .box {
     border: 1px solid rgba(128, 128, 128, 0.4);
     width: 100%;
-    height: 250px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .schedule .box .active{
     background-color: #1B6B50;
@@ -22,6 +21,7 @@
 }
 
 .schedule .box .week{
+    padding: 20px;
     writing-mode: vertical-lr;
     rotate: 180deg;
     display: flex;
@@ -29,10 +29,9 @@
     justify-content: center;
     border: 1px solid #1b6b50;
     color: #1B6B50;
-    height: 100%;
     width: 50px;
 }
 .schedule .box .content{
-    height: 100%;
     width: calc(100% - 50px);
+    font-size: 16px;
 }

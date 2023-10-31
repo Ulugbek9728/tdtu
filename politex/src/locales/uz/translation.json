@@ -216,5 +216,21 @@
   "Grand":"Grand loyihalar",
   "Hodimlar":"Xodimlar",
   "KafedraHaqida": "Kafedra haqida",
-  "FakultetHaqida": "Fakultet haqida"
+  "FakultetHaqida": "Fakultet haqida",
+  "WeekDate": {
+    "item1": "Dushanba",
+    "item2": "Seshanba",
+    "item3": "Chorshanba",
+    "item4": "Payshanba",
+    "item5": "Juma",
+    "item6": "Shanba"
+  },
+  "DarsJadval":{
+    "item1": "Kirish",
+    "item2": "Chiqish",
+    "item3": "Fan nomi",
+    "item4": "Xona",
+    "item5": "Fan tur",
+    "item6": "O'qituvch"
+  }
 }

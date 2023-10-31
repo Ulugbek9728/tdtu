@@ -78,7 +78,7 @@ const M2 = () => {
     },
     {
       id:'3',
-      img:'',
+      img:img3,
       name:"Erkinov Dilmurod Doniyor ogli",
       position:"Head of Network Management Department",
       phone:"+99871 207 44 45",
@@ -112,7 +112,7 @@ const M2 = () => {
     },
     {
       id:'3',
-      img:'',
+      img:img3,
       name: "Эркинов Дилмурод Дoниёр угли",
       position:"Начальник отдела управления сетью",
       phone:"+99871 207 44 45",
