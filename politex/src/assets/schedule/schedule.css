@@ -35,3 +35,51 @@
     width: calc(100% - 50px);
     font-size: 16px;
 }
+.schedule .box .content .table{
+    margin-bottom: 0;
+    height: 100% !important;
+}
+
+
+@media screen and (max-width: 992px) {
+    .schedule {
+        margin-top: 25px;
+    }
+    .rs-nav-item{
+        font-size: 16px!important;
+    }
+}
+@media screen and (max-width: 664px) {
+
+    .schedule .box {
+        display: block!important;
+        margin-top: 15px;
+    }
+    .navbarstayle{
+        margin-bottom: 30px!important;
+    }
+    .schedule .box .week{
+        padding: 10px;
+        writing-mode: horizontal-tb;
+        rotate: 0deg;
+        width: 100%;
+    }
+    .schedule .box .content{
+        width: 100% ;
+        font-size: 12px;
+        overflow-x: scroll;
+        padding-bottom: 0!important;
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #1B6B50;
+        }
+    }
+
+
+}

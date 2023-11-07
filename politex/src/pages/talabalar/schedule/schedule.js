@@ -15,7 +15,6 @@ const {Option} = Select;
 const Navbar = ({active, onSelect, ...props}) => {
     return (
         <Nav {...props} activeKey={active} onSelect={onSelect} style={{marginBottom: 50}}>
-            <Nav.Item eventKey="newsOld">Oldingi Hafta</Nav.Item>
             <Nav.Item eventKey="news">Joriy Hafta</Nav.Item>
             <Nav.Item eventKey="solutions">Keyingi Hafta</Nav.Item>
         </Nav>
@@ -28,7 +27,6 @@ function Schedule(props) {
 
     const [active, setActive] = useState('news');
     const [schedule, setShedule] = useState([
-
         {
             "id": 1132161,
             "subject": {
@@ -1711,8 +1709,8 @@ function Schedule(props) {
                 if (item.lesson_date === weekStartTime + 86400 * 5)
                     dayArr[5].push(item)
             })
-            console.log(dayArr)
-            console.log(dayArr.slice(1));
+            // console.log(dayArr)
+            // console.log(dayArr.slice(1));
 
             return (
                dayArr.map((item, index)=>(
@@ -1721,23 +1719,21 @@ function Schedule(props) {
                        <div className="content">
                            <table className="table table-striped">
                                <thead>
-                               <tr>
+                                 <tr>
                                    <th scope="col">#</th>
                                    <th scope="col">{t(`DarsJadval.item1`)}/{t(`DarsJadval.item2`)}</th>
                                    <th scope="col">{t(`DarsJadval.item3`)}</th>
                                    <th scope="col">{t(`DarsJadval.item4`)}</th>
                                    <th scope="col">{t(`DarsJadval.item5`)}</th>
-                                   <th scope="col">{t(`DarsJadval.item6`)}</th>
                                </tr>
                                </thead>
                                <tbody>
                                {item.slice(1).map((item, index)=>(
                                    <tr>
                                        <td>{item.lessonPair.name}</td>
-                                       <td>{item.lessonPair.start_time}/{item.lessonPair.end_time}</td>
-                                       <td>{item.subject.name}</td>
+                                       <td>{item.lessonPair.start_time} - {item.lessonPair.end_time}</td>
+                                       <td><b>{item.trainingType.name}</b> : {item.subject.name}</td>
                                        <td>{item.auditorium.name}</td>
-                                       <td>{item.trainingType.name}</td>
                                        <td>{item.employee.name}</td>
                                    </tr>
                                ))}
@@ -1750,10 +1746,30 @@ function Schedule(props) {
             );
         }
 
+    function groupAll() {
+        axios.get(`${ApiName}/api/group`, {
+            headers: {
+                "Authorization": "Bearer " + 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJGQTIzNDc3NzciLCJpYXQiOjE2OTkzMzY3MzQsImV4cCI6MTY5OTQyMzEzNCwiaXNzIjoiVERUVSBRUiBLYXJkIExveWloYXNpIn0.-9tMBDbWK53sMwTTzRVUJfLJZBsSZmEXotpHhwI7PXw'
+            },
+            params: {
+                department: FakultyID,
+                education_type: bakalavr,
+                size:20
+                // education_form: eduForm,
+            }
+        }).then((res) => {
+            setGroupList(res.data.content)
+            console.log(res.data.content)
+        }).catch((error) => {
+            console.log(error)
+        })
+    }
+
     useEffect(()=>{
         fakulty()
         Allkurs()
-    },[])
+        groupAll()
+    },[FakultyID,])
     function fakulty() {
         axios.get(`${ApiName}/api/department`, '', {
             headers: {
@@ -1834,7 +1850,7 @@ function Schedule(props) {
 
                     </div>
 
-                    <Navbar appearance="tabs" active={active} onSelect={setActive}/>
+                    <Navbar appearance="tabs" className="navbarstayle" active={active} onSelect={setActive}/>
                     { parseDate ()}
                 </div>
             </div>
