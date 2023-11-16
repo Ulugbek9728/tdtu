@@ -26,11 +26,11 @@ const Layout = ({ children, isLoading }) => {
   return (
     <LayoutStyle>
       <PageTop />
-      <Suspense fallback={<span class="loader" />}>
+      <Suspense fallback={<span className="loader" />}>
         <Header />
       </Suspense>
       <div className="layout__content">{children}</div>
-      <Suspense fallback={<span class="loader" />}>
+      <Suspense fallback={<span className="loader" />}>
         <Footer />
       </Suspense>
     </LayoutStyle>

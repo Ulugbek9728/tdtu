@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "@/locales/en/layout/Layout";
 import {Nav} from 'rsuite';
-import { useTranslation } from "react-i18next";
+import {useTranslation} from "react-i18next";
 
 import "antd/dist/antd.css";
 import "../../../assets/schedule/schedule.css"
@@ -23,7 +23,7 @@ const Navbar = ({active, onSelect, ...props}) => {
 
 function Schedule(props) {
 
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     const [active, setActive] = useState('news');
     const [schedule, setShedule] = useState([
@@ -1675,119 +1675,182 @@ function Schedule(props) {
 
     ]);
     const [fakultys, setfakultys] = useState([]);
+    const [speciality, setspeciality] = useState([]);
     const [FakultyID, setfakultyID] = useState('');
+    const [specialityID, setspecialityID] = useState('');
     const [bakalavr, setBakalavr] = useState('11');
     const [groupList, setGroupList] = useState('');
     const [groupID, setGroupID] = useState('');
     const [kurs, setKurs] = useState('');
+    const [kursYear, setKursYear] = useState('');
+    const alternativeSpeciality = new Map();
 
 
     const [Allkurses, setAllKurses] = useState([]);
 
-        function parseDate () {
+    function parseDate() {
+        const dateObject = new Date();
+        const weekdays = [t(`WeekDate.item7`), t(`WeekDate.item1`), t(`WeekDate.item2`), t(`WeekDate.item3`), t(`WeekDate.item4`), t(`WeekDate.item5`), t(`WeekDate.item6`),];
+        const dayOfWeek = dateObject.getDay();
+        const weekdayName = weekdays[dayOfWeek];
 
-            let dayArr = [
-                [{wekDaye:t(`WeekDate.item1`)}],
-                [{wekDaye:t(`WeekDate.item2`)}],
-                [{wekDaye:t(`WeekDate.item3`)}],
-                [{wekDaye:t(`WeekDate.item4`)}],
-                [{wekDaye:t(`WeekDate.item5`)}],
-                [{wekDaye:t(`WeekDate.item6`)}],
-               ];
-            const weekStartTime = 1698624000;
-            schedule.forEach(item => {
-                if (item.lesson_date === weekStartTime)
-                    dayArr[0].push(item)
-                if (item.lesson_date === weekStartTime + 86400)
-                    dayArr[1].push(item)
-                if (item.lesson_date === weekStartTime + 86400 * 2)
-                    dayArr[2].push(item)
-                if (item.lesson_date === weekStartTime + 86400 * 3)
-                    dayArr[3].push(item)
-                if (item.lesson_date === weekStartTime + 86400 * 4)
-                    dayArr[4].push(item)
-                if (item.lesson_date === weekStartTime + 86400 * 5)
-                    dayArr[5].push(item)
-            })
-            // console.log(dayArr)
-            // console.log(dayArr.slice(1));
+        let dayArr = [
+            [{wekDaye: t(`WeekDate.item1`)}],
+            [{wekDaye: t(`WeekDate.item2`)}],
+            [{wekDaye: t(`WeekDate.item3`)}],
+            [{wekDaye: t(`WeekDate.item4`)}],
+            [{wekDaye: t(`WeekDate.item5`)}],
+            [{wekDaye: t(`WeekDate.item6`)}],
+        ];
+        const weekStartTime = 1698624000;
+        schedule.forEach(item => {
+            if (item.lesson_date === weekStartTime)
+                dayArr[0].push(item)
+            if (item.lesson_date === weekStartTime + 86400)
+                dayArr[1].push(item)
+            if (item.lesson_date === weekStartTime + 86400 * 2)
+                dayArr[2].push(item)
+            if (item.lesson_date === weekStartTime + 86400 * 3)
+                dayArr[3].push(item)
+            if (item.lesson_date === weekStartTime + 86400 * 4)
+                dayArr[4].push(item)
+            if (item.lesson_date === weekStartTime + 86400 * 5)
+                dayArr[5].push(item)
+        })
 
-            return (
-               dayArr.map((item, index)=>(
-                   <div className="d-flex box" key={index}>
-                       <div className="week active">{item[0].wekDaye}</div>
-                       <div className="content">
-                           <table className="table table-striped">
-                               <thead>
-                                 <tr>
-                                   <th scope="col">#</th>
-                                   <th scope="col">{t(`DarsJadval.item1`)}/{t(`DarsJadval.item2`)}</th>
-                                   <th scope="col">{t(`DarsJadval.item3`)}</th>
-                                   <th scope="col">{t(`DarsJadval.item4`)}</th>
-                                   <th scope="col">{t(`DarsJadval.item5`)}</th>
-                               </tr>
-                               </thead>
-                               <tbody>
-                               {item.slice(1).map((item, index)=>(
-                                   <tr>
-                                       <td>{item.lessonPair.name}</td>
-                                       <td>{item.lessonPair.start_time} - {item.lessonPair.end_time}</td>
-                                       <td><b>{item.trainingType.name}</b> : {item.subject.name}</td>
-                                       <td>{item.auditorium.name}</td>
-                                       <td>{item.employee.name}</td>
-                                   </tr>
-                               ))}
+        return (
+            dayArr.map((item, index) => (
+                <div className="d-flex box" key={index}>
 
-                               </tbody>
-                           </table>
-                       </div>
-                   </div>
-               ))
-            );
-        }
+                    <div className={`week ${weekdayName === item[0].wekDaye ? "active" : ''} `}>{item[0].wekDaye}</div>
+                    <div className="content">
+                        <table className="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">{t(`DarsJadval.item1`)}/{t(`DarsJadval.item2`)}</th>
+                                <th scope="col">{t(`DarsJadval.item3`)}</th>
+                                <th scope="col">{t(`DarsJadval.item4`)}</th>
+                                <th scope="col">{t(`DarsJadval.item5`)}</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {item.slice(1).map((item, index) => (
+                                <tr>
+                                    <td>{item.lessonPair.name}</td>
+                                    <td>{item.lessonPair.start_time} - {item.lessonPair.end_time}</td>
+                                    <td><b>{item.trainingType.name}</b> : {item.subject.name}</td>
+                                    <td>{item.auditorium.name}</td>
+                                    <td>{item.employee.name}</td>
+                                </tr>
+                            ))}
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            ))
+        );
+    }
 
     function groupAll() {
         axios.get(`${ApiName}/api/group`, {
-            headers: {
-                "Authorization": "Bearer " + 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJGQTIzNDc3NzciLCJpYXQiOjE2OTkzMzY3MzQsImV4cCI6MTY5OTQyMzEzNCwiaXNzIjoiVERUVSBRUiBLYXJkIExveWloYXNpIn0.-9tMBDbWK53sMwTTzRVUJfLJZBsSZmEXotpHhwI7PXw'
-            },
             params: {
                 department: FakultyID,
                 education_type: bakalavr,
-                size:20
+                speciality: specialityID,
+                size: 20
                 // education_form: eduForm,
             }
         }).then((res) => {
-            setGroupList(res.data.content)
-            console.log(res.data.content)
+            setGroupList(res.data.content.filter(item => {
+                return item.name.includes(kursYear)
+            }))
+            console.log(res.data.content.filter(item => {
+                return item.name.includes(kursYear)
+            }))
         }).catch((error) => {
             console.log(error)
         })
     }
 
-    useEffect(()=>{
-        fakulty()
-        Allkurs()
-        groupAll()
-    },[FakultyID,])
-    function fakulty() {
-        axios.get(`${ApiName}/api/department`, '', {
-            headers: {
-                "Authorization": "Bearer " + localStorage.getItem("token")
+    function GETspeciality() {
+        axios.get(`${ApiName}/api/speciality`, {
+            params: {
+                departmentId: FakultyID,
+                educationType: bakalavr,
+                size: 200
             }
-        }).then((response) => {
+        }).then((res) => {
+            for (let specialityElement of res.data.content) {
+                if (alternativeSpeciality.has(specialityElement.name)) {
+                    let newVar = alternativeSpeciality.get(specialityElement.name);
+                    newVar.push(specialityElement.id)
+                    alternativeSpeciality.set(specialityElement.name, newVar);
+                } else {
+                    let newVar = [];
+                    newVar.push(specialityElement.id);
+                    alternativeSpeciality.set(specialityElement.name, newVar);
+                }
+            }
+
+            let list = [];
+            let entries = alternativeSpeciality.entries();
+            for (let i = 0; i < alternativeSpeciality.size; i++) {
+                let next = entries.next();
+                console.log(next)
+                list.push({value: next.value[0], label: next.value[0]})
+            }
+            setspeciality(list)
+            // console.log(res.data.content)
+        }).catch((error) => {
+            console.log(error)
+        })
+    }
+
+    useEffect(() => {
+        fakulty()
+        if (FakultyID !== '') {
+            GETspeciality()
+        }
+    }, [FakultyID,])
+    useEffect(() => {
+        if (specialityID !== '') {
+            Allkurs()
+        }
+    }, [specialityID])
+    useEffect(() => {
+        if (kurs !== '') {
+            groupAll()
+            if (kurs === "11") {
+                setKursYear(-23)
+            }
+            if (kurs === "12") {
+                setKursYear(-22)
+            }
+            if (kurs === "13") {
+                setKursYear(-21)
+            }
+            if (kurs === "14") {
+                setKursYear(-20)
+            }
+
+            console.log(kurs)
+        }
+    }, [kurs])
+
+    function fakulty() {
+        axios.get(`${ApiName}/api/department`, '').then((response) => {
             setfakultys(response.data);
         }).catch((error) => {
             console.log(error)
         });
     }
+
     function Allkurs() {
-        axios.get(`${ApiName}/api/course`, '', {
-            headers: {
-                "Authorization": "Bearer " + localStorage.getItem("token")
-            }
-        }).then((response) => {
+        axios.get(`${ApiName}/api/course`, '').then((response) => {
             setAllKurses(response.data);
+            console.log(response.data)
         }).catch((error) => {
             console.log(error)
         });
@@ -1797,61 +1860,88 @@ function Schedule(props) {
         <Layout>
             <div className="schedule">
                 <div className="container">
-                    <div className="d-flex justify-content-between mb-3 border-bottom pb-3">
-                        <Select
-                            onChange={(e) => {
-                                setfakultyID(e);
-                                setGroupID('')
-                            }}
-                            showSearch className='w-25'
-                            placeholder="Fakultet"
-                            optionFilterProp="children"
-                            filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
-                            filterSort={(optionA, optionB) =>
-                                (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
-                            }
-                            options={fakultys && fakultys.map((item, index) =>({value:item.id, label:item.name}))}
-                        />
-                        <Select
-                            showSearch className='w-25'
-                            onChange={(e) => {
-                                setKurs(e);
-                            }}
-                            placeholder="Kurs"
-                            optionFilterProp="children"
-                            filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
-                            filterSort={(optionA, optionB) =>
-                                (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
-                            }
-                            options={
-                                bakalavr === '11' ?
-                                    Allkurses && Allkurses.slice(0, 4).map((item, index) =>(
-                                        {value:item.code, label:item?.name}))
-                                    :
-                                    Allkurses && Allkurses.slice(0,2).map((item, index) =>(
-                                        {value:item.code, label:`${index+1}-kurs`}))
-                            }
-                        />
-
-                        <Select
-                            showSearch className='w-25'
-                            onChange={(e) => {
-                                setGroupID(e);
-                            }}
-                            placeholder="Guruh"
-                            optionFilterProp="children"
-                            filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
-                            filterSort={(optionA, optionB) =>
-                                (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
-                            }
-                            options={groupList && groupList.map((item, index) =>(
-                                {value:item.id, label:item?.name}))}
-                        />
-
+                    <div className="row border-bottom mb-3  pb-3">
+                        <div className="col-6">
+                            <Select
+                                onChange={(e) => {
+                                    setfakultyID(e);
+                                    setGroupID('')
+                                }}
+                                showSearch className='w-100'
+                                placeholder="Fakultet"
+                                optionFilterProp="children"
+                                filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
+                                filterSort={(optionA, optionB) =>
+                                    (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
+                                }
+                                options={fakultys && fakultys.map((item, index) => ({
+                                    value: item.id,
+                                    label: item.name
+                                }))}
+                            />
+                        </div>
+                        <div className="col-6">
+                            <Select
+                                disabled={FakultyID === ''}
+                                onChange={(e) => {
+                                    setspecialityID(e);
+                                    setGroupID('')
+                                }}
+                                showSearch className='w-100'
+                                placeholder="Yo'nalish"
+                                optionFilterProp="children"
+                                filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
+                                filterSort={(optionA, optionB) =>
+                                    (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
+                                }
+                                options={speciality}
+                            />
+                        </div>
+                        <div className="col-6">
+                            <Select
+                                disabled={FakultyID === '' || specialityID === ''}
+                                showSearch className='w-100'
+                                onChange={(e) => {
+                                    setKurs(e);
+                                    setGroupID('')
+                                }}
+                                placeholder="Kurs"
+                                optionFilterProp="children"
+                                filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
+                                filterSort={(optionA, optionB) =>
+                                    (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
+                                }
+                                options={
+                                    bakalavr === '11' ?
+                                        Allkurses && Allkurses.slice(0, 4).map((item, index) => (
+                                            {value: item.code, label: item?.name}))
+                                        :
+                                        Allkurses && Allkurses.slice(0, 2).map((item, index) => (
+                                            {value: item.code, label: `${index + 1}-kurs`}))
+                                }
+                            />
+                        </div>
+                        <div className="col-6">
+                            <Select
+                                disabled={FakultyID === '' || specialityID === '' || kurs === ''}
+                                showSearch className='w-100'
+                                onChange={(e) => {
+                                    setGroupID(e);
+                                }}
+                                placeholder="Guruh"
+                                optionFilterProp="children"
+                                filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
+                                filterSort={(optionA, optionB) =>
+                                    (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
+                                }
+                                options={groupList && groupList.map((item, index) => (
+                                    {value: item.id, label: item?.name}))}
+                            />
+                        </div>
                     </div>
 
                     <Navbar appearance="tabs" className="navbarstayle" active={active} onSelect={setActive}/>
-                    { parseDate ()}
+                    {parseDate()}
                 </div>
             </div>
         </Layout>

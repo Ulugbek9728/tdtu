@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+
+
+
+.bgimg{
+    width: 100%;
+    height: 450px;
+    background-image: url("../../assets/images/tez-kunda.gif");
+    background-size: 30% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tezKunda{
+    font-family: 'Cinzel', serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .bgimg{
+        background-size: 40% auto;
+    }
+    .tezKunda{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .bgimg{
+        background-size: 60% auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bgimg{
+        height: 250px;
+        background-size: 50% auto;
+    }
+    .tezKunda{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .bgimg{
+        height: 250px;
+        background-size: 70% auto;
+    }
+    .tezKunda{
+        font-size: 20px;
+    }
+}

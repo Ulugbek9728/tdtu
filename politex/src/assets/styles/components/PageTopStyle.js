@@ -15,8 +15,7 @@ const PageTopStyle = styled.div`
       display: flex;
       justify-content: flex-end;
     }
-
-
+    
     .header__top__icons {
       display: none;
       align-items: center;
@@ -42,6 +41,11 @@ const PageTopStyle = styled.div`
       list-style-type: none;
       padding: 0;
       margin: 0;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
     }
 
     .header__top__list__item {

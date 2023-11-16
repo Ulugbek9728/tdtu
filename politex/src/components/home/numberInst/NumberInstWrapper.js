@@ -19,8 +19,11 @@ export const NumberInstWrapper = styled.div`
     gap: 50px;
     padding: 0 30px;
     .box {
+      div{
+        justify-content: center;
+      }
       p {
-        font-family: "Montserrat";
+        font-family: "Montserrat", sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 35px;

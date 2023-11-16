@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, {lazy, Suspense, useEffect, useState} from "react";
 import { Route, Routes } from "react-router-dom";
 // talabalar
 import Bakalavriat from "@/pages/talabalar/bakalavriat";
@@ -121,18 +121,20 @@ import Qabul from "./pages/Qabul";
 import Erasmus from "./pages/faoliyat/xalqaro_aloqalar/erasmus/erasmus";
 import B19 from "@/pages/tuzilma/bolimlar/B19";
 import Schedule from "@/pages/talabalar/schedule/schedule";
+import Test from "@/pages/talabalar/schedule/test";
 
 
 const Home = lazy(() => import("@/pages/Home"));
 
 function App() {
   const client = new QueryClient();
+
   return (
-    <QueryClientProvider client={client}>
+    <QueryClientProvider client={client} >
       <ToastContainer />
       <Routes>
         <Route index element={
-            <Suspense fallback={<span class="loader" />}>
+            <Suspense fallback={<span className="loader" />}>
               <Home />
             </Suspense>
           }
@@ -215,7 +217,12 @@ function App() {
         <Route path={"/site-map"} element={<SiteMap />} />
         <Route path={"/preparation"} element={<Preparation />} />
 
+
+
         <Route path={"/students/schedule"} element={<Schedule />} />
+        {/*<Route path={"/students/schedule"} element={<Test />} />*/}
+
+
 
         <Route path={"students/undergraduate"}>
           <Route index element={<Bakalavriat />} />

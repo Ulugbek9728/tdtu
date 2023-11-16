@@ -52,7 +52,6 @@ const RectorsVirtualReception = () => {
       toast.error(t("pages.university.virtual-reception.verification"));
     }
   };
-  console.log(data)
   return (
     <Layout>
       <CustomTitle

@@ -69,16 +69,16 @@
         font-size: 12px;
         overflow-x: scroll;
         padding-bottom: 0!important;
-        ::-webkit-scrollbar {
-            width: 6px;
-        }
-        ::-webkit-scrollbar-track {
-            background: transparent;
-        }
+        /*::-webkit-scrollbar {*/
+        /*    width: 6px;*/
+        /*}*/
+        /*::-webkit-scrollbar-track {*/
+        /*    background: transparent;*/
+        /*}*/
 
-        ::-webkit-scrollbar-thumb {
-            background: #1B6B50;
-        }
+        /*::-webkit-scrollbar-thumb {*/
+        /*    background: #1B6B50;*/
+        /*}*/
     }
 
 

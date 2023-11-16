@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Blazon from "@/assets/images/header/blazon.png";
 import Flag from "@/assets/images/header/flag-uz.png";
 import Music from "@/assets/images/header/music.png";
+import QS from "@/assets/images/header/QS.png";
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import Guidelines from "@/components/GuideLines";
@@ -20,9 +21,11 @@ const PageTop = () => {
       <div className="header__top">
         <div className="container">
           <div className="header__top__icons">
-            <Link to="/gerb">
-              <img src={Blazon} alt="blazon" />
-            </Link>
+            <a href="https://www.topuniversities.com/universities/tashkent-state-technical-university-named-after-islam-karimov"
+            target={"_blank"}>
+              <img src={QS} alt="QS" />
+            </a>
+            <Link to="/gerb"><img src={Blazon} alt="blazon" /></Link>
             <Link to="/flag">
               <img src={Flag} alt="uz flag" />
             </Link>
@@ -46,6 +49,12 @@ const PageTop = () => {
             </li>
             <li className={"header__top__list__item"}>
               <Guidelines />
+            </li>
+            <li className={"header__top__list__item icon"}>
+              <a href="https://www.topuniversities.com/universities/tashkent-state-technical-university-named-after-islam-karimov"
+                 target={"_blank"}>
+                <img src={QS} alt="QS" />
+              </a>
             </li>
             <li className={"header__top__list__item icon"}>
               <Link to="/gerb">
