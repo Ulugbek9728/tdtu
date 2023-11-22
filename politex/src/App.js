@@ -215,13 +215,15 @@ function App() {
         </Route>
         {/* Students page */}
         <Route path={"/site-map"} element={<SiteMap />} />
+
+
         <Route path={"/preparation"} element={<Preparation />} />
+        {/*<Route path={"/preparation"} element={<Test />} />*/}
 
 
 
         <Route path={"/students/schedule"} element={<Schedule />} />
         {/*<Route path={"/students/schedule"} element={<Test />} />*/}
-
 
 
         <Route path={"students/undergraduate"}>

@@ -1678,16 +1678,15 @@ function Schedule(props) {
     const [speciality, setspeciality] = useState([]);
     const [FakultyID, setfakultyID] = useState('');
     const [specialityID, setspecialityID] = useState('');
-    const [bakalavr, setBakalavr] = useState('11');
+    const [bakalavr, setBakalavr] = useState('');
     const [groupList, setGroupList] = useState('');
     const [groupID, setGroupID] = useState('');
     const [kurs, setKurs] = useState('');
-    const [kursYear, setKursYear] = useState('');
+    const [eduTayp, seteduTayp] = useState('');
     const alternativeSpeciality = new Map();
 
 
     const [Allkurses, setAllKurses] = useState([]);
-
     function parseDate() {
         const dateObject = new Date();
         const weekdays = [t(`WeekDate.item7`), t(`WeekDate.item1`), t(`WeekDate.item2`), t(`WeekDate.item3`), t(`WeekDate.item4`), t(`WeekDate.item5`), t(`WeekDate.item6`),];
@@ -1753,25 +1752,31 @@ function Schedule(props) {
         );
     }
 
-    function groupAll() {
-        axios.get(`${ApiName}/api/group`, {
-            params: {
-                department: FakultyID,
-                education_type: bakalavr,
-                speciality: specialityID,
-                size: 20
-                // education_form: eduForm,
-            }
-        }).then((res) => {
-            setGroupList(res.data.content.filter(item => {
-                return item.name.includes(kursYear)
-            }))
-            console.log(res.data.content.filter(item => {
-                return item.name.includes(kursYear)
-            }))
-        }).catch((error) => {
-            console.log(error)
-        })
+    async function groupAll(e) {
+        let alternativeList = speciality.filter(item => item.label === specialityID)[0].alternative;
+        let responseGroups = [];
+        for (let i = 0; i < alternativeList?.length; i++) {
+            let elem = alternativeList[i];
+            await axios.get(`${ApiName}/api/group`, {
+                params: {
+                    department: FakultyID,
+                    education_type: bakalavr,
+                    speciality: elem,
+                    size: 200,
+                    page: 0,
+                    education_form: eduTayp,
+                }
+            }).then((res) => {
+                responseGroups.push(...res?.data?.content)
+            }).catch((error) => {
+                console.log(error)
+            })
+        }
+        setGroupList(responseGroups.filter(item => {
+            return item.name.includes(e)
+        }))
+        console.log(responseGroups)
+
     }
 
     function GETspeciality() {
@@ -1798,8 +1803,8 @@ function Schedule(props) {
             let entries = alternativeSpeciality.entries();
             for (let i = 0; i < alternativeSpeciality.size; i++) {
                 let next = entries.next();
-                console.log(next)
-                list.push({value: next.value[0], label: next.value[0]})
+                // console.log(next)
+                list.push({value: next.value[0], label: next.value[0], alternative: next.value[1]})
             }
             setspeciality(list)
             // console.log(res.data.content)
@@ -1821,23 +1826,23 @@ function Schedule(props) {
     }, [specialityID])
     useEffect(() => {
         if (kurs !== '') {
-            groupAll()
             if (kurs === "11") {
-                setKursYear(-23)
+                groupAll(-23)
             }
             if (kurs === "12") {
-                setKursYear(-22)
+                groupAll(-22)
             }
             if (kurs === "13") {
-                setKursYear(-21)
+                groupAll(-21)
             }
             if (kurs === "14") {
-                setKursYear(-20)
+                groupAll(-20)
             }
-
-            console.log(kurs)
+            if (kurs === "15") {
+                groupAll(-19)
+            }
         }
-    }, [kurs])
+    }, [kurs, specialityID, FakultyID,eduTayp])
 
     function fakulty() {
         axios.get(`${ApiName}/api/department`, '').then((response) => {
@@ -1861,8 +1866,73 @@ function Schedule(props) {
             <div className="schedule">
                 <div className="container">
                     <div className="row border-bottom mb-3  pb-3">
-                        <div className="col-6">
+                        <div className="col-6 my-2">
                             <Select
+                                onChange={(e) => {
+                                    setBakalavr(e);
+                                }}
+                                showSearch className='w-100'
+                                placeholder="Ta'lim turi"
+                                optionFilterProp="children"
+                                filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
+                                filterSort={(optionA, optionB) =>
+                                    (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
+                                }
+                                options={[
+                                    {
+                                        label: "Bakalavr",
+                                        value: "11"
+                                    },
+                                    {
+                                        label: "Magistr",
+                                        value: "12"
+                                    }
+                                ]
+                                    // fakultys && fakultys.map((item, index) => ({
+                                    //     value: item.id,
+                                    //     label: item.name
+                                    // }))
+                                }
+                            />
+                        </div>
+                        <div className="col-6 my-2">
+                            <Select
+                                disabled={bakalavr === ''}
+                                onChange={(e) => {
+                                    seteduTayp(e);
+                                    setGroupID('')
+                                }}
+                                showSearch className='w-100'
+                                placeholder="Ta'lim shakli"
+                                optionFilterProp="children"
+                                filterOption={(input, option) => (option?.label?.toLowerCase() ?? '').startsWith(input.toLowerCase())}
+                                filterSort={(optionA, optionB) =>
+                                    (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
+                                }
+                                options={  bakalavr === '11' ?
+                                    [
+                                        {
+                                            label: 'Kunduzgi',
+                                            value: '11',
+                                        },
+                                        {
+                                            label: 'Kechki',
+                                            value: '12',
+                                        },
+                                        {
+                                            label: 'Sirtqi',
+                                            value: '13',
+                                        },
+
+                                    ] : [{
+                                        label: 'Kunduzgi',
+                                        value: '11',
+                                    }]}
+                            />
+                        </div>
+                        <div className="col-6 my-2">
+                            <Select
+                                disabled={bakalavr === '' || eduTayp === ''}
                                 onChange={(e) => {
                                     setfakultyID(e);
                                     setGroupID('')
@@ -1880,7 +1950,7 @@ function Schedule(props) {
                                 }))}
                             />
                         </div>
-                        <div className="col-6">
+                        <div className="col-6 my-2">
                             <Select
                                 disabled={FakultyID === ''}
                                 onChange={(e) => {
@@ -1897,7 +1967,7 @@ function Schedule(props) {
                                 options={speciality}
                             />
                         </div>
-                        <div className="col-6">
+                        <div className="col-6 my-2">
                             <Select
                                 disabled={FakultyID === '' || specialityID === ''}
                                 showSearch className='w-100'
@@ -1913,15 +1983,19 @@ function Schedule(props) {
                                 }
                                 options={
                                     bakalavr === '11' ?
-                                        Allkurses && Allkurses.slice(0, 4).map((item, index) => (
+                                        eduTayp==="13"?
+                                        Allkurses && Allkurses.slice(0, 5).map((item, index) => (
                                             {value: item.code, label: item?.name}))
+                                            :
+                                            Allkurses && Allkurses.slice(0, 4).map((item, index) => (
+                                                {value: item.code, label: item?.name}))
                                         :
                                         Allkurses && Allkurses.slice(0, 2).map((item, index) => (
                                             {value: item.code, label: `${index + 1}-kurs`}))
                                 }
                             />
                         </div>
-                        <div className="col-6">
+                        <div className="col-6 my-2">
                             <Select
                                 disabled={FakultyID === '' || specialityID === '' || kurs === ''}
                                 showSearch className='w-100'
