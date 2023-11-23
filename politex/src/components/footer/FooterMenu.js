@@ -130,8 +130,8 @@ const FooterMenu = () => {
           </a>
 
 
-          <a href="https://napaautomotive.uz/">
-            <img className="napaLogo" src={NAPA} alt="napa automotive" />
+          <a href="https://t.me/tdtu_rttm_bot" target={"_blank"}>
+            <p>RTTM</p>
           </a>
         </div>
       </div>
