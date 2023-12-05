@@ -51,9 +51,6 @@ const FooterMenu = () => {
                 <a href={data?.data?.data[0].facebook}>
                   <img src={FB} alt="" />
                 </a>
-                <a href={data?.data?.data[0].vkontakte}>
-                  <img src={WK} alt="" />
-                </a>
               </div>
             </div>
             <div className="link">
@@ -131,7 +128,7 @@ const FooterMenu = () => {
 
 
           <a href="https://t.me/tdtu_rttm_bot" target={"_blank"}>
-            <p>RTTM</p>
+            <img width="150" src="./ATM_logo_white.png" alt=""/>
           </a>
         </div>
       </div>

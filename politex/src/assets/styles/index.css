@@ -20,6 +20,7 @@ body.black__and__white {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 a {
@@ -39,17 +40,17 @@ a {
     padding-top: 100px;
 }
 
-/*::-webkit-scrollbar {*/
-/*    width: 6px;*/
-/*}*/
+::-webkit-scrollbar {
+    width: 6px;
+}
 
-/*::-webkit-scrollbar-track {*/
-/*    background: transparent;*/
-/*}*/
+::-webkit-scrollbar-track {
+    background: transparent;
+}
 
-/*::-webkit-scrollbar-thumb {*/
-/*    background: #1B6B50;*/
-/*}*/
+::-webkit-scrollbar-thumb {
+    background: #1B6B50;
+}
 
 .loader {
     transform: rotateZ(45deg);

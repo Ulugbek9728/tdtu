@@ -42,7 +42,7 @@ const NewsId = () => {
         <CustomTitle name={t("lavhalar")} my={true} />
         <div className="container">
           <Swiper
-            slidesPerView={2}
+            slidesPerView={3}
             spaceBetween={20}
             freeMode={true}
             pagination={{

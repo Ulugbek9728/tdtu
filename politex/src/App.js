@@ -222,8 +222,8 @@ function App() {
 
 
 
-        <Route path={"/students/schedule"} element={<Schedule />} />
-        {/*<Route path={"/students/schedule"} element={<Test />} />*/}
+        {/*<Route path={"/students/schedule"} element={<Schedule />} />*/}
+        <Route path={"/students/schedule"} element={<Test />} />
 
 
         <Route path={"students/undergraduate"}>

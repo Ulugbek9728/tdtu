@@ -16,9 +16,7 @@ const NumberInst = () => {
 
 
   const [statistika, setStatistika] = useState(false);
-
   function chengStatixtka(e) {
-    console.log(e)
     console.log(window.scrollY)
 
     if (window.scrollY>=5500){
@@ -26,13 +24,6 @@ const NumberInst = () => {
     }
   }
   window.addEventListener('scroll',chengStatixtka);
-
-
-
-
-
-  document.addEventListener('scroll', chengStatixtka, { passive: true });
-
   return (
       <Parallax bgImage={NUMBERIMG} className="parallax" strength={300}>
         <NumberInstWrapper>

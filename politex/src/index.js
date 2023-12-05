@@ -10,6 +10,8 @@ import "./utils/i18n";
 import "@/assets/styles/index.css";
 import "swiper/css";
 
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 

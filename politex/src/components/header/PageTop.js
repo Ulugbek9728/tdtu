@@ -4,6 +4,7 @@ import Blazon from "@/assets/images/header/blazon.png";
 import Flag from "@/assets/images/header/flag-uz.png";
 import Music from "@/assets/images/header/music.png";
 import QS from "@/assets/images/header/QS.png";
+import THE from "@/assets/images/header/THE-logo-2023.png";
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import Guidelines from "@/components/GuideLines";
@@ -21,8 +22,12 @@ const PageTop = () => {
       <div className="header__top">
         <div className="container">
           <div className="header__top__icons">
-            <a href="https://www.topuniversities.com/universities/tashkent-state-technical-university-named-after-islam-karimov"
+            <a href="https://www.timeshighereducation.com/world-university-rankings/tashkent-state-technical-university"
             target={"_blank"}>
+              <img src={THE} alt="QS" />
+            </a>
+            <a href="https://www.topuniversities.com/universities/tashkent-state-technical-university-named-after-islam-karimov"
+               target={"_blank"}>
               <img src={QS} alt="QS" />
             </a>
             <Link to="/gerb"><img src={Blazon} alt="blazon" /></Link>
@@ -49,6 +54,12 @@ const PageTop = () => {
             </li>
             <li className={"header__top__list__item"}>
               <Guidelines />
+            </li>
+            <li className={"header__top__list__item icon"}>
+              <a href="https://www.timeshighereducation.com/world-university-rankings/tashkent-state-technical-university"
+                 target={"_blank"}>
+                <img src={THE} alt="QS" />
+              </a>
             </li>
             <li className={"header__top__list__item icon"}>
               <a href="https://www.topuniversities.com/universities/tashkent-state-technical-university-named-after-islam-karimov"
