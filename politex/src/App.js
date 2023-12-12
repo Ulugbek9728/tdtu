@@ -122,6 +122,7 @@ import Erasmus from "./pages/faoliyat/xalqaro_aloqalar/erasmus/erasmus";
 import B19 from "@/pages/tuzilma/bolimlar/B19";
 import Schedule from "@/pages/talabalar/schedule/schedule";
 import Test from "@/pages/talabalar/schedule/test";
+import B20 from "@/pages/tuzilma/bolimlar/B20";
 
 
 const Home = lazy(() => import("@/pages/Home"));
@@ -194,6 +195,7 @@ function App() {
         <Route path={"/structure/sections/17"} element={<B17 />} />
         <Route path={"/structure/sections/18"} element={<B18 />} />
         <Route path={"/structure/sections/19"} element={<B19 />} />
+        <Route path={"/structure/sections/20"} element={<B20 />} />
 
         {/* Bo’limlar */}
         {/* filiallar */}
