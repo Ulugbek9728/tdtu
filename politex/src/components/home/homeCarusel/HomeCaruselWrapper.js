@@ -4,10 +4,10 @@ import HOMECARUSEL from "@/assets/images/home/homeCarusel1.jpg";
 
 export const HomeCaruselWrapper = styled.div`
   background-image: url(${HOMECARUSEL});
-  
   .home-back {
     background-color: rgba(249, 249, 249, 0.9);
     padding: 60px 20px 20px 140px;
+    
     .mySwiper {
       width: 100%;
       max-width: 1920px;
@@ -32,19 +32,13 @@ export const HomeCaruselWrapper = styled.div`
             line-height: 50px;
             color: #333333;
           }
-          .text-two {
-            margin-top: 30px;
-            font-family: "Montserrat";
-            font-weight: 400;
-            font-size: 25px;
-            line-height: 40px;
-            color: #37363c;
-          }
-          .button-rigth {
-            position: absolute;
-            bottom: 100px;
-            right: 0;
-          }
+         
+          
+        }
+        .button-rigth {
+          position: absolute;
+          bottom: 55px;
+          right: 71%;
         }
         img {
           border-radius: 10px;
@@ -58,7 +52,7 @@ export const HomeCaruselWrapper = styled.div`
       .swiper-pagination-bullets.swiper-pagination-horizontal,
       .swiper-pagination-custom,
       .swiper-pagination-fraction {
-        bottom: 100px;
+        bottom: 50px;
         width: max-content;
         text-align: start;
       }
@@ -89,10 +83,6 @@ export const HomeCaruselWrapper = styled.div`
               font-size: 26px;
               line-height: 35px;
             }
-            .text-two {
-              font-size: 16px;
-              line-height: 30px;
-            }
             .button-rigth {
               bottom: 60px;
             }
@@ -106,7 +96,7 @@ export const HomeCaruselWrapper = styled.div`
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
-          bottom: 60px;
+          bottom: 20px;
         }
         .swiper-pagination-bullet {
           width: 12px;
@@ -177,13 +167,11 @@ export const HomeCaruselWrapper = styled.div`
               font-size: 20px;
               line-height: 24px;
             }
-            .text-two {
-              font-size: 14px;
-              line-height: 20px;
-            }
-            .button-rigth {
-              bottom: 20px;
-            }
+            
+          }
+          .button-rigth {
+            left: 0%;
+            bottom: 30px;
           }
           img {
             width: 515px;
@@ -208,10 +196,21 @@ export const HomeCaruselWrapper = styled.div`
     }
     @media screen and (max-width: 992px) {
       padding: 15px 5px 5px 60px;
+      .mySwiper {
+        .swiper-horizontal > .swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+          bottom: 0;
+        }
+      
+      }
     }
     @media screen and (max-width: 780px) {
       padding: 15px 10px 0px 10px;
+      height: 500px;
       .mySwiper {
+        height: 100%;
         .content {
           gap: 10px;
           flex-direction: column;
@@ -225,17 +224,10 @@ export const HomeCaruselWrapper = styled.div`
               text-align: center;
               width: 100%;
             }
-            .text-two {
-              font-size: 14px;
-              line-height: 20px;
-              text-align: center;
-              margin: 20px auto 0 auto;
-              padding-bottom: 80px;
-            }
-            .button-rigth {
-              bottom: 15px;
-              right: 20px;
-            }
+          }
+          .button-rigth {
+            left: 85% !important;
+            bottom: 30px;
           }
           img {
             order: 1;
@@ -262,10 +254,14 @@ export const HomeCaruselWrapper = styled.div`
       }
     }
     @media screen and (max-width: 480px) {
+      height: 450px;
       .mySwiper {
         .content {
-          .text {
+          .button-rigth {
+            bottom: 55px;
+            left: 80%!important;
           }
+          
           img {
             order: 1;
             width: 100%;

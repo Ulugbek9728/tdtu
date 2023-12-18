@@ -329,10 +329,10 @@ export const NewsAnnouncementsWrapper = styled.div`
 
 export const NewsIdWrapper = styled.div`
 .fotoGlavni{
- width: 100%;
+  display: flex;
+  height: auto;
+ width: 80%;
   margin: 0 auto;
- height: 700px;
- //object-fit: cover;
 }
   p {
     font-family: "Montserrat";
@@ -352,7 +352,8 @@ export const NewsIdWrapper = styled.div`
     display: none;
   }
   .img-foto {
-    height: 546px;
+    height: auto;
+   
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
@@ -367,14 +368,8 @@ export const NewsIdWrapper = styled.div`
     .mySwiper {
       margin-top: 60px;
     }
-    .img-foto {
-      height: 430px;
-    }
   }
   @media only screen and (max-width: 834px) {
-    .fotoGlavni{
-      height: 400px;
-    }
   img{
  height: 400px;
 }
@@ -386,13 +381,11 @@ export const NewsIdWrapper = styled.div`
     .mySwiper {
       margin-top: 50px;
     }
-    .img-foto {
-      height: 230px;
-    }
+    
   }
   @media only screen and (max-width: 580px) {
     .fotoGlavni{
-      height: auto;
+      width: 100%;
     }
    img{
  height: 300px;
@@ -404,9 +397,6 @@ export const NewsIdWrapper = styled.div`
     }
     .mySwiper {
       margin-top: 20px;
-    }
-    .img-foto {
-      height: 130px;
     }
   }
 `;

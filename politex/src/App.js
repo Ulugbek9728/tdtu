@@ -123,6 +123,8 @@ import B19 from "@/pages/tuzilma/bolimlar/B19";
 import Schedule from "@/pages/talabalar/schedule/schedule";
 import Test from "@/pages/talabalar/schedule/test";
 import B20 from "@/pages/tuzilma/bolimlar/B20";
+import newLeft2 from "./assets/newYear/asasa.png"
+
 
 
 const Home = lazy(() => import("@/pages/Home"));
@@ -133,6 +135,7 @@ function App() {
   return (
     <QueryClientProvider client={client} >
       <ToastContainer />
+
       <Routes>
         <Route index element={
             <Suspense fallback={<span className="loader" />}>
@@ -219,8 +222,8 @@ function App() {
         <Route path={"/site-map"} element={<SiteMap />} />
 
 
-        <Route path={"/preparation"} element={<Preparation />} />
-        {/*<Route path={"/preparation"} element={<Test />} />*/}
+        {/*<Route path={"/preparation"} element={<Preparation />} />*/}
+        <Route path={"/preparation"} element={<Test />} />
 
 
 

@@ -2,7 +2,6 @@ import styled from "styled-components";
 import {fontMontserrat} from "@/assets/styles/abstract/variables";
 
 const PageTopStyle = styled.div`
-  z-index: 3;
   position: relative;
 
   .header__top {
@@ -19,6 +18,7 @@ const PageTopStyle = styled.div`
     .header__top__icons {
       display: none;
       align-items: center;
+      z-index: 6;
 
       a {
         margin-right: 18px;
@@ -41,6 +41,7 @@ const PageTopStyle = styled.div`
       list-style-type: none;
       padding: 0;
       margin: 0;
+      z-index: 6;
     }
     img {
       width: 30px;
@@ -106,11 +107,15 @@ const PageTopStyle = styled.div`
       }
 
       .header__top__list__item {
+        
         &.lang {
           display: block;
         }
 
         padding: 15px 9px;
+      }
+      .header__top__list__item a {
+        font-size: 0.7rem;
       }
 
       .header__top__icons {
@@ -143,6 +148,11 @@ const PageTopStyle = styled.div`
 
       .header__top__list__item.lang {
         padding-right: 0;
+      }
+    }
+    @media screen and (max-width: 398px) {
+      .header__top__list__item:nth-child(1) {
+          display: none;
       }
     }
   }

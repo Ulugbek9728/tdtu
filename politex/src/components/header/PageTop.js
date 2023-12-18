@@ -42,7 +42,6 @@ const PageTop = () => {
             <li className={"header__top__list__item"}>
               <a href={`tel:${data?.data?.data[0].phone}`}>
                 <p>{t("footer.Contact")}</p>
-
                 <span>{data?.data?.data[0].phone}</span>
               </a>
             </li>

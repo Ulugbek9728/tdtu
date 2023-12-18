@@ -3,8 +3,6 @@ import { fontMontserrat } from "../abstract/variables";
 
 const HeaderStyle = styled.header`
   position: relative;
-  z-index: 2;
-
   .header__center {
     background-color: #1b6b50;
     padding: 18px 0 60px;
@@ -12,27 +10,32 @@ const HeaderStyle = styled.header`
     .container {
       display: flex;
       justify-content: space-between;
+      z-index: 6;
     }
 
     //Menu icon
     .header__center__menu__icon {
       display: none;
+      z-index: 5;
     }
 
     // Logo and title style
     .logo__and__title {
       display: flex;
       align-items: center;
+      z-index: 6;
     }
 
     .logo {
       width: 110px;
       height: 110px;
       margin-right: 25px;
+      z-index: 6;
     }
 
     .title__mini {
       display: none;
+      z-index: 6;
     }
 
     .title {
@@ -45,6 +48,8 @@ const HeaderStyle = styled.header`
       color: #fff;
       max-width: 600px;
       margin-right: 30px;
+      z-index: 6;
+
 
       span {
         display: block;
@@ -59,6 +64,7 @@ const HeaderStyle = styled.header`
       justify-content: flex-end;
       list-style-type: none;
       padding: 0;
+      z-index: 6;
     }
 
     .header__center__nav__item {
@@ -147,7 +153,7 @@ const HeaderStyle = styled.header`
         font-weight: 800;
         line-height: 20px;
         color: #fff;
-
+        
         span {
           display: block;
         }
@@ -164,15 +170,16 @@ const HeaderStyle = styled.header`
 
   .header__bottom {
     transform: translateY(-50%);
-
+    position: relative;
+    z-index: 5;
     .header__bottom__content {
-      position: relative;
       height: 80px;
       display: flex;
       justify-content: space-between;
       background: #ffffff;
       box-shadow: 0 4px 13px rgba(27, 25, 25, 0.15);
       border-radius: 5px;
+      z-index: 6;
     }
 
     .header__bottom__left,

@@ -8,6 +8,25 @@ body {
     font-size: 20px;
 }
 
+
+.newyearBox{
+    top: 0;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../newYear/giphy.gif");
+}
+.newyearBox img{
+    width: 430px;
+    height: 64%;
+}
+.newyearBox img:nth-child(2){
+    transform: scaleX(-1);
+}
+
 body.zoom {
     zoom: 1.1;
 }
@@ -128,12 +147,22 @@ a {
   }
 
 @media screen and (max-width: 1512px) {
+    .newyearBox img{
+        width: 360px;
+        height: 50%;
+    }
     .container {
         padding: 0 100px !important;
     }
 }
 
 @media screen and (max-width: 992px) {
+    .newyearBox{
+        height: 250px;
+    }
+    .newyearBox img{
+       display: none;
+    }
     .container {
         padding: 0 60px !important;
     }
@@ -146,6 +175,9 @@ a {
 }
 
 @media screen and (max-width: 780px) {
+    .newyearBox{
+        height: 200px;
+    }
     .container {
         padding: 0 16px !important;
     }

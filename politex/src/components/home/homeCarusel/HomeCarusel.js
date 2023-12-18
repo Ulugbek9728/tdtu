@@ -29,7 +29,7 @@ const HomeCarusel = () => {
               pauseOnMouseEnter: true,
             }}
             pagination={{
-              clickable: true,
+                clickable:true,
             }}
             modules={[Navigation, Pagination, Autoplay]}
             className="mySwiper"
@@ -38,28 +38,31 @@ const HomeCarusel = () => {
               <SwiperSlide key={v.id}>
                 <div className="content">
                   <div className="text">
-                    <p className="text-one">{v.title}</p>
-                    <p className="text-two"
-                       dangerouslySetInnerHTML={{ __html:v.text1?.slice(0, 170)+'...' }}>
+
+                    <p className="text-one">
+                        {v.title.length>50 ? v.title.slice(0, 130)+" ...": v.title}
+                        {/**/}
                     </p>
-                    <div className="button-rigth">
-                      <Link
-                        to={
-                          v.category == 1
-                            ? `/new/news/${v.id}`
-                            : v.category == 2
-                            ? `/new/events/${v.id}`
-                            : v.category == 3
-                            ? `/new/announcements/${v.id}`
-                            : `/new/sport/${v.id}`
-                        }
-                      >
-                        <ButtonHeigthWrapper>
-                          {t("batafsil")}
-                        </ButtonHeigthWrapper>
-                      </Link>
-                    </div>
+
+
                   </div>
+                    <div className="button-rigth">
+                        <Link
+                            to={
+                                v.category == 1
+                                    ? `/new/news/${v.id}`
+                                    : v.category == 2
+                                        ? `/new/events/${v.id}`
+                                        : v.category == 3
+                                            ? `/new/announcements/${v.id}`
+                                            : `/new/sport/${v.id}`
+                            }
+                        >
+                            <ButtonHeigthWrapper>
+                                {t("batafsil")}
+                            </ButtonHeigthWrapper>
+                        </Link>
+                    </div>
                   <img
                     src={imgUrl + v.img}
                     alt="carusel"
