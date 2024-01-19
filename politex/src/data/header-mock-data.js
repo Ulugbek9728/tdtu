@@ -285,6 +285,10 @@ export const headerBottomNavItemMenu = [
     id: 4,
     data: [
       {
+        path: "/students/edu",
+        id: 39,
+      },
+      {
         path: "/students/schedule",
         id: 40,
       },

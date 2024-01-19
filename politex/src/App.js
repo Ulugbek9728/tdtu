@@ -116,14 +116,13 @@ import TalimYonalishlari from "./pages/korrupsiyasiz_soha/talim_yonalishlari";
 import ProfessorOqituvchilar from "./pages/korrupsiyasiz_soha/professorlar";
 import KorrupsiyagaOidHolatlar from "./pages/korrupsiyasiz_soha/korrupsiyaga_oid_holatlar";
 import Search from "./pages/Search";
-import Preparation from "./pages/Preparation";
 import Qabul from "./pages/Qabul";
 import Erasmus from "./pages/faoliyat/xalqaro_aloqalar/erasmus/erasmus";
 import B19 from "@/pages/tuzilma/bolimlar/B19";
 import Schedule from "@/pages/talabalar/schedule/schedule";
 import Test from "@/pages/talabalar/schedule/test";
 import B20 from "@/pages/tuzilma/bolimlar/B20";
-import newLeft2 from "./assets/newYear/asasa.png"
+import Edu from "@/pages/talabalar/edu/edu";
 
 
 
@@ -227,8 +226,9 @@ function App() {
 
 
 
-        {/*<Route path={"/students/schedule"} element={<Schedule />} />*/}
-        <Route path={"/students/schedule"} element={<Test />} />
+        <Route path={"/students/schedule"} element={<Schedule />} />
+        <Route path={"/students/edu"} element={<Edu />} />
+        {/*<Route path={"/students/schedule"} element={<Test />} />*/}
 
 
         <Route path={"students/undergraduate"}>
