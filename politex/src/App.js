@@ -123,6 +123,7 @@ import Schedule from "@/pages/talabalar/schedule/schedule";
 import Test from "@/pages/talabalar/schedule/test";
 import B20 from "@/pages/tuzilma/bolimlar/B20";
 import Edu from "@/pages/talabalar/edu/edu";
+import B21 from "@/pages/tuzilma/bolimlar/B21";
 
 
 
@@ -198,6 +199,7 @@ function App() {
         <Route path={"/structure/sections/18"} element={<B18 />} />
         <Route path={"/structure/sections/19"} element={<B19 />} />
         <Route path={"/structure/sections/20"} element={<B20 />} />
+        <Route path={"/structure/sections/21"} element={<B21 />} />
 
         {/* Bo’limlar */}
         {/* filiallar */}

@@ -143,6 +143,7 @@ const Header = () => {
                 <GrClose />
               </div>
             </div>
+
             {headerBottomNavItemMenu.map(({ id, data, column }) => {
               return (
                 <React.Fragment key={id}>

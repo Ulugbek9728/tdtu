@@ -253,13 +253,15 @@ const SiteMapStyle = styled.div`
         }
 
         ~ .dropdown {
-          max-height: 1000px;
+          max-height: 5000px;
         }
       }
     }
 
     li {
       .dropdown {
+        
+       border: 1px solid #1b6b50;
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -337,7 +339,7 @@ const SiteMapStyle = styled.div`
           }
 
           ~ .site__map__bottom__nav__item__nav {
-            max-height: 1200px;
+            max-height: 2000px;
           }
         }
       }

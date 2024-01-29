@@ -6,12 +6,12 @@ import Layout from "@/locales/en/layout/Layout";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";
-import bg from "@/assets/bolimlar/Ilmiy-tadqiqot.png";
+import bg from "@/assets/bolimlar/INOVATSIYA.jpg";
 
-const B20 = () => {
+const B21 = () => {
     const { data } = useQuery({
-        queryKey: ["bulim", 30],
-        queryFn: () => getBulimId(30),
+        queryKey: ["bulim", 31],
+        queryFn: () => getBulimId(31),
     });
     let datas = data?.data?.data[0];
     const { t } = useTranslation();
@@ -21,10 +21,10 @@ const B20 = () => {
             <Layout>
                 <BigFotoBack
                     img={bg}
-                    text={t("header.header__sub__menu.menu-2.item-20")}
+                    text={t("header.header__sub__menu.menu-2.item-21")}
                 />
 
-                <CustomTitle name={t("header.header__sub__menu.menu-2.item-20")} />
+                <CustomTitle name={t("header.header__sub__menu.menu-2.item-21")} />
                 <div className="container">
                     <RektorCard
                         key={datas?.id}
@@ -46,4 +46,4 @@ const B20 = () => {
     );
 };
 
-export default B20;
+export default B21;

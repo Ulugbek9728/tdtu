@@ -173,6 +173,7 @@ const HeaderStyle = styled.header`
     position: relative;
     z-index: 5;
     .header__bottom__content {
+      position: relative;
       height: 80px;
       display: flex;
       justify-content: space-between;
