@@ -23,6 +23,7 @@ const Guidelines = () => {
         setZoom(false)
         document.body.classList.remove('zoom');
     }
+
     return (
         <GuideLinesStyle onClick={openAndCloseMenu} className={guideLinesMenu ? "show" : ""}>
             <img src={Glass} alt="glass"/>

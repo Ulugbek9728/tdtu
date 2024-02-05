@@ -3,7 +3,7 @@ import {fontMontserrat} from "@/assets/styles/abstract/variables";
 
 const PageTopStyle = styled.div`
   position: relative;
-
+z-index: 10;
   .header__top {
     background: #15523D;
     width: 100%;

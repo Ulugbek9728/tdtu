@@ -7,6 +7,7 @@ const GuideLinesStyle = styled.div`
   align-items: center;
   cursor: pointer;
 
+
   .guidelines__menu {
     visibility: hidden;
     opacity: 0;
