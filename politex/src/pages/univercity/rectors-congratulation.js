@@ -32,9 +32,11 @@ const CongratulationStyle = styled.div`
 
 const RectorsCongratulation = () => {
   const { t } = useTranslation();
+
   const { data, isLoading } = useQuery("congratulation", () =>
     universityHelperHttp(CONGRATULATION)
   );
+
   useEffect(() => {
     window.scrollTo({
       top: 0,

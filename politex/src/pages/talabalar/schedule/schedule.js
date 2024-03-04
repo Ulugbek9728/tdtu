@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "@/locales/en/layout/Layout";
-import {Nav} from 'rsuite';
 import {useTranslation} from "react-i18next";
 
 import "antd/dist/antd.css";
@@ -10,7 +9,7 @@ import axios from "axios";
 import {Select} from 'antd';
 
 
-const {Option} = Select;
+const {} = Select;
 
 
 function Schedule(props) {
@@ -406,7 +405,7 @@ function Schedule(props) {
                             />
                         </div>
                     </div>
-                    {schedule !== '' ? parseDate() :  <p className="tezKunda">Dars jadval</p>}
+                    {schedule !== '' ? parseDate() : <p className="tezKunda">Dars jadval</p>}
                 </div>
             </div>
         </Layout>

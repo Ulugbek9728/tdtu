@@ -4,6 +4,7 @@ import XIZMATLAR from "@/assets/images/home/xizmatlar.svg";
 import SMS from "@/assets/images/home/sms.svg";
 import PAPER from "@/assets/images/home/paper.svg";
 import BOOK from "@/assets/images/home/book.svg";
+import schedule from "@/assets/images/home/schedule.png";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -19,6 +20,21 @@ const InteractiveServices = () => {
       </div>
       <div className="container">
         <div className="card-servise">
+          <a
+              href={"/students/schedule"}
+              className="card-box"
+          >
+            <img src={schedule} alt="" className="icon" />
+            <div className="content">
+              <p className="text-1">
+                {t("header.header__bottom__nav__item__menu.menu-4.item-40")}
+              </p>
+              <p className="text-2">
+                TDTU {t("header.header__bottom__nav__item__menu.menu-4.item-40")}
+
+              </p>
+            </div>
+          </a>
           <a href="http://Webmail.tdtu.uz" target='_blank' className="card-box">
             <img src={SMS} alt="" className="icon" />
             <div className="content">
@@ -26,6 +42,7 @@ const InteractiveServices = () => {
               <p className="text-2">TDTU {t("pochta")}</p>
             </div>
           </a>
+
           <Link
             to={"/university/rector-virtual-reception"}
             className="card-box"
