@@ -124,6 +124,7 @@ import Test from "@/pages/talabalar/schedule/test";
 import B20 from "@/pages/tuzilma/bolimlar/B20";
 import Edu from "@/pages/talabalar/edu/edu";
 import B21 from "@/pages/tuzilma/bolimlar/B21";
+import Vacancies from "@/pages/talabalar/vacancies";
 
 
 
@@ -228,6 +229,7 @@ function App() {
 
 
 
+        <Route path={"/students/vacancies"} element={<Vacancies />} />
         <Route path={"/students/schedule"} element={<Schedule />} />
         <Route path={"/students/edu"} element={<Edu />} />
         {/*<Route path={"/students/schedule"} element={<Test />} />*/}
