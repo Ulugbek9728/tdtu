@@ -7,6 +7,7 @@ function Vacansies(props) {
 
             <div className="container mt-5">
                 <ul>
+                    <li><a href="https://drive.google.com/file/d/1ZpkHCt4XO3VDGuiYIpAYtTCpaIDdojwb/view?usp=sharing" target='_blank'>Приглашаем на стажеровку</a></li>
                     <li><a href="https://docs.google.com/spreadsheets/d/1XFEXAEsZMNbDo6oOpxc-Xxx93zaJYLQ2/edit?usp=sharing&ouid=104441862415797304843&rtpof=true&sd=true" target='_blank'>2024 yil mart oyi Vakansiya</a></li>
                     <hr/>
                     <li><a href="https://docs.google.com/spreadsheets/d/1JNdsviIxf8pEryj3cUlimN9JW3WeNZ1b/edit?usp=sharing&ouid=104441862415797304843&rtpof=true&sd=true" target='_blank'>2023 yil sentabr oyi Vakansiya</a></li>
