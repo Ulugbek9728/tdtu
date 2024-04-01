@@ -22,6 +22,10 @@ import {
 } from "@/data/header-mock-data";
 import HeaderBottomNavItemMenu from "@/components/header/headerBottomNavItemMenu";
 
+import { Dropdown } from 'antd';
+import {CaretDownOutlined} from '@ant-design/icons';
+
+
 const Header = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
@@ -29,6 +33,26 @@ const Header = () => {
   const [searchMenu, setSearchMenu] = useState(false);
   const [selectedNav, setSelectedNav] = useState(null);
   const [Ivalue, setIvalue] = useState("");
+
+  const items = [
+    {
+      key: '1',
+      label: (
+          <a target="_blank" rel="noopener noreferrer" href="https://search.ebscohost.com/">
+              EBSCO
+          </a>
+      ),
+    },
+    {
+      key: '2',
+      label: (
+          <a target="_blank" rel="noopener noreferrer" href="https://t.me/TDTU_ELEKTRON_KUTUBXONA">
+            TDTU ARM telegram bot
+          </a>
+      ),
+    },
+  ];
+
   const openSearchMenu = () => {
     setSearchMenu(true);
     if (searchMenu && Ivalue.trim().length > 1) navigate(`/search/${Ivalue}`);
@@ -75,9 +99,21 @@ const Header = () => {
             {headerCenterNav.map(({ path, id }) => {
               return (
                 <li className={"header__center__nav__item"} key={id}>
-                  <a href={path}>
-                    {t(`header.center.header-center-nav.item-${id}`)}
-                  </a>
+                  {id===2 ?
+                      <Dropdown
+                          menu={{
+                            items,
+                          }}
+                          placement="bottomRight"
+                      >
+                        <a href={'#'}>{t(`header.center.header-center-nav.item-${id}`)} <CaretDownOutlined /></a>
+                      </Dropdown>
+                  :
+                      <a href={path}>
+                        {t(`header.center.header-center-nav.item-${id}`)}123
+                      </a>
+                  }
+
                 </li>
               );
             })}

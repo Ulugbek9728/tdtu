@@ -11,6 +11,8 @@ import { headerBottomNavItemMenu } from "@/data/header-mock-data";
 import { BiChevronDown } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 import Hr from "@/components/hr";
+import {Dropdown} from "antd";
+import {CaretDownOutlined} from "@ant-design/icons";
 
 const SiteMap = () => {
   const { t } = useTranslation();
@@ -18,6 +20,24 @@ const SiteMap = () => {
   const [selectedSub, setSelectedSub] = useState(null);
   const [selected, setSelected] = useState(null);
   const [Ivalue, setIvalue] = useState("");
+  const items = [
+    {
+      key: '1',
+      label: (
+          <a target="_blank" rel="noopener noreferrer" href="https://search.ebscohost.com/">
+            EBSCO
+          </a>
+      ),
+    },
+    {
+      key: '2',
+      label: (
+          <a target="_blank" rel="noopener noreferrer" href="https://t.me/TDTU_ELEKTRON_KUTUBXONA">
+            TDTU ARM telegram bot
+          </a>
+      ),
+    },
+  ];
   const selectNavItemSub = (val) => {
     val.id !== selectedSub ? setSelectedSub(val.id) : setSelectedSub(null);
   };
@@ -26,6 +46,8 @@ const SiteMap = () => {
   const openSearchMenu = () => {
     if (Ivalue.trim().length > 1) navigate(`/search/${Ivalue}`);
   };
+
+
   return (
     <SiteMapStyle>
       <PageTop />
@@ -49,7 +71,6 @@ const SiteMap = () => {
               </div>
             </div>
             <div className="site__map__top__right">
-              <div className="text">{t("shiori")}</div>
               <Link to={"/"}>
                 <GrClose className={"close__icon"} />
               </Link>
@@ -67,7 +88,14 @@ const SiteMap = () => {
                 <Link to={"/"}>{t("footer.Qabul")}</Link>
               </li>
               <li>
-                <a href={"https://t.me/tdtu_arm"}>{t("Onlayn")}</a>
+                <Dropdown
+                    menu={{
+                      items,
+                    }}
+                    placement="bottomRight"
+                >
+                  <a href={'#'}>{t(`header.center.header-center-nav.item-2`)} <CaretDownOutlined /></a>
+                </Dropdown>
               </li>
               <li>
                 <Link to={"/"}>{t("Grand")}</Link>
@@ -105,7 +133,14 @@ const SiteMap = () => {
                   </a>
                 </div>
                 <div className="site__map__center__details__grid__items">
-                  <a href={"https://t.me/tdtu_arm"}>{t("Onlayn")}</a>
+                  <Dropdown
+                      menu={{
+                        items,
+                      }}
+                      placement="bottomRight"
+                  >
+                    <a href={'#'}>{t(`header.center.header-center-nav.item-2`)} <CaretDownOutlined /></a>
+                  </Dropdown>
                 </div>
                 <div className="site__map__center__details__grid__items">
                   <Link to={"/preparation"}>{t("header.center.header-center-nav.item-3")}</Link>

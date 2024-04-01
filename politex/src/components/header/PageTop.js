@@ -5,7 +5,6 @@ import Flag from "@/assets/images/header/flag-uz.png";
 import Music from "@/assets/images/header/music.png";
 import QS from "@/assets/images/header/QS.png";
 import THE from "@/assets/images/header/THE-logo-2023.png";
-import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import Guidelines from "@/components/GuideLines";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
