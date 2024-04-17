@@ -12,6 +12,7 @@ import Layout from "@/locales/en/layout/Layout";
 import { getNewsId, imgUrl } from "@/api/general";
 import { useQuery } from "react-query";
 import { useTranslation } from "react-i18next";
+import Announcements from "@/components/news/Announcements";
 
 const NewsId = () => {
   let { id } = useParams();
@@ -29,15 +30,19 @@ const NewsId = () => {
   }, []);
   return (
     <Layout>
-      <CustomTitle name={data?.data?.data?.title} my={true} />
       <NewsIdWrapper>
-        <div className="container">
-          <img className="fotoGlavni"
-            src={imgUrl + data?.data?.data?.img}
-            alt="img"
-          />
-          {/*<p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text }} />*/}
-          <p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text1 }} />
+        <div className="container  mt-lg-5 mt-3">
+            <div className="content-news">
+                <div className="">
+                    <div className="text1" >{data?.data?.data?.title} </div>
+
+                    <img className="fotoGlavni" src={imgUrl + data?.data?.data?.img} alt="img"/>
+                </div>
+                <Announcements />
+            </div>
+
+
+            <p dangerouslySetInnerHTML={{ __html: data?.data?.data?.text1 }} />
         </div>
         <CustomTitle name={t("lavhalar")} my={true} />
         <div className="container">

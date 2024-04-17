@@ -219,6 +219,7 @@ export const NewsAnnouncementsWrapper = styled.div`
     font-size: 30px;
     line-height: 130%;
     color: #37363c;
+    text-align: right;
   }
   .contet-box {
     max-height: 740px;
@@ -254,6 +255,9 @@ export const NewsAnnouncementsWrapper = styled.div`
         margin-right: 20px;
         width: 25px;
         object-fit: contain;
+      }
+      p{
+        margin-top: 0!important;
       }
     }
   }
@@ -313,6 +317,16 @@ export const NewsAnnouncementsWrapper = styled.div`
       }
     }
   }
+  @media only screen and (max-width: 1100px){
+    .content-announ {
+      
+      .flex {
+       
+        height: 30px;
+       
+      }
+    }
+  }
   @media only screen and (max-width: 580px) {
     .contet-box {
       max-height: 280px;
@@ -328,12 +342,30 @@ export const NewsAnnouncementsWrapper = styled.div`
 `;
 
 export const NewsIdWrapper = styled.div`
-.fotoGlavni{
-  display: flex;
-  height: auto;
- width: 80%;
-  margin: 0 auto;
-}
+  .content-news {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 40px;
+    height: max-content;
+    .fotoGlavni{
+      display: flex;
+      height: auto;
+      width: 100%;
+      border-radius: 20px;
+    }
+    .text1{
+      font-family: "Montserrat";
+      margin-bottom: 40px;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 130%;
+      color: #37363c;
+    }
+    .text{
+      margin-top: 0!important;
+    }
+  }
+
   p {
     font-family: "Montserrat";
     font-weight: 400;
@@ -360,6 +392,12 @@ export const NewsIdWrapper = styled.div`
     object-position: center;
   }
   @media only screen and (max-width: 1512px) {
+    .content-news {
+      .text1{
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+    }
     p {
       font-size: 18px;
       line-height: 22px;
@@ -369,7 +407,26 @@ export const NewsIdWrapper = styled.div`
       margin-top: 60px;
     }
   }
+  @media only screen and (max-width: 1101px){
+    .content-news {
+      gap: 20px;
+      grid-template-columns: 1fr 0fr;
+
+      .fotoGlavni{
+        border-radius: 5px;
+      }
+      .text1{
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+    }
+  }
   @media only screen and (max-width: 834px) {
+    .content-news {
+      .text1{
+        font-size: 20px!important;
+      }
+    }
   img{
  height: 400px;
 }
@@ -384,9 +441,19 @@ export const NewsIdWrapper = styled.div`
     
   }
   @media only screen and (max-width: 580px) {
-    .fotoGlavni{
-      width: 100%;
+    .content-news {
+      gap: 15px;
+      .text1{
+        font-size: 16px!important;
+      }
+      .text{
+        display: none;
+      }
+      .content-announ{
+        display: none!important;
+      }
     }
+    
    img{
  height: 300px;
 }

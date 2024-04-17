@@ -110,7 +110,7 @@ const Header = () => {
                       </Dropdown>
                   :
                       <a href={path}>
-                        {t(`header.center.header-center-nav.item-${id}`)}123
+                        {t(`header.center.header-center-nav.item-${id}`)}
                       </a>
                   }
 
