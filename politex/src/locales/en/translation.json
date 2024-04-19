@@ -234,6 +234,8 @@
     "item2": "Exit",
     "item3": "Subject Name",
     "item4": "Room",
-    "item5": "Teacher"
-  }
+    "item5": "Teacher"},
+
+  "telegram": "Our Telegram Channel"
+
 }
