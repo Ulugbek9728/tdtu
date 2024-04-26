@@ -15,7 +15,10 @@ export const getSearch = () =>
 export const getHomeNews = () => getInstance().get(`news?page=1&lang=${lang}`);
 export const getMuhimElon = () =>
   getInstance().get(`muhumElonlar?lang=${lang}`);
+
+
 export const getNews = (p) => getInstance().get(`news?page=${p}&lang=${lang}`);
+
 export const getAnnouncements = (p) =>
   getInstance().get(`getannouncements?page=${p}&lang=${lang}`);
 export const getEvents = (p) =>
@@ -34,6 +37,7 @@ export const getSportsId = (id) =>
 
 // home
 export const getHomeFacultets = () => getInstance().get(`facults?lang=${lang}`);
+
 export const getHomeOurAlumni = () =>
   getInstance().get(`graduats?lang=${lang}`);
 export const getHomeFacts = () => getInstance().get(`facts`);

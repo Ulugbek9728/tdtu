@@ -9,7 +9,6 @@ function Vacansies(props) {
         <Layout>
 
             <div className="container mt-5">
-
                 <ul>
                     <li className="mb-2">
                         <a href="" style={{color:"#0088cc"}}>
@@ -42,8 +41,6 @@ function Vacansies(props) {
                         target='_blank'>2023 yil yanvar oyi Vakansiya</a></li>
 
                 </ul>
-
-
             </div>
         </Layout>
     );
