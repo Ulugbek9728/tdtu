@@ -269,8 +269,8 @@ export const headerBottomNavItemMenu = [
         subMenuId: 4,
       },
       {
-        path: "/activity/financial-activity",
-        id: 2,
+        path: "/scientific/magazines",
+        id: 6,
       },
       {
         path: "/activity/youth-work",

@@ -227,8 +227,6 @@ function App() {
         {/*<Route path={"/preparation"} element={<Preparation />} />*/}
         <Route path={"/preparation"} element={<Test />} />
 
-
-
         <Route path={"/students/vacancies"} element={<Vacancies />} />
         <Route path={"/students/schedule"} element={<Schedule />} />
         <Route path={"/students/edu"} element={<Edu />} />
@@ -330,8 +328,9 @@ function App() {
         <Route path={"activity/space-com"}>
           <Route index element={<SpaceCom />} />
         </Route>
+
         {/* Scientific-activity page */}
-        <Route path={"scientific/techniq"}>
+        <Route path={"scientific/magazines"}>
           <Route index element={<Texnika />} />
         </Route>
         <Route path={"scientific/young-techniq"}>
@@ -343,6 +342,7 @@ function App() {
         <Route path={"scientific/master"}>
           <Route index element={<MahoratDarslar />} />
         </Route>
+
         {/* Abituriyent page */}
         <Route path={"abiturient/undergraduate"}>
           <Route index element={<BakalavriatAb />} />

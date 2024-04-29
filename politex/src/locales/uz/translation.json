@@ -45,7 +45,8 @@
         "item-2": "Moliyaviy faoliyat",
         "item-3": "Yoshlar bilan ishlash",
         "item-4": "Madaniy-ma’rifiy ishlar",
-        "item-5": "Xalqaro aloqalar"
+        "item-5": "Xalqaro aloqalar",
+        "item-6": "Jurnallar"
       },
       "menu-4": {
         "item-38": "VAKANSIYALAR",
@@ -234,6 +235,9 @@
     "item3": "Fan nomi",
     "item4": "Xona",
     "item5": "O'qituvch"
+  },
+  "Magazines": {
+    "item1": "Ta'lim tizimida ijtimoiy-gumanitar fanlar"
   },
 
   "telegram": "Bizning Telegram kanal"

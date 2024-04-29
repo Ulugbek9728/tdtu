@@ -45,7 +45,8 @@
         "item-2": "Financial activity",
         "item-3": "Working with young people",
         "item-4": "Cultural-Educational works",
-        "item-5": "International relations"
+        "item-5": "International relations",
+        "item-6": "Magazines"
       },
       "menu-4": {
         "item-38": "VACANCIES",
@@ -235,7 +236,9 @@
     "item3": "Subject Name",
     "item4": "Room",
     "item5": "Teacher"},
-
+  "Magazines": {
+    "item1": "“Social sciences and the humanities in the system of education"
+  },
   "telegram": "Our Telegram Channel"
 
 }
