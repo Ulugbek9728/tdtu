@@ -125,6 +125,7 @@ import B20 from "@/pages/tuzilma/bolimlar/B20";
 import Edu from "@/pages/talabalar/edu/edu";
 import B21 from "@/pages/tuzilma/bolimlar/B21";
 import Vacancies from "@/pages/talabalar/vacancies";
+import B22 from "@/pages/tuzilma/bolimlar/B22";
 
 
 
@@ -201,6 +202,7 @@ function App() {
         <Route path={"/structure/sections/19"} element={<B19 />} />
         <Route path={"/structure/sections/20"} element={<B20 />} />
         <Route path={"/structure/sections/21"} element={<B21 />} />
+        <Route path={"/structure/sections/22"} element={<B22 />} />
 
         {/* Bo’limlar */}
         {/* filiallar */}
