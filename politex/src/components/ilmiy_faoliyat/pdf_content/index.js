@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { ReactComponent as Icon } from "@/assets/icons/select-icon.svg";
 import { ReactComponent as BtnIcon } from "@/assets/icons/abituriyent/pdf-icon.svg";
 import { PdfContentWrapper } from "./style";
 import { imgUrl } from "@/api/general";
