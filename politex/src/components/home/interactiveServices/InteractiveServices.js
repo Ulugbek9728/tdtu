@@ -30,7 +30,7 @@ const InteractiveServices = () => {
                 {t("header.header__bottom__nav__item__menu.menu-4.item-40")}
               </p>
               <p className="text-2">
-                TDTU {t("header.header__bottom__nav__item__menu.menu-4.item-40")}
+                {t("header.header__bottom__nav__item__menu.menu-4.item-40")}
 
               </p>
             </div>
@@ -39,7 +39,7 @@ const InteractiveServices = () => {
             <img src={SMS} alt="" className="icon" />
             <div className="content">
               <p className="text-1">{t("pochta")}</p>
-              <p className="text-2">TDTU {t("pochta")}</p>
+              <p className="text-2">https://webmail.tdtu.uz/</p>
             </div>
           </a>
 
@@ -53,7 +53,7 @@ const InteractiveServices = () => {
                 {t("pages.university.rector-virtual-reception-title")}
               </p>
               <p className="text-2">
-                TDTU {t("pages.university.rector-virtual-reception-title")}
+                {t("pages.university.rector-virtual-reception-title")}
               </p>
             </div>
           </Link>
@@ -61,7 +61,7 @@ const InteractiveServices = () => {
             <img src={BOOK} alt="" className="icon" />
             <div className="content">
               <p className="text-1">{t("Onlayn")}</p>
-              <p className="text-2">TDTU {t("Onlayn")}</p>
+              <p className="text-2">https://t.me/tdtu_arm</p>
             </div>
           </a>
           <a

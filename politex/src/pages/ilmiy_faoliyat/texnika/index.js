@@ -34,6 +34,9 @@ function Texnika() {
                         <li>
                             <a href="https://online.anyflip.com/koxwe/ahjm/index.html" target={"_blank"}>1/2024</a>
                         </li>
+                        <li>
+                            <a href="https://online.anyflip.com/koxwe/uekl/index.html" target={"_blank"}>2/2024</a>
+                        </li>
                     </ul>
 
                 </div>

@@ -7,9 +7,9 @@ import Fakultet from "@/components/home/fakultetlar/Fakultet";
 import OurAlumni from "@/components/home/ourAlumni/OurAlumni";
 import NumberInst from "@/components/home/numberInst/NumberInst";
 import InteractiveServices from "@/components/home/interactiveServices/InteractiveServices";
+import {Link} from "react-router-dom";
 
-// import bgColl from "../CALL CENER.jpg"
-// import {Link} from "react-router-dom";
+import bgColl from "../CALL CENTER.jpg"
 
 const Home = () => {
     useEffect(() => {
@@ -20,9 +20,9 @@ const Home = () => {
     }, []);
     return (
         <Layout>
-            {/*<Link to='/qabul'>*/}
-            {/*    <img src={bgColl} style={{width: '100%', height:"auto", padding:'2%'}} alt=""/>*/}
-            {/*</Link>*/}
+            <Link to='/qabul'>
+                <img src={bgColl} style={{width: '100%', height:"auto", padding:'2%'}} alt=""/>
+            </Link>
 
             <HomeCarusel/>
             <News/>
