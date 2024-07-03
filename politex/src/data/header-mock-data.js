@@ -319,6 +319,14 @@ export const headerBottomNavItemMenu = [
             path: "/students/undergraduate3",
             id: 3,
           },
+          {
+            path: "/students/undergraduate4",
+            id: 4,
+          },
+          {
+            path: "/students/undergraduate5",
+            id: 5,
+          },
         ],
         subMenuId: 6,
       },
@@ -337,6 +345,14 @@ export const headerBottomNavItemMenu = [
           {
             path: "/students/judiciary3",
             id: 3,
+          },
+          {
+            path: "/students/judiciary4",
+            id: 4,
+          },
+          {
+            path: "/students/judiciary5",
+            id: 5,
           },
         ],
         subMenuId: 9,

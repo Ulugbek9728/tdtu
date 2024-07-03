@@ -49,7 +49,7 @@
         "item-6": "Magazines"
       },
       "menu-4": {
-        "item-38": "VACANCIES",
+        "item-38": "Karyera markazi",
         "item-39": "edu",
         "item-40": "Class schedule",
         "item-41": "Undergraduate",
@@ -136,7 +136,9 @@
       "menu-6": {
         "item-1": "Undergraduate",
         "item-2": "BA-60712100-Metallurgy",
-        "item-3": "BA 60710600 - Electrical Power Engineering (Power Supply)"
+        "item-3": "BA 60710600 - Electrical Power Engineering (Power Supply)",
+        "item-4": "BACHELOR’S EDUCATIONAL PROGRAM 60610200 – INFORMATION SYSTEMS AND TECHNOLOGIES (BY INDUSTRY)",
+        "item-5": "BA 60711300 – Metrology, standardization and product quality management (by industry)"
       },
       "menu-7": {
         "item-1": "Intermediate Examination, Mid-term Examination, Final Examination",
@@ -152,7 +154,9 @@
       "menu-9": {
         "item-1": "MASTER'S",
         "item-2": "MA 70712101 METALLURGY (Metallurgy (non-ferrous metals)",
-        "item-3": "MA 70710601- Power Supply (Industrial Enterprises and Cities)"
+        "item-3": "MA 70710601- Power Supply (Industrial Enterprises and Cities)",
+        "item-4": "MA 70711302 – Metrology, standardization and quality management",
+        "item-5": "MA 70711601 - Intelligent engineering systems (by branchs and sectors)"
       }
     },
     "search": "Search"
@@ -240,6 +244,6 @@
   "Magazines": {
     "item1": "“Social sciences and the humanities in the system of education"
   },
-  "telegram": "Our Telegram Channel"
+  "telegram": "The official telegram channel of the career center"
 
 }

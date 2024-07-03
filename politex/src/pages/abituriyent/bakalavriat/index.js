@@ -18,12 +18,13 @@ function BakalavriatAb() {
       behavior: "smooth",
     });
   }, []);
+
   return (
     <Layout>
       <CustomTitle
         name={t("header.header__bottom__nav__item__menu.menu-6.item-1")}
       />
-      <AbituriyentCard data={data?.data?.data} />
+      <AbituriyentCard data={data?.data?.data.reverse()} />
     </Layout>
   );
 }

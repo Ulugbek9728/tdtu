@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import Layout from "@/locales/en/layout/Layout";
 import {useTranslation} from "react-i18next";
 import CustomTitle from "@/components/custom_title";

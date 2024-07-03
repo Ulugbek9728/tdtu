@@ -4,10 +4,14 @@ import { Route, Routes } from "react-router-dom";
 import Bakalavriat from "@/pages/talabalar/bakalavriat";
 import Bakalavriat2 from "@/pages/talabalar/bakalavriat/bakalavr2";
 import Bakalavriat3 from "@/pages/talabalar/bakalavriat/bakalavr3";
+import Bakalavriat4 from "@/pages/talabalar/bakalavriat/Bakalavr4";
+import Bakalavriat5 from "@/pages/talabalar/bakalavriat/Bakalavr5";
 import BakalavriatId from "@/pages/talabalar/bakalavriat/_id";
 import Magistratura from "@/pages/talabalar/magistratura";
 import Magistratura2 from "@/pages/talabalar/magistratura/magistratura2";
 import Magistratura3 from "@/pages/talabalar/magistratura/magistratura3";
+import Magistratura4 from "@/pages/talabalar/magistratura/magistratura4";
+import Magistratura5 from "@/pages/talabalar/magistratura/magistratura5";
 import MagistraturaId from "@/pages/talabalar/magistratura/_id";
 import Kechki from "@/pages/talabalar/kechki";
 import KechkiId from "@/pages/talabalar/kechki/_id";
@@ -131,6 +135,7 @@ import B22 from "@/pages/tuzilma/bolimlar/B22";
 
 const Home = lazy(() => import("@/pages/Home"));
 
+
 function App() {
   const client = new QueryClient();
 
@@ -245,6 +250,13 @@ function App() {
         <Route path={"students/undergraduate3"}>
           <Route index element={<Bakalavriat3 />} />
         </Route>
+        <Route path={"students/undergraduate4"}>
+          <Route index element={<Bakalavriat4 />} />
+        </Route>
+        <Route path={"students/undergraduate5"}>
+          <Route index element={<Bakalavriat5 />} />
+        </Route>
+
         <Route path={"students/judiciary"}>
           <Route index element={<Magistratura />} />
           <Route path={":id"} element={<MagistraturaId />} />
@@ -255,6 +267,13 @@ function App() {
         <Route path={"students/judiciary3"}>
           <Route index element={<Magistratura3 />} />
         </Route>
+        <Route path={"students/judiciary4"}>
+          <Route index element={<Magistratura4 />} />
+        </Route>
+        <Route path={"students/judiciary5"}>
+          <Route index element={<Magistratura5 />} />
+        </Route>
+
         <Route path={"students/evening"}>
           <Route index element={<Kechki />} />
           <Route path={":id"} element={<KechkiId />} />
