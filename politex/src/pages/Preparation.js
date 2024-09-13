@@ -12,6 +12,7 @@ const Preparation = () => {
     queryFn: () => getPrepartion(),
   });
   const { t } = useTranslation();
+
   return (
     <Layout>
       <MoliyaviyFaoliatWrapper>
@@ -19,10 +20,10 @@ const Preparation = () => {
         <div style={{height:"90vh"}}
           className="container"
           dangerouslySetInnerHTML={{ __html: data?.data?.data?.[0].text }}
-          onClick={console.log({ __html: data?.data?.data?.[0].text })}
         />
 
 
+        
       </MoliyaviyFaoliatWrapper>
     </Layout>
   );

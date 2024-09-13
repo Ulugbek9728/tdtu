@@ -4,17 +4,18 @@ export const TalabaIdWrapper = styled.div`
   .container {
     .image-wrap {
       width: 100%;
-      height: 920px;
-      margin: 60px 0;
+      height: 500px;
+      margin: 20px 0;
 
       img {
         width: 100%;
         height: 100%;
+        object-fit: cover;
       }
     }
 
     .content-wrap {
-      font-family: 'Montserrat';
+      font-family: 'Montserrat',serif;
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
@@ -68,6 +69,4 @@ export const TalabaIdWrapper = styled.div`
       }
     }
   }
-
-
 `

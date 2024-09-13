@@ -27,7 +27,7 @@ function BakalavriatId() {
     return (
         <Layout>
             <CustomTitle
-                name={t("header.header__bottom__nav__item__menu.menu-4.item-1")}
+                name={data?.data?.data[0]?.title}
             />
             <TalabalarId data={data?.data?.data[0]}/>
             {data?.data?.data[0].imgs?.split(",")?.map((v, i, a) => (

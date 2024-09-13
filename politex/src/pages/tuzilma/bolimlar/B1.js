@@ -13,8 +13,10 @@ const B1 = () => {
     queryKey: ["bulim", 1],
     queryFn: () => getBulimId(1),
   });
+
   let datas = data?.data?.data[0];
   const { t } = useTranslation();
+
   return (
     <>
       <Layout>

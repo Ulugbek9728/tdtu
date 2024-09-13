@@ -9,6 +9,7 @@ import { NewsWrapper } from "./NewsWrapper";
 
 const News = () => {
   const { data } = useQuery("news-home", getHomeNews);
+
   const { t } = useTranslation();
   return (
     <>

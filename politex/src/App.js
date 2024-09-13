@@ -1,4 +1,4 @@
-import React, {lazy, Suspense, useEffect, useState} from "react";
+import React, {lazy, Suspense} from "react";
 import { Route, Routes } from "react-router-dom";
 // talabalar
 import Bakalavriat from "@/pages/talabalar/bakalavriat";
@@ -23,9 +23,9 @@ import Imtixonlar from "@/pages/talabalar/imtixonlar/imtixonlar";
 import Imtixonlar2 from "@/pages/talabalar/imtixonlar/imtixonlar2";
 import Imtixonlar3 from "@/pages/talabalar/imtixonlar/imtixonlar3";
 import Imtixonlar4 from "@/pages/talabalar/imtixonlar/imtixonlar4";
-import Sorovlar from "@/pages/talabalar/so\'rovlar/so\'rovlar";
-import Sorovlar1 from "@/pages/talabalar/so\'rovlar/sorovlar2";
-import Sorovlar2 from "@/pages/talabalar/so\'rovlar/sorovlar3";
+import Sorovlar from "@/pages/talabalar/so'rovlar/so'rovlar";
+import Sorovlar1 from "@/pages/talabalar/so'rovlar/sorovlar2";
+import Sorovlar2 from "@/pages/talabalar/so'rovlar/sorovlar3";
 
 // abituriyentlar
 import XorijiyFuqarolar from "@/pages/abituriyent/xorijiy_fuqarolar";
@@ -101,6 +101,10 @@ import B15 from "@/pages/tuzilma/bolimlar/B15";
 import B16 from "@/pages/tuzilma/bolimlar/B16";
 import B17 from "@/pages/tuzilma/bolimlar/B17";
 import B18 from "@/pages/tuzilma/bolimlar/B18";
+import B19 from "@/pages/tuzilma/bolimlar/B19";
+import B20 from "@/pages/tuzilma/bolimlar/B20";
+import B21 from "@/pages/tuzilma/bolimlar/B21";
+import B22 from "@/pages/tuzilma/bolimlar/B22";
 
 import F1 from "./pages/tuzilma/filiallar/F1";
 import F2 from "./pages/tuzilma/filiallar/F2";
@@ -122,14 +126,11 @@ import KorrupsiyagaOidHolatlar from "./pages/korrupsiyasiz_soha/korrupsiyaga_oid
 import Search from "./pages/Search";
 import Qabul from "./pages/Qabul";
 import Erasmus from "./pages/faoliyat/xalqaro_aloqalar/erasmus/erasmus";
-import B19 from "@/pages/tuzilma/bolimlar/B19";
 import Schedule from "@/pages/talabalar/schedule/schedule";
-import Test from "@/pages/talabalar/schedule/test";
-import B20 from "@/pages/tuzilma/bolimlar/B20";
+// import Test from "@/pages/talabalar/schedule/test";
 import Edu from "@/pages/talabalar/edu/edu";
-import B21 from "@/pages/tuzilma/bolimlar/B21";
 import Vacancies from "@/pages/talabalar/vacancies";
-import B22 from "@/pages/tuzilma/bolimlar/B22";
+import Preparation from "@/pages/Preparation";
 
 
 
@@ -231,8 +232,8 @@ function App() {
         <Route path={"/site-map"} element={<SiteMap />} />
 
 
-        {/*<Route path={"/preparation"} element={<Preparation />} />*/}
-        <Route path={"/preparation"} element={<Test />} />
+        <Route path={"/preparation"} element={<Preparation />} />
+        {/*<Route path={"/preparation"} element={<Test />} />*/}
 
         <Route path={"/students/vacancies"} element={<Vacancies />} />
         <Route path={"/students/schedule"} element={<Schedule />} />
