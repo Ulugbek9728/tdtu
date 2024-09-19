@@ -10,7 +10,6 @@
         "item-1": "Ilmiy Faoliyat",
         "item-2": "Elektron Kutubxona",
         "item-3": "Online translyatsiya"
-
       }
     },
     "header__bottom__nav": {
@@ -209,21 +208,21 @@
   "batafsil": "Batafsil",
   "barchasi": "Barchasini ko‘rish",
   "bitiruvchi": "Bizning bitiruvchilar",
-  "person":{
-    "Lavozimi":"Lavozimi",
-    "darajasi":"Ilmiy darajasi",
-    "vaqti":"Qabul vaqti",
-    "Telefon":"Telefon",
-    "mail":"E-mail"
+  "person": {
+    "Lavozimi": "Lavozimi",
+    "darajasi": "Ilmiy darajasi",
+    "vaqti": "Qabul vaqti",
+    "Telefon": "Telefon",
+    "mail": "E-mail"
   },
-  "lavhalar":"Foto lavhalar",
-  "faoliyat":"2+2 qo‘shma dastur",
-  "pochta":"Korporativ elektron pochta",
-  "Onlayn":"Onlayn kutubxona",
-  "shiori":"Universitet shiori",
-  "Boglanish":"Bog‘lanish",
-  "Grand":"Grand loyihalar",
-  "Hodimlar":"Xodimlar",
+  "lavhalar": "Foto lavhalar",
+  "faoliyat": "2+2 qo‘shma dastur",
+  "pochta": "Korporativ elektron pochta",
+  "Onlayn": "Onlayn kutubxona",
+  "shiori": "Universitet shiori",
+  "Boglanish": "Bog‘lanish",
+  "Grand": "Grand loyihalar",
+  "Hodimlar": "Xodimlar",
   "KafedraHaqida": "Kafedra haqida",
   "FakultetHaqida": "Fakultet haqida",
   "WeekDate": {
@@ -234,7 +233,7 @@
     "item5": "Juma",
     "item6": "Shanba"
   },
-  "DarsJadval":{
+  "DarsJadval": {
     "item1": "Kirish",
     "item2": "Chiqish",
     "item3": "Fan nomi",
@@ -244,6 +243,14 @@
   "Magazines": {
     "item1": "Ta'lim tizimida ijtimoiy-gumanitar fanlar"
   },
-
-  "telegram": "Karyera markazining rasmiy telegram kanali"
+  "telegram": "Karyera markazining rasmiy telegram kanali",
+  "spell": {
+    "modal": {
+      "title": "Xabar yuboruvchi",
+      "button": {
+        "cancel": "Bekor qilish",
+        "ok": "Yuborish"
+      }
+    }
+  }
 }
