@@ -1,6 +1,6 @@
 import CustomTitle from "@/components/custom_title";
 import {NewsIdWrapper} from "@/components/news/NewsPageWrapper";
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
@@ -28,13 +28,15 @@ const NewsId = () => {
             behavior: "smooth",
         });
     }, []);
+
     return (
         <Layout>
+
             <NewsIdWrapper>
                 <div className="container  mt-lg-5 mt-3">
                     <div className="content-news">
                         <div className="">
-                            <div className="text1">{data?.data?.data?.title} </div>
+                            <h1 className="text1">{data?.data?.data?.title} </h1>
 
                             <img
                                 className="fotoGlavni"
@@ -44,7 +46,6 @@ const NewsId = () => {
                         </div>
                         <Announcements/>
                     </div>
-
 
                     <p dangerouslySetInnerHTML={{__html: data?.data?.data?.text1}}/>
                 </div>

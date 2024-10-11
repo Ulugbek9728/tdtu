@@ -246,6 +246,14 @@
   "Magazines": {
     "item1": "“Social sciences and the humanities in the system of education"
   },
-  "telegram": "The official telegram channel of the career center"
-
+  "telegram": "The official telegram channel of the career center",
+  "spell": {
+    "modal": {
+      "title": "Xabar yuboruvchi",
+      "button": {
+        "cancel": "Bekor qilish",
+        "ok": "Yuborish"
+      }
+    }
+  }
 }

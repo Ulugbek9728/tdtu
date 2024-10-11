@@ -246,5 +246,14 @@
   "Magazines": {
     "item1": "Социально-гуманитарные науки в системе образования"
   },
-  "telegram": "Официальный телеграм-канал центра карьеры"
+  "telegram": "Официальный телеграм-канал центра карьеры",
+  "spell": {
+    "modal": {
+      "title": "Xabar yuboruvchi",
+      "button": {
+        "cancel": "Bekor qilish",
+        "ok": "Yuborish"
+      }
+    }
+  }
 }
