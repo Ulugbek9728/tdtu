@@ -7,6 +7,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";
 import bg from "@/assets/bolimlar/TalimSifati.jpg";
+import VideoCarusel from "@/components/footer/VideoCarusel";
 
 const B10 = () => {
     const { data } = useQuery({
@@ -40,7 +41,9 @@ const B10 = () => {
                 <CustomTitle name={""} />
                 <div className="container">
                     <div dangerouslySetInnerHTML={{ __html: datas?.text }} />
+
                 </div>
+                <VideoCarusel/>
             </Layout>
         </>
     );

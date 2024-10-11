@@ -24,6 +24,7 @@ export const UsefulLinksWrapper = styled.div`
   .swiper-slide {
     padding: 10px 15px;
   }
+  
   .box-useful {
     width: 100%;
     height: 200px;
@@ -50,6 +51,22 @@ export const UsefulLinksWrapper = styled.div`
       text-transform: uppercase;
       color: #37363c;
       text-align: center;
+    }
+  }
+  .box-useful-video{
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      width: 100%;
+      height: 100%;
     }
   }
   .swiper-pagination-bullets {
