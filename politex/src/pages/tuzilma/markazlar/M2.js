@@ -170,7 +170,7 @@ const M2 = () => {
               {data1.map((v, i) => (
                   <div key={v.id} className="box-hodimlar">
                     <img
-                        src={( v.img)}
+                        src={(v.img)}
                         alt=""
                     />
                     <div className="text-box">
