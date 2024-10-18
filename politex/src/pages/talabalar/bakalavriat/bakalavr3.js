@@ -245,104 +245,105 @@ function Bakalavr3(props) {
                         <td width="536">
                             <p><strong>Handbooks</strong></p>
                             <strong>
-                                <ul style={{listStyle: "none"}}>
+                                <ul>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/brkg9UEu1ng93QDbfueM.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/qvKchgKnyC1HIiA995FW.pdf">
                                             UZBEK (RUSSIAN) LANGUAGE
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/CMDqxqyV1kMl85z5G2pN.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/w4EV01qdvUnlvtoep5mo.pdf">
                                             UZBEK (RUSSIAN) LANGUAGE
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/62qUDuR0OsfV50krMTKY.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/IBeuM6d98HOgxtXAsGnS.pdf">
                                             PHYSICAL EDUCATION AND SPORTS
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/LT6vrxeMoor2js3PoYPs.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/CqMXhWRG0dau6XbNWJ04.pdf">
                                             CHEMISTRY
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/E91ZatUMml2CXHgHJKFd.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/ewviq9oHElQKkDZuFEL1.pdf">
                                             FOREIGN LANGUAGE </a></li>
                                     <li><a style={{color: "blue"}}
                                            href="http://test.tdtu.uz/storage/pages/July2023/N7l45HSEZdxjEKLGdDq9.pdf">
                                         PHYSICS</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/pUDAFOC5Ka5pnGdWcCwy.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/OoDtmeiTpFnxQiRtD4KR.pdf">
                                         HIGHER MATHEMATICS</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/XDBfxoZntZH166y9yQFu.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/X0DaKOSd0eaKXNnHYYeF.pdf">
                                         CONTEMPORARY HISTORY OF UZBEKISTAN</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/pRtrdN5sMcSAExhnnr69.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/UZZFF6VO3EFeFQBSUVi4.pdf">
                                         INFORMATION TECHNOLOGY IN TECHNICAL SYSTEMS</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/mpZxNM5VfUoLSSfAvHM0.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/DpdcPFYjvAHMp9xtUmJY.pdf">
                                         ENGINEERING AND COMPUTER GRAPHICS</a></li>
                                     <li><a style={{color: "blue"}}
                                            href="http://test.tdtu.uz/storage/pages/July2023/nb8q2peNJuxHM2f28TCU.pdf">
                                         METROLOGY AND STANDARDIZATION</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/adbLzXkakCCg2tLdB0H5.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/ueE2zIz3GjfxhYzRP9zM.pdf">
                                         FIELD OF ECONOMICS AND MANAGEMENT</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/dCPoMfsYz4TL5YzH47qL.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/GWsRkrKJLSGdQiBemIyo.pdf">
                                         PHILOSOPHY</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/Qv0WZdptlH5eCa9mCuBE.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/QC6yLfYLRzkS6TSRIbmc.pdf">
                                         ECOLOGY </a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/NWUd7qZ42wwNPgY4vjZ2.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/dE6lU1FhhboowOVCvC42.pdf">
                                         SAFETY IN LIFE ACTIVITIES</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/S8ug9tirYJR7xlFpN1oh.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/4jHYHuuxiE8nMYZeU3my.pdf">
+                                        MECHANICS (THEORETICAL AND APPLIED)</a></li>
+                                    <li><a style={{color: "blue"}}
+                                           href="http://test.tdtu.uz/storage/pages/October2024/JRHo9wIbThXgwcblUyAn.pdf">
                                         THEORETICAL ELECTROTECHNICS</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/g91NGs1b0USN4gkzgWAD.pdf">
-                                        COMPUTATIONAL TECHNIQUES FOR ENERGY SYSTEMS</a></li>
+                                           href="http://test.tdtu.uz/storage/pages/October2024/pDCOIx0xlbzMDg1tinHC.pdf">
+                                        THERMAL TECHNIQUES AND HYDROPOWER</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/qDCZSIm9uSWT9VWwZVm4.pdf">
-                                        ELECTRONICS</a></li>
-                                    <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/uldx0ja5rPN0xY3YSoSR.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/XgF2NszeEfgud6rbPDmX.pdf">
                                         INTRODUCTION TO THE DISCIPLINE</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/BItyhDiuUvFzaYGs27Id.pdf">
-                                        ENERGY MANAGEMENT</a></li>
-                                    <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/g4EFojeMGz6VDAJTfEmo.pdf">
-                                        ELECTROTECHNOLOGICAL INSTALLATIONS</a></li>
-                                    <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/EIai2yKrb0Kv9c9Uts3A.pdf">
-                                        ELECTRICAL NETWORKS AND SYSTEMS</a></li>
-                                    <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/E8heRkfbsuAZfSrzebFX.pdf">
-                                        RELAY PROTECTION</a></li>
-                                    <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/irASPkWFY6rqs24zbMuD.pdf">
-                                        ELECTRICAL SAFETY AND RELIABILITY </a></li>
-                                    <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/UC6z1y2edgWKwRzORURQ.pdf">
-                                        ELECTRIC MACHINES</a></li>
-                                    <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/EWvX8UBdkymSfcpEGy8L.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/EiVUo2RSA6AmHysgod1S.pdf">
                                         THE POWER SUPPLY OF INDUSTRIAL ENTERPRISES</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/GwgRH1ZFyNQ83VFKEn1x.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/hW7p6smPSp9jgPi1gv0k.pdf">
                                         CITY POWER SUPPLY</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/0kHtsTmv5EQQO4vE5WaV.pdf">
-                                        MECHANICS (THEORETICAL AND APPLIED)</a></li>
+                                           href="http://test.tdtu.uz/storage/pages/October2024/IsNxSnkSe0jn2bhJVKkL.pdf">
+                                        ENERGY MANAGEMENT</a></li>
+                                    <li><a style={{color: "blue"}}
+                                           href="http://test.tdtu.uz/storage/pages/October2024/YCLhsqSiMG8PfLzRITUj.pdf">
+                                        ELECTRICAL SAFETY AND RELIABILITY</a></li>
+                                    <li><a style={{color: "blue"}}
+                                           href="http://test.tdtu.uz/storage/pages/October2024/Sdc19IwYw2Fo5VWsPTpE.pdf">
+                                        INSTALLATION AND OPERATION OF ELECTRICAL POWER
+                                        SYSTEMS </a></li>
+                                    <li><a style={{color: "blue"}}
+                                           href="http://test.tdtu.uz/storage/pages/October2024/mtL8kjfmLvdQcez1iyXE.pdf">
+                                        RELAY PROTECTION</a></li>
+                                    <li><a style={{color: "blue"}}
+                                           href="http://test.tdtu.uz/storage/pages/October2024/Ovk5jKUufXkS1DyrJqOg.pdf">
+                                        ELECTRICAL NETWORKS AND SYSTEMS</a></li>
+                                    <li><a style={{color: "blue"}}
+                                           href="http://test.tdtu.uz/storage/pages/October2024/Ovk5jKUufXkS1DyrJqOg.pdf">
+                                        ELECTRICAL NETWORKS AND SYSTEMS</a></li>
+                                    <li><a style={{color: "blue"}}
+                                           href="http://test.tdtu.uz/storage/pages/October2024/pXiAVIVeDThGWw2YFBUJ.pdf">
+                                        ELECTRIC MACHINES</a></li>
                                 </ul>
                             </strong>
 
@@ -350,106 +351,77 @@ function Bakalavr3(props) {
                         <td width="599">
                             <p><strong>Handbooks</strong></p>
                             <strong>
-                                <ul style={{listStyle: "none"}}>
+                                <ul>
                                     <li>
-                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/July2023/Rl6e9LBO6wfAjf9rJBBS.pdf">
+                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/GGcpdXYKprW7xfZkSvbH.pdf">
                                             ENGINEERING PSYCHOLOGY
                                         </a>
                                     </li>
                                     <li>
-                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/July2023/we2maOUo6W5pZuOWOZGN.pdf">
+                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/ktnlacMcu7kyQzTQJo7e.pdf">
                                             GENERAL PEDAGOGY
                                         </a>
                                     </li>
                                     <li>
-                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/July2023/wSqCbjq7KvqrxMPTg9nn.pdf">
+                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/NNyTrNdtRijej52HZYVg.pdf">
                                             ENERGY EQUIPMENT (ALTERNATIVE)
                                         </a>
                                     </li>
                                     <li>
-                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/July2023/xjSL1LZy3Yo2jMj9Dm7X.pdf">
+                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/4gxI7nqJ6cOb46t0Ycn1.pdf">
                                             RENEWABLE ENERGY SOURCES
                                         </a>
                                     </li>
                                     <li>
-                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/July2023/BNQA7KUkHgFeDjs26tZv.pdf">
+                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/wCIZjAlkoud4ZOsDOtxh.pdf">
                                             ELECTRICAL MACHINE DESIGN
                                         </a>
                                     </li>
                                     <li>
-                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/July2023/GfDdG5vqSh2ZYkxlUncg.pdf">
+                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/10AddlBQgDFKVjAUm5Iy.pdf">
                                             INSTALLATION AND OPERATION OF ELECTRICAL POWER
                                             SYSTEMS
                                         </a>
                                     </li>
                                     <li>
-                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/July2023/BzwNoA6TFKFkOfrWnJYI.pdf">
+                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/Co1rAFnVdtw5OhGyRWbN.pdf">
                                             ELECTRICAL LIGHTING
                                         </a>
                                     </li>
                                     <li>
-                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/July2023/cWqBCxH5QQeHuLndrUI4.pdf">
+                                        <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/nZ1fKxUPYcq1LqcVV4fe.pdf">
                                             LIGHTING TECHNIQUE
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/NNRJU9f517p2Fp9OVMU8.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/Rj6FcToAo4UMdQMM3aQx.pdf">
                                             OVERVOLTAGE AND INSULATION
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/fSqyGS00e8zzUukCp2IX.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/1WbGm5tvOTYlgGtvFr6a.pdf">
                                             AUTOMATED SYSTEMS OF ELECTRICITY CONSUMPTION
                                             ACCOUNTING AND CONTROL
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/UMTXFvA6CHAOEMxcCwnR.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/YdsUU08LHT37553N7HBF.pdf">
                                             DIGITAL POWER SYSTEMS
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/APU5RIf0BNQxthbQToLF.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/n8d5dzecdY8Bu0oLwoGR.pdf">
                                             THE ELECTRIC PART OF THE STATION AND SUBSTATION
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/jajgfwpCuRPRaNovocjh.pdf">
+                                           href="http://test.tdtu.uz/storage/pages/October2024/a1FdfUlaJrPf4pLG8o27.pdf">
                                             THERMAL ENERGY DEVICES
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/BXv34LkQAzIcnTHatBhb.pdf">
-                                            FINAL STATE ATTESTATION
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/jdLfx2oqVJXblKLAWcpM.pdf">
-                                            THE PROGRAM FOR PERFORMING AND
-                                            DEFENDING THE GRADUATE THESIS
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/aa5BTNOMsXdga0VKuL2v.pdf">
-                                            Electric power
-                                            (by networks and directions) of the department " Electrical supply " is prepared for
-                                            students of the 1st, 2nd and 3rd year of education
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color:"blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/July2023/vhKMw1gMmRoCM2ZXHypv.pdf">
-                                            Electric power (by networks and directions) of the
-                                            "Power supply" department , 4th year
-                                            students
                                         </a>
                                     </li>
                                 </ul>
