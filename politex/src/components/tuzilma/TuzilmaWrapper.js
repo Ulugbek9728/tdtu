@@ -223,7 +223,7 @@ export const HodimlarWrapper = styled.div`
   .card-news {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 70px;
+    gap: 30px;
   }
   .box-hodimlar {
     display: flex;
@@ -247,8 +247,8 @@ export const HodimlarWrapper = styled.div`
         font-family: "Montserrat";
         font-style: normal;
         font-weight: 500;
-        font-size: 26px;
-        line-height: 130%;
+        font-size: 24px;
+        line-height: 120%;
         color: #37363c;
         &:not(:first-child) {
           margin-top: 15px;

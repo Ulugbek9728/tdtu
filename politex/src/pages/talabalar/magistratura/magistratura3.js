@@ -200,9 +200,10 @@ function Magistratura3(props) {
                             <p>
                                 <strong>
                                     <a style={{color: 'blue'}}
-                                       href="https://test.tdtu.uz/storage/pages/July2023/G58gUTQwjZ1u6Q5QjImN.pdf">
-                                        Curriculum for master’s EP MA 70710601- Power Supply
-                                        (Industrial Enterprises and Cities)
+                                       href="https://test.tdtu.uz/storage/pages/October2024/BzBg2HE0Y3c1DvL37COP.pdf">
+                                        Curriculum for master’s of Educational program MA 70710601 - Power Supply
+                                        (Industrial
+                                        Enterprises and Cities)
                                     </a>
                                 </strong>
                             </p>
@@ -215,10 +216,10 @@ function Magistratura3(props) {
                         </td>
                         <td colSpan="3" width="1134">
                             <p><strong>
-                                <a href="https://test.tdtu.uz/storage/pages/July2023/dc6MQk8jRQRGjfpBogxJ.pdf"
+                                <a href="https://test.tdtu.uz/storage/pages/October2024/TgxSe6OBVRvaufQ2kw0K.pdf"
                                    style={{color: "blue"}}>
                                     Learning Outcome Matrix –Modules to EP MA 70710601 - Power Supply (Industrial
-                                    Enterprises and Cities
+                                    Enterprises and Cities)
                                 </a>
                             </strong></p>
                         </td>
@@ -257,21 +258,21 @@ function Magistratura3(props) {
                                 <ul style={{listStyle: "none"}}>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/Tg2sOK16yRfgRfugv3ex.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/vwMw5wleaOiYicTMGA3H.pdf"
                                         >
                                             SCIENTIFIC RESEARCH METHODOLOGY
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/xhjNkdewUK4kIkarTjnk.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/kw5vNeqSVwJ12y7AzwDD.pdf"
                                         >
-                                            APPLIED FOREIGN LANGUAGE
+                                            INTELLECTUAL POWER SUPPLY SYSTEMS
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/CbbHRrrG1ndERAkHnnP1.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/hYHnp3sxpiv2d6QvXtgT.pdf"
                                         >
                                             RELAY PROTECTION AND AUTOMATION OF THE POWER
                                             SUPPLY SYSTEM
@@ -279,37 +280,31 @@ function Magistratura3(props) {
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href=""
-                                        >
-
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/RpBMdcqIsr82pyRZT038.pdf"
-                                        >
-                                            QUALITY INDICATORS OF ELECTRICAL ENERGY
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/Q31gFiXPn96h7UvVQIxs.pdf"
-                                        >
-                                            ENERGY AUDIT METHODS AND EQUIPMENT
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/uQChm3AC2y8aUgTjsjv2.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/zMdTr0N7gPMdM39dftPa.pdf"
                                         >
                                             REACTIVE POWER COMPENSATION
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/W21Kzl1CFoCNKCDIVorp.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/l59xTB3WwRRZhEbLaon8.pdf"
                                         >
-                                            THEORY OF AUTOMATIC CONTROL AND REGULATION
+                                            ENERGY AUDIT METHODS AND EQUIPMENT
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/October2024/KRi3y8Hh5AQYns1x3haZ.pdf"
+                                        >
+                                            QUALITY INDICATORS OF ELECTRICAL ENERGY
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/October2024/IIzgyfIwMGPcobEhQG8l.pdf"
+                                        >
+                                            METHODS OF CALCULATING ELECTRICAL LOADS FOR
+                                            INDUSTRIAL ENTERPRISES AND URBAN CONSUMERS
                                         </a>
                                     </li>
                                 </ul>
@@ -321,7 +316,15 @@ function Magistratura3(props) {
                                 <ul style={{listStyle: "none"}}>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/9A52tMOyBvnxlbYNCSbY.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/kZuvhJcYcy63DXzqmw15.pdf"
+                                        >
+                                            ENERGY EFFICIENCY IN THE ELECTRIC POWER SUPPLY
+                                            SYSTEM
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/October2024/8ZNx9t45GturC6tbUK0l.pdf"
                                         >
                                             RATIONAL USE OF ENERGY AND REGULATION OF
                                             ELECTRICITY CONSUMPTION
@@ -329,26 +332,16 @@ function Magistratura3(props) {
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/NtIAtTUmZmf1rvZAs3Rh.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/Sp66tFSBAJ9L8aPAC6vA.pdf"
                                         >
-                                            OPTIMIZATION AND MANAGEMENT IN THE ELECTRIC
-                                            POWER SUPPLY SYSTEM
+                                            REVERSE ENGINEERING
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/Q7uV48c3V7oK1ZFmV2wN.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/IZB8dUNCQQjftjCxyjsZ.pdf"
                                         >
-                                            METHODS OF CALCULATING ELECTRICAL LOADS FOR
-                                            INDUSTRIAL ENTERPRISES AND URBAN CONSUMERS
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/dCLQzng9tmV6BAmRAOCs.pdf"
-                                        >
-                                            DESIGN THE ELECTRICAL SUPPLY FOR INDUSTRIAL
-                                            ENTERPRISES AND CITIES
+                                            THEORY OF AUTOMATIC CONTROL AND REGULATION
                                         </a>
                                     </li>
                                 </ul>
@@ -360,29 +353,21 @@ function Magistratura3(props) {
                                 <ul style={{listStyle: "none"}}>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/D90b4mJnh4mDnUiUL0TC.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/CLZTVfGXIMnz3V37u301.pdf"
                                         >
-                                            "Preparation and defense of scientific research
-                                            work and master's thesis" and "Scientific pedagogical work" of
-                                            the students of the master's specialty of Power Supply
-                                            (Industrial Enterprises and Cities)
+                                            70710601 – Power supply (industrial enterprises and cities) and
+                                            70710407 – Power supply master's specialty "Preparation and
+                                            defense of scientific research work and master's thesis" and
+                                            "Scientific pedagogical work"
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/XgqQMlTM6SOBtHDa2Kcp.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/1lHmKDOMcMQ3mXTAUnNA.pdf"
                                         >
-                                            "Preparation and defense of scientific research
-                                            work and master's thesis" and "Scientific pedagogical work" of
-                                            the students of the master's specialty of Power Supply
-                                            (Industrial Enterprises and Cities)
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/OjKObArk5fuQZMxaHeOK.pdf"
-                                        >
-                                            SCIENTIFIC PRACTICE PROGRAM
+                                            70710601 - Power Supply (Industrial Enterprises and Cities) specialty
+                                            It is designed for the 2nd year master's students of the "Electrical supply"
+                                            department
                                         </a>
                                     </li>
                                 </ul>

@@ -56,28 +56,11 @@ const B22 = () => {
                 <HodimlarWrapper>
                     <div className="news-head">
                         <div className="container">
-                            <p>{t("Hodimlar")}</p>
+                            <p>{t("header.header__bottom__nav__item__menu.menu-2.item-3")}</p>
                         </div>
                     </div>
                     <div className="container">
                         <div className="card-news">
-                                <div key={department1?.id} className="box-hodimlar">
-                                    <img src={(imgUrl+department1?.director_img)} alt=""/>
-                                    <div className="text-box">
-                                        <p className="bold">
-                                            {department1?.directorname}
-                                        </p>
-                                        <p>
-                                            <span className="bold">{t("person.Lavozimi")}</span> {department1?.position}
-                                        </p>
-                                        <p>
-                                            <span className="bold">{t("person.Telefon")}</span> {department1?.phone}
-                                        </p>
-                                        <p>
-                                            <span className="bold">{t("person.mail")} </span> {datas?.email}
-                                        </p>
-                                    </div>
-                                </div>
                             <div key={department2?.id} className="box-hodimlar">
                                 <img src={(imgUrl+department2?.director_img)} alt=""/>
                                 <div className="text-box">
@@ -88,6 +71,9 @@ const B22 = () => {
                                         <span className="bold">{t("person.Lavozimi")}</span> {department2?.position}
                                     </p>
                                     <p>
+                                        <span className="bold">{t("person.darajasi")}</span> {department2?.degree}
+                                    </p>
+                                    <p>
                                         <span className="bold">{t("person.Telefon")}</span> {department2?.phone}
                                     </p>
                                     <p>
@@ -95,6 +81,26 @@ const B22 = () => {
                                     </p>
                                 </div>
                             </div>
+                            <div key={department1?.id} className="box-hodimlar">
+                                    <img src={(imgUrl+department1?.director_img)} alt=""/>
+                                    <div className="text-box">
+                                        <p className="bold">
+                                            {department1?.directorname}
+                                        </p>
+                                        <p>
+                                            <span className="bold">{t("person.Lavozimi")}</span> {department1?.position}
+                                        </p>
+                                        <p>
+                                            <span className="bold">{t("person.darajasi")}</span> {department1?.degree}
+                                        </p>
+                                        <p>
+                                            <span className="bold">{t("person.Telefon")}</span> {department1?.phone}
+                                        </p>
+                                        <p>
+                                            <span className="bold">{t("person.mail")} </span> {department1?.email}
+                                        </p>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </HodimlarWrapper>

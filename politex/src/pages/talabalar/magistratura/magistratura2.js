@@ -23,8 +23,7 @@ function Magistratura2(props) {
                     <tbody>
                     <tr>
                         <td colSpan="4" width="1346">
-                            <p>
-                                <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MASTER&rsquo;S
+                            <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MASTER&rsquo;S
                                     EDUCATIONAL PROGRAM </strong><strong>MA 70712101-METALLURGY (NON-FERROUS
                                 METALS)</strong></p>
                         </td>
@@ -191,16 +190,16 @@ function Magistratura2(props) {
                     </tr>
                     <tr>
                         <td width="212">
-                            <p><strong>Curriculum for master&rsquo;s </strong><strong>EP </strong><strong>MA
-                                70712101-METALLURGY (NON-FERROUS METALS)</strong></p>
+                            <p><strong>Curriculum for master’s of Educational program MA 70712101-Metallurgy (non-ferrous
+                                metals)</strong></p>
                             <p><strong>&nbsp;</strong></p>
                         </td>
                         <td colSpan="3" width="1134">
                             <p><strong>
                                 <a style={{color: 'blue'}}
-                                   href="https://test.tdtu.uz/storage/pages/July2023/hggxty9ghltm6uAisDvZ.pdf"
+                                   href="https://test.tdtu.uz/storage/pages/October2024/9Y8fxzyDEhSJIXDX0tw1.pdf"
                                 >
-                                    Curriculum for master's EP MA 70712101-Metallurgy (non-ferrous metals)
+                                    Curriculum for master’s of Educational program MA 70712101-Metallurgy (non-ferrous metals)
                                 </a>
                             </strong></p>
                         </td>
@@ -214,7 +213,7 @@ function Magistratura2(props) {
                         <td colSpan="3" width="1134">
                             <p><strong>
                                 <a style={{color: 'blue'}}
-                                   href="https://test.tdtu.uz/storage/pages/July2023/Ce6ZuEWaZXErhF9SNDiW.pdf">
+                                   href="https://test.tdtu.uz/storage/pages/October2024/3EeC7n2OYNlbIQiR2ZQG.pdf">
                                     Learning Outcomes Matrix – Modules to EP MA 70712101 - Metallurgy (non-ferrous
                                     metals)
                                 </a>
@@ -252,24 +251,24 @@ function Magistratura2(props) {
                         <td width="461">
                             <p><strong>Handbooks</strong></p>
                             <strong>
-                                <ul style={{listStyle: "none"}}>
+                                <ul >
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/gocMiauSVwbtNzQkGjhx.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/v0iyJwC5Zq0VcpCcs8CX.pdf"
                                         >
                                             PRACTICAL FOREIGN LANGUAGE
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/WNHyHyyRsxbXzYBNmsJm.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/5nvUzF7o3IGdbWSPYxyZ.pdf"
                                         >
                                             NEW TECHNOLOGIES IN NON-FERROUS METALLURGY
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/78y8x0zkSmFZuX6LrgkX.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/eUpqjnIcks1SpCyysywS.pdf"
                                         >
                                             THERMODYNAMICS AND KINETICS OF METALLURGICAL
                                             PROCESSES
@@ -277,32 +276,30 @@ function Magistratura2(props) {
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/OBQ5pkzf4A5jWaxxBbEW.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/0DY97tOfgPIEO83bch9P.pdf"
+                                        >
+                                            TEACHING METHODS OF SPECIAL SUBJECTS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color: "blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/October2024/MnbaHNf612K6bEt9ucES.pdf"
                                         >
                                             METHODOLOGY OF SCIENTIFIC RESEARCH
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/DMkE0DZ0VsBuqTnoMJMg.pdf"
+                                           href="https://test.tdtu.uz/storage/pages/October2024/v1LFZ8yrmHgOGgi0njJl.pdf"
                                         >
-                                            METHODOLOGY OF TEACHING SPECIAL SUBJECTS
+                                            TECHNOLOGICAL PROCESSES OF RECYCLING NONFERROUS METAL ORES
+
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/xuj3RkBH771V6qOQ2Au4.pdf"
-                                        >
-                                            TECHNOLOGICAL PROCESSES OF RECYCLING NON-
-                                            FERROUS METAL ORES
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color: "blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/UhtZ76jPDEvKSatwEKaf.pdf"
-                                        >
-                                            TECHNOLOGIES FOR THE PROCESSING OF INDUSTRIAL
-                                            WASTE
+                                           href="https://test.tdtu.uz/storage/pages/October2024/Wa7KMMASQjxKa9ooF8xJ.pdf">
+                                            TECHNOLOGIES FOR THE PROCESSING OF INDUSTRIAL WASTE
                                         </a>
                                     </li>
                                 </ul>
@@ -311,44 +308,42 @@ function Magistratura2(props) {
                         <td width="413">
                             <p><strong>Handbooks</strong></p>
                             <strong>
-                                <ul style={{listStyle: "none"}}>
+                                <ul >
                                     <li>
                                         <a style={{color: 'blue'}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/dIEpEcfFH4qBu4j95Nzc.pdf">
+                                           href="https://test.tdtu.uz/storage/pages/October2024/Au6skLyFUsLFuhoiC9HX.pdf">
                                             DESIGN OF NON-FERROUS METALLURGICAL
                                             ENTERPRISES
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: 'blue'}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/HWRl1Cm1yTy737IZFVF3.pdf">
+                                           href="https://test.tdtu.uz/storage/pages/October2024/AaNpqdeP8ZIQTqZW9j2Y.pdf">
                                             REDUCTION PROCESSES IN NON-FERROUS METALLURGY
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: 'blue'}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/or3NRag8UwH4EHtOnpQH.pdf">
-                                            ENVIRONMENTAL PROBLEMS OF METALLURGICAL
-                                            INDUSTRY
+                                           href="https://test.tdtu.uz/storage/pages/October2024/nzRqunFHC6FhugmxgxHt.pdf">
+                                            ECOLOGICAL PROBLEMS OF METALLURGICAL INDUSTRY
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: 'blue'}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/B8z1HMSmJTColTY30t8e.pdf">
-                                            WASTE-FREE TECHNOLOGIES IN NON-FERROUS
-                                            METALLURGY
+                                           href="https://test.tdtu.uz/storage/pages/October2024/vxBSPiVtQLcKaFeOTs4L.pdf">
+                                            PROBLEMS AND INNOVATIONS IN THE TECHNOLOGICAL
+                                            CHAIN OF THE MINERAL RESOURCE BASE
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: 'blue'}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/PFpbEbS1BVrHYf16PNuB.pdf">
-                                            PROCESSING OF EXPERIMENTAL RESULTS AND THEIR
-                                            FORMULATION
+                                           href="https://test.tdtu.uz/storage/pages/October2024/iEy3dMWO18tguXjGeHGH.pdf">
+                                            REVERSE ENGEENERING
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color: 'blue'}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/clm2RDnZXHkIrNNtaNr5.pdf">
+                                           href="https://test.tdtu.uz/storage/pages/October2024/JCOTv2d31Els4BI4Vmoz.pdf">
                                             AUTOGENOUS PROCESSES IN NON-FERROUS
                                             METALLURGY
                                         </a>
@@ -359,29 +354,29 @@ function Magistratura2(props) {
                         <td width="260">
                             <p><strong>Handbooks</strong></p>
                             <strong>
-                                <ul style={{listStyle:"none"}}>
+                                <ul>
                                     <li>
                                         <a style={{color:"blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/XQzHBBRdL9HbBbI5LNMO.pdf">
-                                            “Metallurgy” (non-ferrous metals) direction
+                                           href="https://test.tdtu.uz/storage/pages/October2024/enmItRQf53fwBkboOeHj.pdf">
+                                            70712101 – "Preparation and defense of scientific research
+                                            work and master's thesis" and "Scientific pedagogical work" of
+                                            students of metallurgy (non-ferrous metals)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color:"blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/October2024/TOqdrWDIlsbfaydq0X7W.pdf">
+                                            70712101 – "Preparation and defense of scientific research
+                                            work and master's thesis" and "Scientific pedagogical work" of
+                                            students of metallurgy (non-ferrous metals) 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style={{color:"blue"}}
+                                           href="https://test.tdtu.uz/storage/pages/October2024/LuN2WW7GTLUWaGDM9PPq.pdf">
+                                            70712101 - “Metallurgy” (non-ferrous metals)direction
                                             Scientific practice for 2nd-year magistracies
-                                            PROGRAM
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color:"blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/i4hgDqTA2D92x2aq9iRi.pdf">
-                                            "Preparation and defense of scientific research
-                                            work and master's thesis" and "Scientific pedagogical work" of
-                                            students of metallurgy (non-ferrous metals)
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a style={{color:"blue"}}
-                                           href="https://test.tdtu.uz/storage/pages/July2023/0t3DWH7tan0pcr011wdP.pdf">
-                                            "Preparation and defense of scientific research
-                                            work and master's thesis" and "Scientific pedagogical work" of
-                                            students of metallurgy (non-ferrous metals)
+
                                         </a>
                                     </li>
                                 </ul>
