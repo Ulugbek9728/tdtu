@@ -10,7 +10,6 @@
         "item-1": "Scientific Activity",
         "item-2": "Electronic Library",
         "item-3": "Live stream"
-
       }
     },
     "header__bottom__nav": {
@@ -115,8 +114,7 @@
         "item-19": "DEPARTMENT OF Chairman of the Women's Advisory Council",
         "item-20": "Activities of Scientific research department",
         "item-21": "Department of research, innovation, and training of scientific and pedagogical personnel",
-        "item-22": "Academic activity and registrar's department"
-
+        "item-22": "Registrar's Office"
       },
       "menu-3": {
         "item-1": "Almalik branch of Islam Karimov Tashkent State Technical University",
@@ -199,7 +197,9 @@
     "Tashrif": "Address:",
     "Qabul": "Admission",
     "Contact": "Help line:",
-    "Ijtimoiy": "We in social networks"
+    "Ijtimoiy": "We in social networks",
+    "MahoratDarslik": "Master class"
+
   },
   "bayrog1": "State flag of the Republic of Uzbekistan",
   "bayrog": " The law about “The State Flag of the Republic of Uzbekistan” was adopted on November 18 in 1991 in the 8th session of the Supreme Council of Uzbekistan. <br /> <br /> The flag of our country is a symbol of the sovereignty of the Republic. The national flag of the Republic represents the country internationally when official delegations from Uzbekistan visit foreign countries, as well as at conferences, world exhibition, and sports competitions. <br /> <br /> The national flag of the Republic is a right-angled colored cloth of three horizontal stripes: blue, white and green. <br /> <br /> Blue is the symbol of the sky and water, which are the main source of life. Mainly, blue was the color of the state flag of Temur. <br /> <br /> White is the traditional symbol of peace and good luck, as Uzbek people say “Ok yul”. <br /> <br /> <b className='text-green-900'>Green</b> is the color of nature and new life and good harvest. <br /> <br /> Two thin <b className='text-red-900'>red</b> stripes symbolize the power of life. <br /> <br /> There is a new moon, which symbolizes the newly independent Republic. <br /> <br /> There are twelve stars, which stand for spiritual sign. The stars also signify the historical traditions of the Uzbek people, as well as ancient solar calendar. A particular attention to twelve stars in the flag is explained yet by another suggestion, that in the states previously existed in the territory of modern Uzbekistan the scientific thought as “Astrology” had seen its rise. The stars in the Uzbek flag also point to the ancient roots of local culture, the aspirations of Uzbek people towards perfection and loyalty.",

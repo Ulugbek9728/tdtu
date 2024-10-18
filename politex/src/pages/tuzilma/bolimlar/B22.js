@@ -7,13 +7,29 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";
 import bg from "@/assets/bolimlar/callcenter.jpg";
+import {HodimlarWrapper} from "@/components/tuzilma/TuzilmaWrapper";
+
+import { imgUrl } from "@/api/general";
+
 
 const B22 = () => {
     const { data } = useQuery({
+        queryKey: ["bulim", 34],
+        queryFn: () => getBulimId(34),
+    });
+    let datas = data?.data?.data[0];
+
+    const  departmentInfo2  = useQuery({
+        queryKey: ["bulim", 33],
+        queryFn: () => getBulimId(33),
+    });
+    let department2 = departmentInfo2?.data?.data?.data[0]
+
+    const  departmentInfo1  = useQuery({
         queryKey: ["bulim", 32],
         queryFn: () => getBulimId(32),
     });
-    let datas = data?.data?.data[0];
+    let department1 = departmentInfo1?.data?.data?.data[0]
     const { t } = useTranslation();
 
     return (
@@ -37,6 +53,51 @@ const B22 = () => {
                         phone={datas?.phone}
                     />
                 </div>
+                <HodimlarWrapper>
+                    <div className="news-head">
+                        <div className="container">
+                            <p>{t("Hodimlar")}</p>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <div className="card-news">
+                                <div key={department1?.id} className="box-hodimlar">
+                                    <img src={(imgUrl+department1?.director_img)} alt=""/>
+                                    <div className="text-box">
+                                        <p className="bold">
+                                            {department1?.directorname}
+                                        </p>
+                                        <p>
+                                            <span className="bold">{t("person.Lavozimi")}</span> {department1?.position}
+                                        </p>
+                                        <p>
+                                            <span className="bold">{t("person.Telefon")}</span> {department1?.phone}
+                                        </p>
+                                        <p>
+                                            <span className="bold">{t("person.mail")} </span> {datas?.email}
+                                        </p>
+                                    </div>
+                                </div>
+                            <div key={department2?.id} className="box-hodimlar">
+                                <img src={(imgUrl+department2?.director_img)} alt=""/>
+                                <div className="text-box">
+                                    <p className="bold">
+                                        {department2?.directorname}
+                                    </p>
+                                    <p>
+                                        <span className="bold">{t("person.Lavozimi")}</span> {department2?.position}
+                                    </p>
+                                    <p>
+                                        <span className="bold">{t("person.Telefon")}</span> {department2?.phone}
+                                    </p>
+                                    <p>
+                                        <span className="bold">{t("person.mail")} </span> {department2?.email}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </HodimlarWrapper>
                 <CustomTitle name={""} />
                 <div className="container">
                     <div dangerouslySetInnerHTML={{ __html: datas?.text }} />
