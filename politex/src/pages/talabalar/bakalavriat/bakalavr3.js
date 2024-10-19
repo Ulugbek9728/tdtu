@@ -185,13 +185,11 @@ function Bakalavr3(props) {
                     </tr>
                     <tr>
                         <td width="212">
-                            <p><strong>Curriculum for Bachelor&rsquo;s EP BA 60710600 - Electrical Power Engineering
-                                (Power
-                                Supply)</strong></p>
+                            <p><strong>Curriculum for Bachelor&rsquo;s of Educational program BА 60710600-Electrical Power Engineering (Power Supply)</strong></p>
                         </td>
                         <td colSpan="2" width="1134">
                             <a style={{color: "blue"}}
-                               href="https://test.tdtu.uz/storage/pages/July2023/7hLCeQFjEyTlvWHMq74W.pdf"
+                               href="http://test.tdtu.uz/storage/pages/October2024/pAuanOpAoGTrtnIWHJKn.pdf"
                                target="_blank"
                             >
                                 <p>
@@ -207,7 +205,7 @@ function Bakalavr3(props) {
                         </td>
                         <td colSpan="2" width="1134">
                             <a style={{color: "blue"}}
-                               href="https://test.tdtu.uz/storage/pages/July2023/0tJSUKmSeHr52WEUCKVq.pdf"
+                               href="http://test.tdtu.uz/storage/pages/October2024/9h3J6YjU7hEG3Ve7aoeS.pdf"
                                target="_blank"
                             >
                                 <p>
@@ -261,7 +259,7 @@ function Bakalavr3(props) {
                                     <li>
                                         <a style={{color: "blue"}}
                                            href="http://test.tdtu.uz/storage/pages/October2024/IBeuM6d98HOgxtXAsGnS.pdf">
-                                            PHYSICAL EDUCATION AND SPORTS
+                                            RELIGIOUS STUDIES
                                         </a>
                                     </li>
                                     <li>
@@ -339,9 +337,6 @@ function Bakalavr3(props) {
                                            href="http://test.tdtu.uz/storage/pages/October2024/Ovk5jKUufXkS1DyrJqOg.pdf">
                                         ELECTRICAL NETWORKS AND SYSTEMS</a></li>
                                     <li><a style={{color: "blue"}}
-                                           href="http://test.tdtu.uz/storage/pages/October2024/Ovk5jKUufXkS1DyrJqOg.pdf">
-                                        ELECTRICAL NETWORKS AND SYSTEMS</a></li>
-                                    <li><a style={{color: "blue"}}
                                            href="http://test.tdtu.uz/storage/pages/October2024/pXiAVIVeDThGWw2YFBUJ.pdf">
                                         ELECTRIC MACHINES</a></li>
                                 </ul>
@@ -359,69 +354,67 @@ function Bakalavr3(props) {
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/ktnlacMcu7kyQzTQJo7e.pdf">
-                                            GENERAL PEDAGOGY
+                                            ENERGY OBJECT DEVICES
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/NNyTrNdtRijej52HZYVg.pdf">
-                                            ENERGY EQUIPMENT (ALTERNATIVE)
+                                            ELECTROTECHNOLOGICAL INSTALLATIONS
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/4gxI7nqJ6cOb46t0Ycn1.pdf">
-                                            RENEWABLE ENERGY SOURCES
+                                            AUTOMATED SYSTEMS OF ELECTRICITY CONSUMPTION ACCOUNTING AND CONTROL
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/wCIZjAlkoud4ZOsDOtxh.pdf">
-                                            ELECTRICAL MACHINE DESIGN
+                                            DIGITAL POWER SYSTEMS
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/10AddlBQgDFKVjAUm5Iy.pdf">
-                                            INSTALLATION AND OPERATION OF ELECTRICAL POWER
-                                            SYSTEMS
+                                            COMPARATIVE ENGINEERING
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/Co1rAFnVdtw5OhGyRWbN.pdf">
-                                            ELECTRICAL LIGHTING
+                                            COST ENGINEERING
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}} href="http://test.tdtu.uz/storage/pages/October2024/nZ1fKxUPYcq1LqcVV4fe.pdf">
-                                            LIGHTING TECHNIQUE
+                                            BASICS OF MEDICAL KNOWLEDGE
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
                                            href="http://test.tdtu.uz/storage/pages/October2024/Rj6FcToAo4UMdQMM3aQx.pdf">
-                                            OVERVOLTAGE AND INSULATION
+                                            CIVIL DEFENCE
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
                                            href="http://test.tdtu.uz/storage/pages/October2024/1WbGm5tvOTYlgGtvFr6a.pdf">
-                                            AUTOMATED SYSTEMS OF ELECTRICITY CONSUMPTION
-                                            ACCOUNTING AND CONTROL
+                                            MICROPROCESSOR PROTECTION
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
                                            href="http://test.tdtu.uz/storage/pages/October2024/YdsUU08LHT37553N7HBF.pdf">
-                                            DIGITAL POWER SYSTEMS
+                                            TRANSIENT PROCESSES AND OVERVOLTAGE
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
                                            href="http://test.tdtu.uz/storage/pages/October2024/n8d5dzecdY8Bu0oLwoGR.pdf">
-                                            THE ELECTRIC PART OF THE STATION AND SUBSTATION
+                                            ELECTRICAL LIGHTING
                                         </a>
                                     </li>
                                     <li>
                                         <a style={{color:"blue"}}
                                            href="http://test.tdtu.uz/storage/pages/October2024/a1FdfUlaJrPf4pLG8o27.pdf">
-                                            THERMAL ENERGY DEVICES
+                                            ELECTRONICS
                                         </a>
                                     </li>
                                 </ul>

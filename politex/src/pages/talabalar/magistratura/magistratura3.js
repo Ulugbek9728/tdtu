@@ -216,7 +216,7 @@ function Magistratura3(props) {
                         </td>
                         <td colSpan="3" width="1134">
                             <p><strong>
-                                <a href="https://test.tdtu.uz/storage/pages/October2024/TgxSe6OBVRvaufQ2kw0K.pdf"
+                                <a href="http://test.tdtu.uz/storage/pages/October2024/m1mgcM7OLdAQxEtGAgoa.pdf"
                                    style={{color: "blue"}}>
                                     Learning Outcome Matrix –Modules to EP MA 70710601 - Power Supply (Industrial
                                     Enterprises and Cities)
