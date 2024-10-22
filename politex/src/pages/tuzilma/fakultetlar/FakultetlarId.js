@@ -31,6 +31,8 @@ const FakultetlarId = () => {
       behavior: "smooth",
     });
   }, []);
+  document.title=data?.data?.data?.facult?.menu
+
   return (
     <Layout>
       <BigFotoBack

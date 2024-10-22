@@ -104,7 +104,7 @@
         "item-9": "DEPARTMENT OF MANAGEMENT OF CREDIT-MODULAR SYSTEM OF EDUCATION",
         "item-10": "Department education quality control",
         "item-11": "Anti-Corruption and Compliance Control system management department",
-        "item-12": "The personnel department",
+        "item-12": "department of human resources",
         "item-13": "Marketing and Student Affairs Department",
         "item-14": "Department of handling and monitoring of appeals of individuals and legal entities",
         "item-15": "Coordinating department for student accommodation",
@@ -113,7 +113,7 @@
         "item-18": "DEPARTMENT OF ACCOUNTING",
         "item-19": "DEPARTMENT OF Chairman of the Women's Advisory Council",
         "item-20": "Activities of Scientific research department",
-        "item-21": "Department of research, innovation, and training of scientific and pedagogical personnel",
+        "item-21": "Department of Doctoral Studies and Scientific Research",
         "item-22": "Registrar's Office"
       },
       "menu-3": {
@@ -253,5 +253,6 @@
         "ok": "Yuborish"
       }
     }
-  }
+  },
+  "Diqqat": "Attention! If you find errors in the text, mark them and press Ctrl/Command+Enter to notify the administration"
 }

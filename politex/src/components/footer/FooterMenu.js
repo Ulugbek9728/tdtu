@@ -100,10 +100,20 @@ const FooterMenu = () => {
               referrerPolicy="no-referrer-when-downgrade"
               title={"carta"}
             />
-
-
           </div>
         </div>
+      </div>
+      <div className="border-1 border-white">
+        <div className="container py-3">
+
+          <marquee>
+            <p className='text-white'>
+              {t("Diqqat")}
+            </p>
+          </marquee>
+
+        </div>
+
       </div>
       <div className="bottom-napa">
         <div className="container">
