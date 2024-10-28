@@ -12,6 +12,8 @@ function MechaUz() {
     queryFn: () => getFaoliyatErasmusMecha(),
   });
   const { t } = useTranslation();
+
+  document.title=t("header.header__sub__menu.menu-5.item-4")
   return (
     <Layout>
       <MechaUzWrapper>

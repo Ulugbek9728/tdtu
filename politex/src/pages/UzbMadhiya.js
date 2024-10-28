@@ -6,6 +6,8 @@ import {HaqidaWrapper} from "./UzBayrog";
 
 const UzbMadhiya = () => {
     const {t} = useTranslation();
+
+    document.title=t("madhiya1")
     return (
         <Layout>
             <CustomTitle name={t("madhiya1")} my={true}/>

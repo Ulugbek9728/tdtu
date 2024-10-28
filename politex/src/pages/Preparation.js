@@ -22,8 +22,6 @@ const Preparation = () => {
           dangerouslySetInnerHTML={{ __html: data?.data?.data?.[0].text }}
         />
 
-
-        
       </MoliyaviyFaoliatWrapper>
     </Layout>
   );

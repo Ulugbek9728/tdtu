@@ -15,6 +15,8 @@ function Magistratura5(props) {
         });
     }, []);
 
+    document.title=t("header.header__sub__menu.menu-9.item-5")
+
     return (
         <Layout>
             <CustomTitle name={t("header.header__sub__menu.menu-9.item-5")}/>

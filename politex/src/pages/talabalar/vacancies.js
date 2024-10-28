@@ -5,6 +5,7 @@ import {t} from "i18next";
 
 
 function Vacansies(props) {
+    document.title="Karyera markazi"
     return (
         <Layout>
 

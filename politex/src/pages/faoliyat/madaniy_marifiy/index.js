@@ -15,7 +15,7 @@ function MadaniyMarifiy() {
     });
     const {t} = useTranslation();
 
-    const [BrashuraData, setBrashuraData] = useState([
+    const [BrashuraData] = useState([
         {
             name: 'ABU ALI IBN SINO',
             url: 'https://online.anyflip.com/koxwe/aprc/index.html'
@@ -69,7 +69,7 @@ function MadaniyMarifiy() {
 
 
     ])
-    const [BukletData, setBukletData] = useState([
+    const [BukletData] = useState([
         {
             name: 'Alloh g\'azablangan toifalar',
             url: 'https://online.anyflip.com/koxwe/bsgo/index.html'
@@ -99,7 +99,7 @@ function MadaniyMarifiy() {
             url: 'https://online.anyflip.com/koxwe/srzq/mobile/index.html'
         },
     ])
-    const [BookData, setBookData] = useState([
+    const [BookData] = useState([
         {
             name: 'IMOM TERMIZIY',
             url: 'https://online.anyflip.com/koxwe/siaq/mobile/index.html'
@@ -153,6 +153,8 @@ function MadaniyMarifiy() {
             url: 'https://online.anyflip.com/koxwe/lrbb/mobile/index.html'
         },
     ])
+
+    document.title=t("header.header__bottom__nav__item__menu.menu-3.item-4")
 
 
     return (

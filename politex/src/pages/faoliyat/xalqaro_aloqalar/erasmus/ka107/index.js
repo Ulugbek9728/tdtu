@@ -12,6 +12,8 @@ function Ka107() {
     queryFn: () => getFaoliyatKa107(),
   });
   const { t } = useTranslation();
+
+  document.title=t("header.header__sub__menu.menu-5.item-6")
   return (
     <Layout>
       <Ka107Wrapper>

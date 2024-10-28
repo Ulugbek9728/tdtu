@@ -239,6 +239,8 @@ function Schedule(props) {
         });
     }
 
+    document.title='Dars jadval'
+
 
     return (
         <Layout>

@@ -16,6 +16,8 @@ function Bakalavr3(props) {
         });
     }, []);
 
+    document.title=t("header.header__sub__menu.menu-6.item-3")
+
     return (
         <Layout>
             <CustomTitle name={t("header.header__sub__menu.menu-6.item-3")}/>

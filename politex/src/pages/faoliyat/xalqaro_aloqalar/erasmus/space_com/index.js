@@ -13,6 +13,8 @@ function SpaceCom() {
   });
   const { t } = useTranslation();
 
+  document.title=t("header.header__sub__menu.menu-5.item-5")
+
   return (
     <Layout>
       <SpaceComWrapper>

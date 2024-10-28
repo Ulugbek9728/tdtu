@@ -53,7 +53,6 @@ import SportsId from "./pages/news/sports/SportsId";
 // import Home from "@/pages/Home";
 import SiteMap from "@/pages/site-map";
 import Rektorat from "./pages/tuzilma/Rektorat";
-import RektoratId from "./pages/tuzilma/RektoratId";
 import M1 from "./pages/tuzilma/markazlar/M1";
 import Fakultetlar from "./pages/tuzilma/fakultetlar/Fakultetlar";
 import FakultetlarId from "./pages/tuzilma/fakultetlar/FakultetlarId";
@@ -105,7 +104,6 @@ import B18 from "@/pages/tuzilma/bolimlar/B18";
 import B19 from "@/pages/tuzilma/bolimlar/B19";
 import B20 from "@/pages/tuzilma/bolimlar/B20";
 import B21 from "@/pages/tuzilma/bolimlar/B21";
-import B22 from "@/pages/tuzilma/bolimlar/B22";
 
 import F1 from "./pages/tuzilma/filiallar/F1";
 import F2 from "./pages/tuzilma/filiallar/F2";
@@ -215,7 +213,6 @@ function App() {
                 {/* Tuzilma page */}
                 <Route path={"structure/rectorate"}>
                     <Route index element={<Rektorat/>}/>
-                    <Route path={":id"} element={<RektoratId/>}/>
                 </Route>
                 {/* markazlar */}
                 <Route path={"/structure/centers/1"} element={<M1/>}/>
@@ -246,7 +243,6 @@ function App() {
                 <Route path={"/structure/sections/19"} element={<B19/>}/>
                 <Route path={"/structure/sections/20"} element={<B20/>}/>
                 <Route path={"/structure/sections/21"} element={<B21/>}/>
-                <Route path={"/structure/sections/22"} element={<B22/>}/>
 
                 {/* Bo’limlar */}
                 {/* filiallar */}

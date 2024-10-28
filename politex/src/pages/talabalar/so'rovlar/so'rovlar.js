@@ -14,6 +14,9 @@ function SoRovlar(props) {
             behavior: "smooth",
         });
     }, []);
+
+    document.title=t("header.header__sub__menu.menu-8.item-1")
+
     return (
         <Layout>
             <BigFotoBack

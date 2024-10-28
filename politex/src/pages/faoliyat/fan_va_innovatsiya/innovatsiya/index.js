@@ -13,6 +13,8 @@ function Innovatsiya() {
   });
   const { t } = useTranslation();
 
+  document.title=t("header.header__sub__menu.menu-4.item-2")
+
   return (
     <Layout>
       <InnovatsiyaWrapper>

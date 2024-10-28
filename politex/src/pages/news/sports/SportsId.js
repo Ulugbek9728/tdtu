@@ -26,6 +26,8 @@ const SportsId = () => {
       behavior: "smooth",
     });
   }, []);
+
+  document.title=data?.data?.data?.title
   return (
     <Layout>
       <CustomTitle name={data?.data?.data?.title} my={true} />

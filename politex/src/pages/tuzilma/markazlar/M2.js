@@ -25,7 +25,7 @@ const M2 = () => {
   const [data1, setData1] = useState([
 
   ]);
-  const [dataUZ, setDataUZ] = useState([
+  const [dataUZ] = useState([
     {
       id:'1',
       img:img1,
@@ -59,7 +59,7 @@ const M2 = () => {
       email:"dust-ali@rambler.ru",
     },
   ]);
-  const [dataEN, setDataEN] = useState([
+  const [dataEN] = useState([
     {
       id:'1',
       img:img1,
@@ -93,7 +93,7 @@ const M2 = () => {
       email:"dust-ali@rambler.ru",
     },
   ]);
-  const [dataRU, setDataRU] = useState([
+  const [dataRU] = useState([
     {
       id:'1',
       img:img1,
@@ -136,7 +136,9 @@ const M2 = () => {
     } else {
       setData1(dataEN)
     }
-  });
+  }, [dataRU, dataUZ, dataEN]);
+
+  document.title=t("header.header__sub__menu.menu-1.item-2")
   
   return (
     <>

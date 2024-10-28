@@ -14,6 +14,8 @@ function Bakalavr4() {
         });
     }, []);
 
+    document.title=t("header.header__sub__menu.menu-6.item-4")
+
 
     return (
         <Layout>

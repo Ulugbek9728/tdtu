@@ -16,6 +16,8 @@ function QoshmaDastur() {
   const { t } = useTranslation();
   const datas = data?.data?.data?.[0];
 
+  document.title=t("faoliyat")
+
 
   return (
     <Layout>

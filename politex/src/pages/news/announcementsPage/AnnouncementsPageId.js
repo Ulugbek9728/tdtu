@@ -28,6 +28,9 @@ const AnnouncementsPageId = () => {
       behavior: "smooth",
     });
   }, []);
+
+  document.title=data?.data?.data?.title
+
   return (
     <Layout>
       <NewsIdWrapper>

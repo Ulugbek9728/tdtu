@@ -17,6 +17,8 @@ const Rektorat = () => {
       behavior: "smooth",
     });
   }, []);
+
+    document.title=t("header.header__bottom__nav__item__menu.menu-2.item-1")
   return (
     <Layout>
       <BigFotoBack

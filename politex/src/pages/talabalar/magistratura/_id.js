@@ -21,6 +21,7 @@ function MagistraturaId() {
       behavior: "smooth",
     });
   }, []);
+
   return (
     <Layout>
       <CustomTitle name={"Magistratura"} />

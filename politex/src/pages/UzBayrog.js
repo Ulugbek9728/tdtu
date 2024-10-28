@@ -35,6 +35,8 @@ export const HaqidaWrapper = styled.div`
 
 const UzBayrog = () => {
     const {t} = useTranslation();
+    document.title=t("bayrog1")
+
     return (
         <Layout>
             <CustomTitle name={t("bayrog1")} my={true}/>

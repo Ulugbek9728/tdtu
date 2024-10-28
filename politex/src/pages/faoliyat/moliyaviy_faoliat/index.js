@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React  from "react";
 import Layout from "@/locales/en/layout/Layout";
 import CustomTitle from "@/components/custom_title";
 import { MoliyaviyFaoliatWrapper } from "./style";
@@ -12,13 +12,12 @@ function MoliyaviyFaoliat() {
     queryKey: "moliyaviy",
     queryFn: () => getFaoliyatMoliyaviy(),
   });
-  const [Data, setData] = useState([]);
-  useEffect(()=>{
-    setData(data)
-  })
+
+
   const { t } = useTranslation();
-  // console.log(data);
-  console.log(Data);
+  
+  document.title=t("header.header__bottom__nav__item__menu.menu-3.item-2")
+  
   return (
     <Layout>
       <MoliyaviyFaoliatWrapper>

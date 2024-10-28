@@ -29,6 +29,8 @@ const NewsId = () => {
         });
     }, []);
 
+    document.title=data?.data?.data?.title
+
     return (
         <Layout>
 
@@ -42,6 +44,7 @@ const NewsId = () => {
                                 className="fotoGlavni"
                                 src={imgUrl + data?.data?.data?.img}
                                 alt={data?.data?.data?.title}
+                                title={data?.data?.data?.title}
                             />
                         </div>
                         <Announcements/>

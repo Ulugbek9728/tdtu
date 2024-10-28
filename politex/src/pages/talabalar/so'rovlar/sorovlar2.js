@@ -15,6 +15,8 @@ function Sorovlar2(props) {
         });
     }, []);
 
+    document.title=t("header.header__sub__menu.menu-8.item-2")
+
     return (
         <Layout>
             <BigFotoBack

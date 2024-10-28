@@ -7,6 +7,9 @@ import CustomTitle from "@/components/custom_title";
 
 const UzbGerb = () => {
     const {t} = useTranslation();
+
+    document.title=t("gerb1")
+
     return (
         <Layout>
             <CustomTitle name={t("gerb1")} my={true}/>

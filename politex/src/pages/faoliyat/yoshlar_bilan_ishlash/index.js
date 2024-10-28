@@ -12,7 +12,6 @@ function Yoshlar() {
     queryKey: "yoshlar",
     queryFn: () => getFaoliyatYoshlar(),
   });
-  console.log(data);
   const [size] = useWindowSize();
   const changeWidthVideo = () => {
     if (size >= 1512) {
@@ -26,6 +25,8 @@ function Yoshlar() {
     }
   };
   const { t } = useTranslation();
+
+  document.title=t("header.header__bottom__nav__item__menu.menu-3.item-3")
 
   return (
     <Layout>

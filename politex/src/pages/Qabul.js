@@ -12,7 +12,6 @@ const QabulWrapper = styled.div``;
 const Qabul = () => {
   const { t } = useTranslation();
   const { data } = useQuery("rectoeat", getQabul);
-  console.log(data?.data?.data);
   let datas = data?.data?.data.reverse();
   useEffect(() => {
     window.scrollTo({
@@ -20,6 +19,9 @@ const Qabul = () => {
       behavior: "smooth",
     });
   }, []);
+
+  document.title=t("footer.Qabul")
+
   return (
     <Layout>
       <QabulWrapper>

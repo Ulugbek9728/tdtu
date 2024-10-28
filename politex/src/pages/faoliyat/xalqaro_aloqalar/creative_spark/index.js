@@ -12,6 +12,9 @@ function CreativeSpark() {
     queryFn: () => getFaoliyatCreative(),
   });
   const { t } = useTranslation();
+
+  document.title=t("header.header__sub__menu.menu-5.item-2")
+
   return (
     <Layout>
       <CreativeSparkWrapper>

@@ -16,6 +16,7 @@ function Imtixonlar3(props) {
             behavior: "smooth",
         });
     }, []);
+    document.title=t("header.header__sub__menu.menu-7.item-3")
     return (
         <Layout>
             <BigFotoBack

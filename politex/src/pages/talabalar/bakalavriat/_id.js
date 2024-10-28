@@ -24,6 +24,8 @@ function BakalavriatId() {
         });
     }, []);
 
+    document.title=data?.data?.data[0]?.title
+
     return (
         <Layout>
             <CustomTitle

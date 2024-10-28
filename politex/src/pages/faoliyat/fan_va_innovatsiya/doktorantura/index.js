@@ -13,6 +13,8 @@ function Doktorantura() {
   });
   const { t } = useTranslation();
 
+  document.title=t("header.header__sub__menu.menu-4.item-3")
+
   return (
     <Layout>
       <DoktoranturaWrapper>

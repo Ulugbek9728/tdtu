@@ -15,6 +15,8 @@ const M5 = () => {
   });
   let datas = data?.data?.data[0];
   const { t } = useTranslation();
+
+  document.title=t("header.header__sub__menu.menu-1.item-5")
   return (
     <>
       <Layout>

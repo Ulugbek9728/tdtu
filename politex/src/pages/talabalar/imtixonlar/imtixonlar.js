@@ -16,6 +16,7 @@ function Imtixonlar(props) {
             behavior: "smooth",
         });
     }, []);
+    document.title=t("header.header__sub__menu.menu-7.item-1")
 
     return (
         <Layout>

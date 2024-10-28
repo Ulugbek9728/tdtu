@@ -17,6 +17,8 @@ function Imtixonlar4(props) {
         });
     }, []);
 
+    document.title=t("header.header__sub__menu.menu-7.item-4")
+
     return (
         <Layout>
             <BigFotoBack

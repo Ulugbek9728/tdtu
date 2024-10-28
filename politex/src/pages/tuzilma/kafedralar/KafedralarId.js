@@ -23,7 +23,10 @@ const KafedralarId = () => {
       behavior: "smooth",
     });
   }, []);
-  return (
+
+    document.title=data?.data?.data?.kafedra?.menu
+
+    return (
     <Layout>
       <BigFotoBack
         img={bg}
