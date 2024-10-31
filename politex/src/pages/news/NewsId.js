@@ -1,6 +1,6 @@
 import CustomTitle from "@/components/custom_title";
 import {NewsIdWrapper} from "@/components/news/NewsPageWrapper";
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import {useParams} from "react-router-dom";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
@@ -13,6 +13,13 @@ import {getNewsId, imgUrl} from "@/api/general";
 import {useQuery} from "react-query";
 import {useTranslation} from "react-i18next";
 import Announcements from "@/components/news/Announcements";
+import {Helmet} from "react-helmet";
+
+function getTexFromHtml(str) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(str, 'text/html');
+    return doc.body.textContent.trim()
+}
 
 const NewsId = () => {
     let {id} = useParams();
@@ -29,11 +36,20 @@ const NewsId = () => {
         });
     }, []);
 
-    document.title=data?.data?.data?.title
+    let desc = getTexFromHtml(data?.data?.data?.text1).split('.')[0];
 
     return (
         <Layout>
+            <Helmet>
+                <title>{data?.data?.data?.title}</title>
+                <meta name="description" content={`${desc}`}/>
+                <link rel="canonical" href={`https://tdtu.uz/new/news/${id}`}/>
+                <meta property="og:title" content={`${data?.data?.data?.title}`}/>
+                <meta property="og:url" content={`https://tdtu.uz/new/news/${id}`}/>
+                <meta property="og:description" content={`${desc}`}/>
+                <meta property="og:image" content={imgUrl + data?.data?.data?.img}/>
 
+            </Helmet>
             <NewsIdWrapper>
                 <div className="container  mt-lg-5 mt-3">
                     <div className="content-news">

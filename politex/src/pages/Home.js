@@ -7,9 +7,8 @@ import Fakultet from "@/components/home/fakultetlar/Fakultet";
 import OurAlumni from "@/components/home/ourAlumni/OurAlumni";
 import NumberInst from "@/components/home/numberInst/NumberInst";
 import InteractiveServices from "@/components/home/interactiveServices/InteractiveServices";
-import {Link} from "react-router-dom";
-
-import bgColl from "../CALL CENTER.jpg"
+// import {Link} from "react-router-dom";
+// import bgColl from "../CALL CENTER.jpg"
 
 const Home = () => {
     useEffect(() => {
@@ -18,6 +17,7 @@ const Home = () => {
             behavior: "smooth",
         });
     }, []);
+    document.title='Islom Karimov nomidagi Toshkent Davlat Texnika Universiteti'
     return (
         <Layout>
             {/*<Link to='/qabul'>*/}
