@@ -74,8 +74,11 @@ function Schedule(props) {
             if (item.lessonDate === weekStartDate.getTime() / 1000 + 86400 * 5)
                 dayArr[5].push(item)
         })
+        let sortedArry = dayArr.map((item)=>(
+            item?.sort((a,b)=>parseInt(a?.lessonPair?.name) - parseInt(b?.lessonPair?.name))
+        ))
         return (
-            dayArr.map((item, index) => (
+            sortedArry.map((item, index) => (
                 <div className="d-flex box" key={index}>
 
                     <div className={`week ${weekdayName === item[0].wekDaye ? "active" : ''} `}>{item[0].wekDaye}</div>
