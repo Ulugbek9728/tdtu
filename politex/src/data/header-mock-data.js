@@ -265,6 +265,10 @@ export const headerBottomNavItemMenu = [
         subMenuId: 4,
       },
       {
+        path: "/activity/chemists",
+        id: 7,
+      },
+      {
         path: "/scientific/magazines",
         id: 6,
       },

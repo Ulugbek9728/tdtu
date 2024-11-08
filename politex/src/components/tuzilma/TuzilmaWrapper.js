@@ -14,7 +14,7 @@ const logoLang = () => {
 };
 
 export const RektorCardWrapper = styled.div`
-  margin-top: 120px;
+  margin-top: 100px;
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
   border-radius: 20px;
@@ -25,7 +25,9 @@ export const RektorCardWrapper = styled.div`
   display: grid;
   grid-template-columns: 450px 1fr;
   gap: 10px;
-  .boder {
+  .boder 
+  {
+    cursor: pointer;
     transition: all 0.3s linear;
     position: absolute;
     top: 5px;
@@ -70,7 +72,7 @@ export const RektorCardWrapper = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    p {
+    p{
       position: relative;
       z-index: 22;
       transition: all 0.3s linear;
@@ -99,7 +101,7 @@ export const RektorCardWrapper = styled.div`
       background-color: #ffffff;
     }
     .text-box {
-      p {
+      p,span {
         transition: all 0.3s linear;
         color: #ffffff;
       }

@@ -1,14 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
 import { AbCardWrapper } from "./style";
 import { ButtonHeigthWrapper } from "@/assets/styles/constClass";
-import { useWindowSize } from "@/hooks/useWindowSize";
 import { imgUrl } from "@/api/general";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 function AbituriyentCard({ data }) {
   const { t } = useTranslation();
-  const [size] = useWindowSize();
 
 
   return (

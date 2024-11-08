@@ -17,17 +17,17 @@ const LanguageSwitcher = () => {
     i18n.changeLanguage(lng);
     window.location.reload();
   };
-  useEffect(() => {
-    if (langDropDown) {
-      document
-        .getElementById("lang__dropdown__menu")
-        .addEventListener("mouseleave", showAndHidden);
-    } else {
-      document
-        .getElementById("lang__dropdown__menu")
-        .removeEventListener("mouseleave", showAndHidden);
-    }
-  }, [langDropDown, showAndHidden]);
+  // useEffect(() => {
+  //   if (langDropDown) {
+  //     document
+  //       .getElementById("lang__dropdown__menu")
+  //       .addEventListener("mouseleave", showAndHidden);
+  //   } else {
+  //     document
+  //       .getElementById("lang__dropdown__menu")
+  //       .removeEventListener("mouseleave", showAndHidden);
+  //   }
+  // }, [langDropDown, showAndHidden]);
 
   return (
     <LanguageSwitcherStyle

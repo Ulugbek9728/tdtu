@@ -24,6 +24,7 @@ function getTexFromHtml(str) {
 const NewsId = () => {
     let {id} = useParams();
 
+
     const {data} = useQuery({
         queryKey: ["todos", id],
         queryFn: () => getNewsId(id),
@@ -37,6 +38,26 @@ const NewsId = () => {
     }, []);
 
     let desc = getTexFromHtml(data?.data?.data?.text1).split('.')[0];
+    let LDJson = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        headline: data?.data?.data?.title,
+        image: {
+            '@type': 'ImageObject',
+            url: imgUrl + data?.data?.data?.img,
+            width: '1920',
+            height: '1080'
+        },
+        datePublished: data?.data?.data?.created_at,
+        dateModified: data?.data?.data?.updated_at,
+        description: desc,
+        author: [{
+            "@type": "Organization",
+            name: "TDTU",
+            url: "https://tdtu.uz"
+        }]
+    }
+    console.log(data)
 
     return (
         <Layout>
@@ -48,7 +69,9 @@ const NewsId = () => {
                 <meta property="og:url" content={`https://tdtu.uz/new/news/${id}`}/>
                 <meta property="og:description" content={`${desc}`}/>
                 <meta property="og:image" content={imgUrl + data?.data?.data?.img}/>
-
+                <script type='application/ld+json'>
+                    {JSON.stringify(LDJson)}
+                </script>
             </Helmet>
             <NewsIdWrapper>
                 <div className="container  mt-lg-5 mt-3">

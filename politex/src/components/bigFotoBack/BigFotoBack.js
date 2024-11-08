@@ -8,7 +8,7 @@ const BigFotoBackWrapper = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   .back-color {
-    padding: 320px 0;
+    padding: 250px 0;
     background: rgba(0, 0, 0, 0.5);
   }
   p {

@@ -7,8 +7,6 @@ import Fakultet from "@/components/home/fakultetlar/Fakultet";
 import OurAlumni from "@/components/home/ourAlumni/OurAlumni";
 import NumberInst from "@/components/home/numberInst/NumberInst";
 import InteractiveServices from "@/components/home/interactiveServices/InteractiveServices";
-// import {Link} from "react-router-dom";
-// import bgColl from "../CALL CENTER.jpg"
 
 const Home = () => {
     useEffect(() => {

@@ -1,5 +1,5 @@
-import React, {lazy, Suspense, useEffect, useState} from "react";
-import {Route, Routes} from "react-router-dom";
+import React, {lazy, Suspense, useEffect, useRef, useState} from "react";
+import {Route, Router, Routes} from "react-router-dom";
 import 'rsuite/dist/rsuite.min.css';
 // talabalar
 import Bakalavriat from "@/pages/talabalar/bakalavriat";
@@ -132,6 +132,9 @@ import Vacancies from "@/pages/talabalar/vacancies";
 import Preparation from "@/pages/Preparation";
 import {message} from "antd";
 import SpellingMistakeFormModal from "@/components/modals/SpellingMistakeFormModal";
+import Chemists from "@/pages/faoliyat/kimyogarlar/chemists";
+import CemistsId from "@/pages/faoliyat/kimyogarlar/CemistsID";
+import {use} from "i18next";
 
 
 const Home = lazy(() => import("@/pages/Home"));
@@ -139,7 +142,6 @@ const Home = lazy(() => import("@/pages/Home"));
 
 function App() {
     const client = new QueryClient();
-
     const [openSpellingModal, setOpenSpellingModal] = useState(false)
 
     const [spellingData, setSpellingData] = useState({})
@@ -152,7 +154,9 @@ function App() {
         return () => {
             window.removeEventListener('keydown', onKeyDown);
         };
+
     }, []);
+
 
     const onKeyDown = (event) => {
         if (event.ctrlKey && event.key === 'Enter') {
@@ -179,8 +183,8 @@ function App() {
         <QueryClientProvider client={client}>
             {contextHolder}
             <ToastContainer/>
+            <Routes >
 
-            <Routes>
                 <Route index element={
                     <Suspense fallback={<span className="loader"/>}>
                         <Home/>
@@ -344,6 +348,11 @@ function App() {
                     <Route index element={<Sorovlar2/>}/>
                 </Route>
                 {/* Activity page */}
+                <Route path={"/activity/chemists"}>
+                    <Route index element={<Chemists/>}/>
+                    <Route path={":id"} element={<CemistsId/>}/>
+                </Route>
+
                 <Route path={"activity/science"}>
                     <Route index element={<Fan/>}/>
                 </Route>
