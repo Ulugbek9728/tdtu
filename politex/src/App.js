@@ -134,7 +134,6 @@ import {message} from "antd";
 import SpellingMistakeFormModal from "@/components/modals/SpellingMistakeFormModal";
 import Chemists from "@/pages/faoliyat/kimyogarlar/chemists";
 import CemistsId from "@/pages/faoliyat/kimyogarlar/CemistsID";
-import {use} from "i18next";
 
 
 const Home = lazy(() => import("@/pages/Home"));

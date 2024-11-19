@@ -21,6 +21,7 @@ const Preparation = () => {
           className="container"
           dangerouslySetInnerHTML={{ __html: data?.data?.data?.[0].text }}
         />
+        456
 
       </MoliyaviyFaoliatWrapper>
     </Layout>
