@@ -29,7 +29,7 @@ const PageTop = () => {
                target={"_blank"}>
               <img src={QS} alt="QS" />
             </a>
-            <Link to="/gerb"><img src={Blazon} alt="blazon" /></Link>
+            <Link to="/gerb"><img src={Blazon} alt="blazon"/></Link>
             <Link to="/flag">
               <img src={Flag} alt="uz flag" />
             </Link>

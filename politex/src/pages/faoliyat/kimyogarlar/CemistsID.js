@@ -1,9 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Layout from "@/locales/en/layout/Layout";
 import dataChemists1Element from "./Info"
 import {useParams} from "react-router";
-import {RektorCardWrapper} from "@/components/tuzilma/TuzilmaWrapper";
-
+import {ChemistsStyle} from "./stayle";
 
 function CemistsId(props) {
     const {id} = useParams();
@@ -12,21 +11,16 @@ function CemistsId(props) {
     return (
         <div>
             <Layout>
-                <div className="container" id={"testID"}>
-                    <div className="row">
-                        <RektorCardWrapper>
-                            <div className="boder"></div>
-                            <div className="picture">
-                                <div className="boder"></div>
-                                <img src={filterInfo[0].img} alt="" />
-                            </div>
-                            <div className="text-box">
-                                <p>{filterInfo[0].name}</p>
-                                <span className='mt-2' style={{textAlign:"justify"}}>{filterInfo[0].text}</span>
-                            </div>
-                        </RektorCardWrapper>
+                <ChemistsStyle>
+
+
+                <div className="container">
+                    <div className="box">
+                        <img className='image' src={filterInfo[0].img} alt=""/>
+                        <div className="text" dangerouslySetInnerHTML={{__html: filterInfo[0].text}}/>
                     </div>
                 </div>
+                </ChemistsStyle>
 
             </Layout>
         </div>
