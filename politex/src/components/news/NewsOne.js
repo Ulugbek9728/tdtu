@@ -20,11 +20,11 @@ const NewsOne = ({ category }) => {
   const { data } = useQuery({
     queryKey: ["news", p],
     queryFn: () => {
-      if (category == 1) {
+      if (category === 1) {
         return getNews(p);
-      } else if (category == 2) {
+      } else if (category === 2) {
         return getEvents(p);
-      } else if (category == 3) {
+      } else if (category === 3) {
         return getAnnouncements(p);
       } else {
         return getSports(p);

@@ -400,9 +400,6 @@ function App() {
                 <Route path={"scientific/young-techniq"}>
                     <Route index element={<YoshTexnika/>}/>
                 </Route>
-                <Route path={"scientific/humanities"}>
-                    <Route index element={<GumanitarFanlar/>}/>
-                </Route>
                 <Route path={"scientific/master"}>
                     <Route index element={<MahoratDarslar/>}/>
                 </Route>
