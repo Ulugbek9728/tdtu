@@ -17,11 +17,15 @@ const Preparation = () => {
     <Layout>
       <MoliyaviyFaoliatWrapper>
         <CustomTitle name={t("header.center.header-center-nav.item-3")} />
-        <div style={{height:"90vh"}}
-          className="container"
-          dangerouslySetInnerHTML={{ __html: data?.data?.data?.[0].text }}
-        />
-        456
+
+        {/*<div style={{height:"90vh"}}*/}
+        {/*  className="container"*/}
+        {/*  dangerouslySetInnerHTML={{ __html: data?.data?.data?.[0].text }}*/}
+        {/*/>*/}
+        
+        <a href="https://www.youtube.com/@TDTUOfficial" className='container' target="_blank">
+          <img className='mx-auto' src="img/kamera.jpg" width={"60%"} alt=""/>
+        </a>
 
       </MoliyaviyFaoliatWrapper>
     </Layout>

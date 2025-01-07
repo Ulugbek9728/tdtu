@@ -44,10 +44,10 @@ function Texnika() {
                             <a href="https://online.anyflip.com/koxwe/iprr/index.html" target={"_blank"}>4/2024</a>
                         </li>
                         <li>
-                            <a href="https://online.anyflip.com/koxwe/swzg/index.html" target={"_blank"}>5/2024</a>
+                            <a href="https://online.anyflip.com/koxwe/cteh/mobile/index.html" target={"_blank"}>5/2024</a>
                         </li>
                         <li>
-                            <a href="https://online.anyflip.com/koxwe/goie/mobile/index.html" target={"_blank"}>6/2024</a>
+                            <a href="https://online.anyflip.com/koxwe/bmmp/mobile/index.html" target={"_blank"}>6/2024</a>
                         </li>
 
                     </ul>
