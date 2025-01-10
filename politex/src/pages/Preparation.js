@@ -33,12 +33,17 @@ const Preparation = () => {
                 {/*     className="container"*/}
                 {/*     dangerouslySetInnerHTML={{ __html: data?.data?.data?.[0].text }}*/}
                 {/*/>*/}
+
                 <div className="container">
                     <div className="row">
-                        {CamerraList?.data?.data?.data?.map((item,index)=>{
-                            return <div className="col-4 border rounded-3">
-                                <Translet data={item?.url}/>
-                                <p>{item?.name}</p>
+                        {/*CamerraList?.data?.data?.data?*/}
+                        {CamerraList?.data?.data?.data.map((item,index)=>{
+                            return <div className=" col-sm-6 col-lg-4 mt-3">
+                                <div className="border rounded-3 overflow-hidden">
+                                    <Translet data={item?.url}/>
+                                    <p>{item?.name}</p>
+                                </div>
+
                             </div>
                         })}
 
