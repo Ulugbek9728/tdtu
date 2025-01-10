@@ -30,8 +30,8 @@ const Layout = ({ children, isLoading }) => {
   return (
     <LayoutStyle>
         <div className="newyearBox">
-            <img src={newLeft2} alt=""/>
-            <img src={newLeft2} alt=""/>
+            {/*<img src={newLeft2} alt=""/>*/}
+            {/*<img src={newLeft2} alt=""/>*/}
         </div>
         <PageTop />
         <Suspense fallback={<span className="loader" />}>

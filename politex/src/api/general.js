@@ -1,4 +1,4 @@
-import { getInstance } from "@/utils/httpClient";
+import {getInstance, getTranslet} from "@/utils/httpClient";
 
 export const imgUrl = "https://test.tdtu.uz/storage/";
 // export const imgUrl = "https://homeworking.uz/storage/";
@@ -145,3 +145,7 @@ export const getAbiturXorijiy = () =>
 export const getKorrupsiyaId = (id) =>
   getInstance().get(`corruptionsectors/${id}?lang=${lang}`);
 // korrupsiyasiz soha
+
+//translatsiya kamera
+export const getCameraList = (id) =>
+    getTranslet().get(`cameras/list`);

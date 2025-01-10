@@ -3,6 +3,9 @@ import axios from "axios";
 const axiosDefaults = () => {
   axios.defaults.baseURL = "https://test.tdtu.uz/api/";
 };
+const axiosTranslatsiya = () => {
+  axios.defaults.baseURL = "https://api-live.tdtu.uz/api/";
+};
 
 const getInstance = () => {
   axiosDefaults();
@@ -21,3 +24,15 @@ const getInstance = () => {
 };
 
 export { getInstance };
+
+const getTranslet = () => {
+  axiosTranslatsiya();
+  const instance = axios.create({
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+  return instance;
+};
+
+export {getTranslet}
