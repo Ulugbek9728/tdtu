@@ -71,7 +71,7 @@ const HeaderBottomNavItemMenu = ({
           </ul>
         </div>
         {subMenu.length > 0 && (
-          <div className="item">
+          <div className="item Sub">
             <ul>
               {subMenu.length > 0 &&
                 subMenu.map((val) => {

@@ -22,8 +22,6 @@ const Preparation = () => {
         queryFn: () => getCameraList(),
     });
 
-    console.log(CamerraList?.data?.data?.data)
-
     return (
         <Layout>
             <MoliyaviyFaoliatWrapper>
@@ -39,7 +37,7 @@ const Preparation = () => {
                         {/*CamerraList?.data?.data?.data?*/}
                         {CamerraList?.data?.data?.data.map((item,index)=>{
                             return <div className=" col-sm-6 col-lg-4 mt-3">
-                                <div className="border rounded-3 overflow-hidden">
+                                <div className="border rounded-3 overflow-hidden p-2">
                                     <Translet data={item?.url}/>
                                     <p>{item?.name}</p>
                                 </div>

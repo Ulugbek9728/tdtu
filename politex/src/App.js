@@ -134,6 +134,7 @@ import {message} from "antd";
 import SpellingMistakeFormModal from "@/components/modals/SpellingMistakeFormModal";
 import Chemists from "@/pages/faoliyat/kimyogarlar/chemists";
 import CemistsId from "@/pages/faoliyat/kimyogarlar/CemistsID";
+import B22 from "@/pages/tuzilma/bolimlar/B22";
 
 
 const Home = lazy(() => import("@/pages/Home"));
@@ -246,6 +247,7 @@ function App() {
                 <Route path={"/structure/sections/19"} element={<B19/>}/>
                 <Route path={"/structure/sections/20"} element={<B20/>}/>
                 <Route path={"/structure/sections/21"} element={<B21/>}/>
+                <Route path={"/structure/sections/22"} element={<B22/>}/>
 
                 {/* Bo’limlar */}
                 {/* filiallar */}

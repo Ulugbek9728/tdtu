@@ -61,7 +61,7 @@ const HeaderBottomNavItemMenuStyle = styled.div`
 
     .text {
       font-family: ${fontMontserrat};
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 500;
       line-height: 24px;
       letter-spacing: 0;
@@ -114,7 +114,10 @@ const HeaderBottomNavItemMenuStyle = styled.div`
       }
     }
   }
-
+  .Sub{
+    height: 400px;
+    overflow: auto;
+  }
   @media screen and (max-width: 1512px) {
     .item {
       .title {
