@@ -56,7 +56,7 @@
         "item-42": "Magistratura",
         "item-3": "Kechki ta’lim",
         "item-4": "Sirtqi ta’lim",
-        "item-5": "Bitiruvchilar klubi",
+        "item-5": "Iqtidorli talabalar",
         "item-46": "Imtixonlar",
         "item-47": "So'rovlar"
       },
@@ -255,5 +255,6 @@
       }
     }
   },
-  "Diqqat": "Diqqat! Agar siz matnda xatoliklarni aniqlasangiz, ularni belgilab, ma'muriyatni xabardor qilish uchun Ctrl/Command+Enter tugmalarini bosing"
+  "Diqqat": "Diqqat! Agar siz matnda xatoliklarni aniqlasangiz, ularni belgilab, ma'muriyatni xabardor qilish uchun Ctrl/Command+Enter tugmalarini bosing",
+  "Partners": "Hamkorlarimiz"
 }

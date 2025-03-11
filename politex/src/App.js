@@ -75,7 +75,6 @@ import {QueryClient, QueryClientProvider} from "react-query";
 // ilmiy-faoliyat, markazlar, bo'limlar
 import Texnika from "@/pages/ilmiy_faoliyat/texnika";
 import MahoratDarslar from "@/pages/ilmiy_faoliyat/mahorat-darslar";
-import GumanitarFanlar from "@/pages/ilmiy_faoliyat/fanlar";
 import YoshTexnika from "@/pages/ilmiy_faoliyat/yosh-texnika";
 import {ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -104,6 +103,7 @@ import B18 from "@/pages/tuzilma/bolimlar/B18";
 import B19 from "@/pages/tuzilma/bolimlar/B19";
 import B20 from "@/pages/tuzilma/bolimlar/B20";
 import B21 from "@/pages/tuzilma/bolimlar/B21";
+import B22 from "@/pages/tuzilma/bolimlar/B22";
 
 import F1 from "./pages/tuzilma/filiallar/F1";
 import F2 from "./pages/tuzilma/filiallar/F2";
@@ -134,7 +134,6 @@ import {message} from "antd";
 import SpellingMistakeFormModal from "@/components/modals/SpellingMistakeFormModal";
 import Chemists from "@/pages/faoliyat/kimyogarlar/chemists";
 import CemistsId from "@/pages/faoliyat/kimyogarlar/CemistsID";
-import B22 from "@/pages/tuzilma/bolimlar/B22";
 
 
 const Home = lazy(() => import("@/pages/Home"));
@@ -179,6 +178,7 @@ function App() {
             }
         }
     }
+
     return (
         <QueryClientProvider client={client}>
             {contextHolder}
@@ -322,7 +322,7 @@ function App() {
                     <Route index element={<Sirtqi/>}/>
                     <Route path={":id"} element={<SirtqiId/>}/>
                 </Route>
-                <Route path={"students/graduates"}>
+                <Route path={"students/talented"}>
                     <Route index element={<Bitiruvchilar/>}/>
                     <Route path={":id"} element={<BitiruvchilarId/>}/>
                 </Route>

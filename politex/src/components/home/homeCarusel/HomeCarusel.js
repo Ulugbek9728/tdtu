@@ -40,7 +40,7 @@ const HomeCarusel = () => {
                   <div className="text">
 
                     <p className="text-one">
-                        {v.title.length>50 ? v.title.slice(0, 130)+" ...": v.title}
+                        {v.title?.length>50 ? v?.title.slice(0, 130)+" ...": v.title}
                         {/**/}
                     </p>
 

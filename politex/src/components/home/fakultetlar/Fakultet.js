@@ -52,7 +52,7 @@ const Fakultet = () => {
         >
           {data?.data?.data?.map((v, i) => {
             i++;
-            if (i % 2 === 0) {
+            if (i % 2 !== 0) {
               return (
                 <SwiperSlide key={i}>
                   <FakultetCard
@@ -98,7 +98,7 @@ const Fakultet = () => {
         >
           {data?.data?.data?.map((v, i) => {
             i++;
-            if (i % 2 !== 0) {
+            if (i % 2 === 0) {
               return (
                 <SwiperSlide key={i}>
                   <FakultetCard

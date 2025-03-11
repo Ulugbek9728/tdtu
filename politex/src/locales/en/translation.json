@@ -56,7 +56,7 @@
         "item-42": "Master's",
         "item-3": "Evening education",
         "item-4": "External education",
-        "item-5": " Undergraduate Club",
+        "item-5": "Talented students",
         "item-46": "Exams",
         "item-47": "Surveys"
       },
@@ -255,5 +255,7 @@
       }
     }
   },
-  "Diqqat": "Attention! If you find errors in the text, mark them and press Ctrl/Command+Enter to notify the administration"
+  "Diqqat": "Attention! If you find errors in the text, mark them and press Ctrl/Command+Enter to notify the administration",
+  "Partners": "Our partners"
+
 }

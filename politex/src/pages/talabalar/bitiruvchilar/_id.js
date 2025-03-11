@@ -23,7 +23,7 @@ function BitiruvchilarId() {
   }, []);
   return (
     <Layout>
-      <CustomTitle name={"Bitiruvchilar"} />
+      <CustomTitle name={t("header.header__bottom__nav__item__menu.menu-4.item-5")} />
       <TalabalarId data={data?.data?.data[0]} />
       {data?.data?.data[0].imgs?.split(",")?.map((v, i, a) => (
         <PdfDownload

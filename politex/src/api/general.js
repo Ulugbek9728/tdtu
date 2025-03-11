@@ -114,7 +114,7 @@ export const getTalabaSirtqi = () =>
   getInstance().get(`getstudentsallbycategory/Sirtqi ta’lim?lang=${lang}`);
 export const getTalabaBitiruv = () =>
   getInstance().get(
-    `getstudentsallbycategory/Bitiruvchilar klubi?lang=${lang}`
+    `getstudentsallbycategory/Iqtidorli talabalar?lang=${lang}`
   );
 // talabalar
 

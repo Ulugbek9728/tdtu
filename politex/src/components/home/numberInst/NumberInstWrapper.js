@@ -1,15 +1,30 @@
 import styled from "styled-components";
 
 export const NumberInstWrapper = styled.div`
-  padding: 60px 0;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 150% 220%;
+  position: relative!important;
+  aspect-ratio: 10 / 4;
+  overflow: hidden;
+  
+  #myVideo {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
   .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 85%;
+    padding: 20px;
     height: 380px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.3);
     border: 5px solid #ffffff;
     backdrop-filter: blur(2px);
     border-radius: 10px;
@@ -17,7 +32,6 @@ export const NumberInstWrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    padding: 0 30px;
     .box {
       div{
         justify-content: center;
@@ -37,7 +51,6 @@ export const NumberInstWrapper = styled.div`
     }
   }
   @media only screen and (max-width: 1512px) {
-   
     .content {
       height: 300px;
       gap: 30px;
@@ -71,6 +84,8 @@ export const NumberInstWrapper = styled.div`
     }
   }
   @media only screen and (max-width: 820px) {
+    aspect-ratio: 10 / 7;
+    
     padding: 50px 0;
     .content {
       height: 400px;
@@ -99,9 +114,11 @@ export const NumberInstWrapper = styled.div`
     }
   }
   @media only screen and (max-width: 580px) {
+    aspect-ratio: 10 / 8;
 
   }
   @media only screen and (max-width: 520px) {
+    aspect-ratio: 10 / 10;
     padding: 50px 0;
     .content {
       height: 300px;
