@@ -7,12 +7,13 @@ import TEL from "@/assets/images/footer/tel.svg";
 import INS from "@/assets/images/footer/ins.svg";
 import YT from "@/assets/images/footer/youtube.png";
 import FB from "@/assets/images/footer/fb.svg";
-import WK from "@/assets/images/footer/wk.svg";
+// import WK from "@/assets/images/footer/wk.svg";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { getHomeContact } from "@/api/general";
 import { useQuery } from "react-query";
 import NAPA from "@/assets/icons/napa.svg";
+import Mesengers from "@/components/footer/mesengers";
 
 const FooterMenu = () => {
   const { t } = useTranslation();
@@ -38,20 +39,7 @@ const FooterMenu = () => {
                 className="img-logo"
               />
               <p>{t("footer.Ijtimoiy")}</p>
-              <div className="mesenger">
-                <a href={data?.data?.data[0].telegram}>
-                  <img src={TEL} alt="" />
-                </a>
-                <a href={data?.data?.data[0].instagram}>
-                  <img src={INS} alt="" />
-                </a>
-                <a href={data?.data?.data[0].twitter}>
-                  <img src={YT} alt="" />
-                </a>
-                <a href={data?.data?.data[0].facebook}>
-                  <img src={FB} alt="" />
-                </a>
-              </div>
+              <Mesengers />
             </div>
             <div className="link">
               <Link to="/university/rectors-congratulation">

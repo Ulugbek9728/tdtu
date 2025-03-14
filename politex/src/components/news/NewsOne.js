@@ -40,16 +40,15 @@ const NewsOne = ({ category }) => {
   return (
     <>
       <NewsOneWrapper>
-        <p className="text">{onedata?.title}</p>
         <div className="content-one">
           <img src={imgUrl + onedata?.img} alt="news" />
           <div className="text-in padding">
-            {/*{onedata?.text}*/}
-            {/*{onedata?.text?.length > 201 ? "..." : ""}*/}
+            {onedata?.title}
+            {onedata?.title?.length > 201 ? "..." : ""}
           </div>
           <div className="flex padding">
             <p>
-              <Moment date={onedata?.created_at} format="HH:mm DD.MM.YYYY" />
+              <Moment date={onedata?.created_at} format="DD.MM.YYYY" />
             </p>
             <Link
               to={

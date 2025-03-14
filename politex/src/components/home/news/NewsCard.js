@@ -26,7 +26,7 @@ const NewsCard = ({ title, link, img, time }) => {
       </p>
       <div className="time-link">
         <p className="time">
-          <Moment date={time} format="HH:mm DD.MM.YYYY" />
+          <Moment date={time} format="DD.MM.YYYY" />
         </p>
         <Link to={link}>
           <ButtonHeigthWrapper color={"yes"}>

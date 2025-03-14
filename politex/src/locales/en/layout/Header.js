@@ -87,8 +87,7 @@ const Header = () => {
               alt="logo"
             />
             <div className={"title"}>
-              <span>{t("header.center.titleT")}</span>
-              <span>{t("header.center.titleB")}</span>
+              <span>{t("header.center.titleT")} {t("header.center.titleB")}</span>
             </div>
             <div className={"title__mini"}>
               <span>{t("header.center.titleMT")}</span>

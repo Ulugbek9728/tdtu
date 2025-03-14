@@ -138,7 +138,7 @@ export const NewsOneWrapper = styled.div`
       margin: 30px 0 50px 0;
       font-family: "Montserrat";
       font-style: normal;
-      font-weight: 400;
+      font-weight: 700;
       font-size: 20px;
       line-height: 24px;
       color: #37363c;

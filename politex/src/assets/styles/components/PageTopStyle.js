@@ -73,22 +73,25 @@ z-index: 10;
       }
     }
 
-    .header__top__list__item:nth-child(6) {
-      padding-right: 0 !important;
+    .swiperLinks {
+      overflow: hidden;
+      .header__top__list__item{
+        padding: 0!important;
+        margin-right: 20px;
+      }
     }
 
 
     @media screen and (max-width: 1512px) {
       .header__top__list__item {
         padding: 8px 30px;
-
         span {
           font-size: 0.7rem;
         }
 
         img {
-          width: 16px;
-          height: 16px;
+          width: 25px;
+          height: 25px;
           object-fit: contain;
         }
 

@@ -78,7 +78,6 @@ const HeaderStyle = styled.header`
         font-family: ${fontMontserrat};
         font-size: 1rem;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0;
         text-align: left;
         color: #fff;
@@ -86,6 +85,9 @@ const HeaderStyle = styled.header`
     }
 
     @media screen and (max-width: 1512px) {
+      .logo__and__title {
+       width: 40%;
+      }
       .logo {
         width: 70px;
         height: 70px;
@@ -100,6 +102,8 @@ const HeaderStyle = styled.header`
 
       .header__center__nav__item {
         margin-right: 30px;
+        line-height: 20px;
+
 
         a {
           font-size: 0.8rem;
@@ -131,6 +135,9 @@ const HeaderStyle = styled.header`
     }
 
     @media screen and (max-width: 992px) {
+      .logo__and__title {
+        width: 100%;
+      }
       padding: 15px 0;
       .header__center__nav {
         display: none;

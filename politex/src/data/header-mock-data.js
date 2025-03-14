@@ -15,6 +15,10 @@ export const headerCenterNav = [
     path: "/preparation",
     id: 3,
   },
+  {
+  path: "/greenUniversity",
+      id: 4,
+},
 ];
 
 export const headerBottomNav = [
