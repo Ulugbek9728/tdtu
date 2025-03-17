@@ -32,45 +32,64 @@ const PageTop = () => {
             <div className="header__top">
                 <div className="container">
                     <div className="header__top__icons">
+                        <Swiper
+                            direction={'vertical'}
+                            slidesPerView={1}
+                            spaceBetween={1}
+                            loop={true}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            autoplay={{
+                                delay: 3000,
+                                disableOnInteraction: false,
+                                pauseOnMouseEnter: true,
+                                reverseDirection: true,
 
-                        <a href="https://www.timeshighereducation.com/world-university-rankings/tashkent-state-technical-university"
-                           target={"_blank"}>
-                            <img src={THE} alt="QS"/>
-                        </a>
-                        <a href="https://www.topuniversities.com/universities/tashkent-state-technical-university-named-after-islam-karimov"
-                           target={"_blank"}>
-                            <img src={QS} alt="QS"/>
-                        </a>
-                        <Link to="/gerb"><img src={Blazon} alt="blazon"/></Link>
-                        <Link to="/flag">
-                            <img src={Flag} alt="uz flag"/>
-                        </Link>
-                        <Link to="/madhiya">
-                            <img src={Music} alt="music"/>
-                        </Link>
+                            }}
+                            modules={[ Autoplay]}
+                            className="mySwiper"
+                            style={{
+                                height:"50px",
+                                width:"300px",
+                            }}>
+
+                            <SwiperSlide>
+                                <SwiperFlag/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Mesengers/>
+                            </SwiperSlide>
+
+                        </Swiper>
+
+
                     </div>
                     <ul className={"header__top__list"}>
-                        <li className={"header__top__list__item"}>
-                            <a href={`tel:${data?.data?.data[0].phone}`}>
-                                <p>{t("footer.Contact")}</p>
-                                <span>{data?.data?.data[0].phone}</span>
-                            </a>
-                        </li>
-                        <li className={"header__top__list__item"}>
-                            <a target={"_blank"} href={`${data?.data?.data[0].email}`}>
-                                <AiOutlineMail/>
-                                <span>{data?.data?.data[0].email}</span>
-                            </a>
-                        </li>
+                        <div className="phoe_and_email">
+                            <li className={"header__top__list__item"}>
+                                <a href={`tel:${data?.data?.data[0].phone}`}>
+                                    <p>{t("footer.Contact")}</p>
+                                    <span>{data?.data?.data[0].phone}</span>
+                                </a>
+                            </li>
+                            <li className={"header__top__list__item"}>
+                                <a target={"_blank"} href={`${data?.data?.data[0].email}`}>
+                                    <AiOutlineMail/>
+                                    <span>{data?.data?.data[0].email}</span>
+                                </a>
+                            </li>
+                        </div>
+
                         <li className={"header__top__list__item"}>
                             <Guidelines/>
                         </li>
 
-                        <div className="swiperLinks header__top__list__item icon">
+                        <div className="swiperLinks header__top__list__item right">
                             <Swiper
                                 direction={'vertical'}
                                 slidesPerView={1}
-                                spaceBetween={50}
+                                spaceBetween={1}
                                 loop={true}
                                 pagination={{
                                     clickable: true,

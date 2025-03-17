@@ -11,8 +11,15 @@
 
 @media screen and (max-width: 1512px){
     .mesengers img {
-        width: 25px !important;
-        height: 25px !important;
+        width: 27px !important;
+        height: 27px !important;
         margin-right: 15px;
+    }
+}
+@media screen and (max-width: 768px){
+    .mesengers img {
+        width: 20px !important;
+        height: 20px !important;
+        margin-right: 10px;
     }
 }

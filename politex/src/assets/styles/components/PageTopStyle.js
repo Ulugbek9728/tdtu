@@ -3,7 +3,7 @@ import {fontMontserrat} from "@/assets/styles/abstract/variables";
 
 const PageTopStyle = styled.div`
   position: relative;
-z-index: 10;
+  z-index: 10;
   .header__top {
     background: #15523D;
     width: 100%;
@@ -19,19 +19,22 @@ z-index: 10;
       display: none;
       align-items: center;
       z-index: 6;
-
+    }
+    .icon{
+      padding: 0!important;
+      margin-right: 20px;
       a {
         margin-right: 18px;
 
         &:last-child {
           margin-right: 0;
         }
+        img {
+          width: 30px !important;
+          height: 30px !important;
+        }
       }
-
-      img {
-        width: 20px;
-        height: 20px;
-      }
+     
     }
 
     .header__top__list {
@@ -42,11 +45,6 @@ z-index: 10;
       padding: 0;
       margin: 0;
       z-index: 6;
-    }
-    img {
-      width: 30px;
-      height: 30px;
-      object-fit: contain;
     }
 
     .header__top__list__item {
@@ -75,10 +73,9 @@ z-index: 10;
 
     .swiperLinks {
       overflow: hidden;
-      .header__top__list__item{
-        padding: 0!important;
-        margin-right: 20px;
-      }
+    }
+    .phoe_and_email {
+        display: flex;
     }
 
 
@@ -88,16 +85,22 @@ z-index: 10;
         span {
           font-size: 0.7rem;
         }
+      }
+      .icon{
+        padding: 0!important;
+        margin-right: 20px;
+        a {
+          margin-right: 18px;
 
-        img {
-          width: 25px;
-          height: 25px;
-          object-fit: contain;
+          &:last-child {
+            margin-right: 0;
+          }
+          img {
+            width: 25px !important;
+            height: 25px !important;
+          }
         }
 
-        &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6) {
-          padding: 8px 10px;
-        }
       }
 
       .header__top__list__item a span {
@@ -110,7 +113,6 @@ z-index: 10;
       }
 
       .header__top__list__item {
-        
         &.lang {
           display: block;
         }
@@ -122,11 +124,20 @@ z-index: 10;
       }
 
       .header__top__icons {
-        display: flex;
+        display: flex!important;
+        width: 220px;
       }
 
-      .header__top__list__item.icon {
+      .header__top__list .right {
         display: none;
+      }
+    }
+    @media screen and (max-width: 930px){
+      .phoe_and_email{
+        display: block;
+        .header__top__list__item {
+          padding: 3px 0;
+        }
       }
     }
     @media screen and (max-width: 768px) {
@@ -135,26 +146,34 @@ z-index: 10;
       }
 
       .header__top__list__item a {
-        font-size: 0.7rem;
-
-        span {
-          display: none;
+        font-size: 0.5rem;
+        span{
+          font-size: 0.5rem;
         }
       }
 
       .header__top__icons {
-        img {
-          width: 18px;
-          height: 18px;
-        }
+        width: 135px;
       }
+      .icon{
+        margin-right: 10px;
+        a {
+          margin-right: 15px;
+          
+          img {
+            width: 18px !important;
+            height: 18px !important;
+          }
+        }
 
-      .header__top__list__item.lang {
+
+        .header__top__list__item.lang {
         padding-right: 0;
       }
+      
     }
     @media screen and (max-width: 398px) {
-      .header__top__list__item:nth-child(1) {
+      .phoe_and_email {
           display: none;
       }
     }
